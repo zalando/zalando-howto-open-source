@@ -119,10 +119,93 @@ Replace the [yyyy] field with the year that you created the project, and do not 
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
 
- <licenses>
+ ```<licenses>
  <license>
    <name>MIT</name>
    <url>https://opensource.org/licenses/MIT</url>
    <distribution>repo</distribution>
   </license>
  </licenses>
+ ```
+An example for [Node](https://docs.npmjs.com/files/package.json#license), according to [this](https://gist.github.com/robertkowalski/7620849):
+
+``` 
+“license”: “MIT”
+ ```
+An example for Scala (with sbt):
+```
+licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
+```
+Restrictions Imposed by the License
+------------------------------------------------------------
+“Dependency” typically means “being linked with,” “included in your artifact,” or “depends on it during runtime.” Dependencies can limit you. To remain in compliance, check the licenses of your projects. Your build tool’s license does not affect your software’s license. A jar file or Python dependency will affect your software.
+
+*There is no license*
+
+A project always has a license. If there is no license statement, the author automatically receives a copyright. [This](http://choosealicense.com/no-license/) implies that no one has the right to modify or redistribute the software. If you really need the software, contact the author (who is likely unaware) and ask him/her to provide a proper license.
+
+*Unusual additions*
+
+As stated by Zalando Legal, it is OK to use React and other Facebook open-source software projects for Zalando projects. 
+
+Official Repositories
+------------------------------------------------------------
+Some guidelines:
+- Host **all** source code in [the ‘zalando’ space](https://github.com/zalando) on GitHub. 
+- GitHub organization owners must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/). 
+- Host JVM artifacts (*.jar) on Maven Central in [the ‘org.zalando’ group](https://repo1.maven.org/maven2/org/zalando/).  To do this, get a [Sonatype](http://central.sonatype.org/) account and ask the STUPS team to add it to Zalando.
+- Host Python packages on [PyPI](https://pypi.python.org/pypi/) (PyPI has no namespaces) and make sure that multiple persons have “maintainer” rights.
+- Publish SBT plugins [on Bintray](https://bintray.com/zalando). An example of the publishing process is [here](http://www.scala-sbt.org/0.13/docs/Bintray-For-Plugins.html); these SBT files ([#1](https://github.com/zalando/swagger-speccer/blob/master/build.sbt) and [#2](https://github.com/zalando/swagger-speccer/blob/master/project/bintray.sbt)) illustrate the publishing configuration.
+- [Node](https://www.npmjs.com/) modules [now have namespaces](http://blog.npmjs.org/post/116936804365/solving-npms-hard-problem-naming-packages). We prefix them with our (hopefully short!) product name — e.g. [karma](https://karma-runner.github.io/0.12/index.html) plugins are prefixed “karma-”; the same goes for gulp, grunt, etc. Host your Node modules in the public NPM registry. Here is [how to publish to NPM](https://gist.github.com/coolaj86/1318304).
+- For Docker images: You can currently browser it [here](https://registry.opensource.zalan.do/ui/), or with the Pier One command line utility. We have an [open source registry](https://registry.opensource.zalan.do/ui/) that everyone can read. It is deployed in the AWS open source account and Docker images can be pushed by any team member to their respective team repo:
+     $ # you need to login to registry-write.opensource.zalan.do (workaround for Docker V2 bug)
+     $ pierone login --url registry-write.opensource.zalan.do
+     $ docker push registry-write.opensource.zalan.do/myteam/myartifact:1.0
+     $ # on any other computer:
+     $ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth needed for download!
+
+Open Source Workflow
+------------------------------------------------------------
+**Creating a new project**
+
+Creating a new open source project should almost always be a team decision. This is because maintaining a project requires commitment and time, and your team needs to prioritize and allocate resources. If you are an individual who wants to launch a new project individually, talk to your delivery lead first and let them know about your plans.
+
+**Official Maintainers**
+
+Every project needs at least one dedicated maintainer (contact person). List the maintainer(s) of your project (including email) in the MAINTAINERS file. Only maintainers can package new versions and apply changes to the repository (i.e., merging pull requests). [This helper script](https://github.com/zalando-stups/github-maintainer-cli) will enable us to keep an overview of repos that users are maintainers for.
+
+The Open Source Guild reserves the right to contact maintainers to ensure their project is still active. If the project is dormant, we will work with you to either find a new maintainer or take the project off our organization page.
+
+Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/MAINTAINERS)’ file (listing all maintainers) at its root. Your build/packaging configuration file (e.g., [pom.xml for Maven](https://maven.apache.org/pom.html#Developers)) can fulfill the purpose of a MAINTAINERS file. Format: 
+
+     [full name] <email address>
+     [second full name] <email address>
+     etc.
+     
+
+**Official Namespace**
+
+The official namespace for our projects is ‘**org.zalando**’, where applicable. 
+
+**Applying Changes**
+
+All repository changes, including those made by maintainers, should come from GitHub pull requests so that we can streamline review and change tracking (as per [GitHub Flow](https://guides.github.com/introduction/flow/)). Everyone should have their own fork, though you can still edit READMEs/documentation/related files with the GitHub “Edit” button. The ‘master’ branch should be the accepted development head; pull requests get merged there.
+
+**Versioning**
+
+All project artifacts should be [versioned semantically](http://semver.org/). Tag all versions in GitHub with the exact version name (like ‘0.1.0’, i.e. do not prefix tags with “v.” or similar). For a better user experience, use the GitHub “release notes” feature to add notes whenever you change something in the new version.
+
+**Documentation**
+
+Markdown is the simplest and most easily understood syntax, which is why it’s so common on GitHub; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups). 
+
+Documentation should mainly cover all technical details and configuration options, and must include a README.md file with the following:
+ - a small description of what the project is and does
+ - where to find additional and more advanced documentation (optional)
+ - a usage description or configuration 
+ - directions on how to build, test, package and release the project
+ - a ‘LICENSE’ file
+
+If you need to include more content than the average README does, provide the link to your more detailed documentation. 
+
+
