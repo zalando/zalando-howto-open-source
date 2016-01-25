@@ -208,4 +208,15 @@ Documentation should mainly cover all technical details and configuration option
 
 If you need to include more content than the average README does, provide the link to your more detailed documentation. 
 
+http://zalando.github.io/, aka "CatWatch"
+------------------------------------------------------------
+All Zalando open-source projects are listed on [zalando.github.io](http://zalando.github.io/), a dashboard created by our monthly onboarding teams and other internal contributors. The dashboard, otherwise known as [CatWatch](https://github.com/zalando/catwatch), presents statistics on our most popular public projects and our most active contributors in terms of commits, stars and forks. 
+
+Review
+------------------------------------------------------------
+Ask your team and other peers to review your code and install and test your project prior to public release. Peer review tends to be more effective than unit testing. Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
+
+Our basic quality criteria for open-source projects:
+ - Is the project useful to others, including non-Zalandos?
+ - Is the documentation clear and comprehensive?
 
