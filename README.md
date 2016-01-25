@@ -118,8 +118,8 @@ Replace the [yyyy] field with the year that you created the project, and do not 
 *Repository of meta information*
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
-<licenses>
-  <license>
+><licenses>
+>  <license>
     <name>MIT</name>
     <url>https://opensource.org/licenses/MIT</url>
     <distribution>repo</distribution>
