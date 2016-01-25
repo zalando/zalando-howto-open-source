@@ -38,6 +38,7 @@ Never publish these as open source:
 If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the git commit history. Therefore, you should create an entirely new git repo for it before pushing it to GitHub.
 
 **No issues? OK, go ahead and open source!** 
+
 But ask yourself these questions, too:
 - Will your project benefit others, including non-Zalando engineers? If your project is tightly coupled to our business, or doesn’t solve a problem, the community will likely view it as noise.
 - Do you have time to maintain the code? If not, you can recruit help(ers) either internally or externally. Ask the Guild for assistance.
@@ -45,9 +46,11 @@ But ask yourself these questions, too:
 - Is your project a framework? These are also pretty safe for releasing publicly.
 
 **Still unsure about what to do?**
+
 If in doubt, ask your delivery lead.
 
 **Equally simple guideline for delivery leads**:
+
 If you’re in doubt, ask your department head. Management can work with Legal to determine Intellectual Property concerns.
 
 Contributing to Non-Zalando Open-Source Projects
@@ -76,14 +79,17 @@ Please do not use any other license without a very compelling reason. Licensing 
 If your team uses an external project whose license is not Zalando-recommended, you can can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
 
 **Who is the license owner?**
+
 Zalando SE.
 
 **How do you choose the correct license?**
 
-*LICENSE document*:
+*LICENSE document*
+
 Every project needs a ‘LICENSE’ file at the root of the repository that contains the copy of the selected license (see above). [Here is an example](https://opensource.org/licenses/MIT) for MIT.
 
 *README note*
+
 Every README{.md,.rst} file must state the following at the end:
 
 >The MIT License (MIT)
@@ -110,4 +116,12 @@ THE SOFTWARE.
 Replace the [yyyy] field with the year that you created the project, and do not update it. Do not provide multiple years.
 
 *Repository of meta information*
+
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
+<licenses>
+  <license>
+    <name>MIT</name>
+    <url>https://opensource.org/licenses/MIT</url>
+    <distribution>repo</distribution>
+  </license>
+</licenses>
