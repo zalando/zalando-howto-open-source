@@ -73,3 +73,41 @@ To reiterate: You must apply the MIT license to all newly created open source pr
 
 Please do not use any other license without a very compelling reason. Licensing questions? Ask the Open Source Guild or our Zalando Legal team for help.
 
+If your team uses an external project whose license is not Zalando-recommended, you can can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
+
+**Who is the license owner?**
+Zalando SE.
+
+**How do you choose the correct license?**
+
+*LICENSE document*:
+Every project needs a ‘LICENSE’ file at the root of the repository that contains the copy of the selected license (see above). [Here is an example](https://opensource.org/licenses/MIT) for MIT.
+
+*README note*
+Every README{.md,.rst} file must state the following at the end:
+
+>The MIT License (MIT)
+>Copyright © [yyyy] Zalando SE, https://tech.zalando.com
+
+>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Replace the [yyyy] field with the year that you created the project, and do not update it. Do not provide multiple years.
+
+*Repository of meta information*
+Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
