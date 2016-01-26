@@ -1,6 +1,6 @@
 How to Open Source at Zalando
 ------------------------------------------------------------
-Our guide to releasing an open-source project at [Zalando](https://www.zalando.com>), Europe's largest online fashion platform.
+A guide to releasing an open-source project at [Zalando](https://www.zalando.com>), Europe's largest online fashion platform.
 
 Open Source:
 ------------------------------------------------------------
