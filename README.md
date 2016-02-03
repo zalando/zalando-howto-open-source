@@ -7,7 +7,7 @@ Open Source:
 - can improve quality
 - can mitigate risks
 - can increase trust
-- can save us money, expand our technology choices, and help us remain cutting-edge
+- can save us money, expand our technology choices, and help us remain cutting-edgecho
 - is fun and makes us proud
 - enables us to give back to the community, build our tech brand, and attract talent
 
@@ -68,13 +68,13 @@ The Guild supports you in recruiting non-Zalandos to contribute to your project.
  
 Licensing
 ------------------------------------------------------------
-To allow the most broad usage of our source code, and to keep open sourcing easy and safe for our developers, we only use the MIT license. MIT is succinct and straightforward, and allows for easy use in closed source projects as well. You do not even have to put a LICENSE file into your repository, as long as you use the correct MIT license URL. 
+To allow the most broad usage of our source code, and to keep open sourcing easy and safe for our developers, we only use [the MIT license](https://opensource.org/licenses/MIT). MIT is succinct and straightforward, and also allows for easy use in closed-source projects. You do not even have to put a LICENSE file into your repository, as long as you use the correct MIT license URL. 
 
-To reiterate: You must apply the MIT license to all newly created open source projects. If you fork other (external) projects or contribute to them, keep the original license.
+To reiterate: You must apply the MIT license to all newly created open-source projects. If you fork other (external) projects or contribute to them, keep the original license.
 
-**If Open-Sourcing a Library**: consider using a weak copyleft license, which won’t restrict the software that uses it to the same license; will allows usage in closed source software; and potentially increase the number of users and contributors.
+**If Open-Sourcing a Library**: consider using a weak copyleft license that won’t restrict the software that uses it to the same license; will allow usage in closed source software; and will potentially increase the number of users and contributors.
 
-Please do not use any other license without a very compelling reason. Licensing questions? Ask the Open Source Guild or our Zalando Legal team for help.
+Please do not use any other license without a very compelling reason. Licensing questions? Ask the Open Source Guild or see our TechWiki page for the link to more detailed information about licensing.
 
 If your team uses an external project whose license is not Zalando-recommended, you can can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
 
