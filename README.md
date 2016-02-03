@@ -157,12 +157,15 @@ Some guidelines:
 - Host Python packages on [PyPI](https://pypi.python.org/pypi/) (PyPI has no namespaces) and make sure that multiple persons have “maintainer” rights.
 - Publish SBT plugins [on Bintray](https://bintray.com/zalando). An example of the publishing process is [here](http://www.scala-sbt.org/0.13/docs/Bintray-For-Plugins.html); these SBT files ([#1](https://github.com/zalando/swagger-speccer/blob/master/build.sbt) and [#2](https://github.com/zalando/swagger-speccer/blob/master/project/bintray.sbt)) illustrate the publishing configuration.
 - [Node](https://www.npmjs.com/) modules [now have namespaces](http://blog.npmjs.org/post/116936804365/solving-npms-hard-problem-naming-packages). We prefix them with our (hopefully short!) product name — e.g. [karma](https://karma-runner.github.io/0.12/index.html) plugins are prefixed “karma-”; the same goes for gulp, grunt, etc. Host your Node modules in the public NPM registry. Here is [how to publish to NPM](https://gist.github.com/coolaj86/1318304).
-- For Docker images: You can currently browser it [here](https://registry.opensource.zalan.do/ui/), or with the Pier One command line utility. We have an [open source registry](https://registry.opensource.zalan.do/ui/) that everyone can read. It is deployed in the AWS open source account and Docker images can be pushed by any team member to their respective team repo:
-     $ # you need to login to registry-write.opensource.zalan.do (workaround for Docker V2 bug)
-     $ pierone login --url registry-write.opensource.zalan.do
-     $ docker push registry-write.opensource.zalan.do/myteam/myartifact:1.0
-     $ # on any other computer:
-     $ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth needed for download!
+- For Docker images: You can currently browse it [here](https://registry.opensource.zalan.do/ui/), or with the Pier One command line utility. We have an [open source registry](https://registry.opensource.zalan.do/ui/) that everyone can read. It is deployed in the AWS open source account and Docker images can be pushed by any team member to their respective team repo:
+
+```bash
+$ # you need to login to registry-write.opensource.zalan.do (workaround for Docker V2 bug)
+$ pierone login --url registry-write.opensource.zalan.do
+$ docker push registry-write.opensource.zalan.do/myteam/myartifact:1.0
+$ # on any other computer:
+$ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth needed for download!
+```
 
 Open Source Workflow
 ------------------------------------------------------------
