@@ -209,7 +209,13 @@ Documentation should mainly cover all technical details and configuration option
  - directions on how to build, test, package and release the project
  - a ‘LICENSE’ file
 
-If you need to include more content than the average README does, provide the link to your more detailed documentation. 
+*Some tips*
+- State at the beginning what the project does and what problem(s) it solves.
+- Keep your docs short and sweet.
+- Break up text often.
+- Think about SEO.
+- Create a TODO list and update it based on issues and desired features; add level-of-difficulty cues to onboard contributors at the suggested levels of skill.
+- If you need to include more content than the average README does, provide the link to your more detailed documentation. 
 
 http://zalando.github.io/, aka "CatWatch"
 ------------------------------------------------------------
