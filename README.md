@@ -37,7 +37,7 @@ Never publish these as open source:
 
 If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the git commit history. Therefore, you should create an entirely new git repo for it before pushing it to GitHub.
 
-**No issues? OK, go ahead and open source!** 
+**No issues? OK, go ahead and open source!**
 
 But ask yourself these questions, too:
 - Will your project benefit others, including non-Zalando engineers? If your project is tightly coupled to our business, or doesn’t solve a problem, the community will likely view it as noise.
@@ -57,7 +57,7 @@ Contributing to Non-Zalando Open-Source Projects
 ------------------------------------------------------------
 We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
 
-**Contributing to Google projects:** For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache. 
+**Contributing to Google projects:** For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache.
 
 Working with External Contributors
 ------------------------------------------------------------
@@ -65,10 +65,10 @@ The Guild supports you in recruiting non-Zalandos to contribute to your project.
  - [.Net Foundation](https://cla2.dotnetfoundation.org/) example (electronic submission via GitHub account)
  - [Google’s CLA](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-signing-the-cla) for contributing to AngularJS is a simple click-through form with a Googlebot that automatically checks for signatures
  - Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0)
- 
+
 Licensing
 ------------------------------------------------------------
-To allow the most broad usage of our source code, and to keep open sourcing easy and safe for our developers, we only use [the MIT license](https://opensource.org/licenses/MIT). MIT is succinct and straightforward, and also allows for easy use in closed-source projects. You do not even have to put a LICENSE file into your repository, as long as you use the correct MIT license URL. 
+To allow the most broad usage of our source code, and to keep open sourcing easy and safe for our developers, we only use [the MIT license](https://opensource.org/licenses/MIT). MIT is succinct and straightforward, and also allows for easy use in closed-source projects. You do not even have to put a LICENSE file into your repository, as long as you use the correct MIT license URL.
 
 To reiterate: You must apply the MIT license to all newly created open-source projects. If you fork other (external) projects or contribute to them, keep the original license.
 
@@ -129,7 +129,7 @@ Many package managers include a feature to make the applied license machine read
  ```
 An example for [Node](https://docs.npmjs.com/files/package.json#license), according to [this](https://gist.github.com/robertkowalski/7620849):
 
-``` 
+```
 “license”: “MIT”
  ```
 An example for Scala (with sbt):
@@ -146,13 +146,13 @@ A project always has a license. If there is no license statement, the author aut
 
 *Unusual additions*
 
-As stated by Zalando Legal, it is OK to use React and other Facebook open-source software projects for Zalando projects. 
+As stated by Zalando Legal, it is OK to use React and other Facebook open-source software projects for Zalando projects.
 
 Official Repositories
 ------------------------------------------------------------
 Some guidelines:
-- Host **all** source code in [the ‘zalando’ space](https://github.com/zalando) on GitHub. 
-- GitHub organization owners must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/). 
+- Host **all** source code in [the ‘zalando’ space](https://github.com/zalando) on GitHub.
+- GitHub organization owners must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/).
 - Host JVM artifacts (*.jar) on Maven Central in [the ‘org.zalando’ group](https://repo1.maven.org/maven2/org/zalando/).  To do this, get a [Sonatype](http://central.sonatype.org/) account and ask the STUPS team to add it to Zalando.
 - Host Python packages on [PyPI](https://pypi.python.org/pypi/) (PyPI has no namespaces) and make sure that multiple persons have “maintainer” rights.
 - Publish SBT plugins [on Bintray](https://bintray.com/zalando). An example of the publishing process is [here](http://www.scala-sbt.org/0.13/docs/Bintray-For-Plugins.html); these SBT files ([#1](https://github.com/zalando/swagger-speccer/blob/master/build.sbt) and [#2](https://github.com/zalando/swagger-speccer/blob/master/project/bintray.sbt)) illustrate the publishing configuration.
@@ -179,16 +179,17 @@ Every project needs at least one dedicated maintainer (contact person). List the
 
 The Open Source Guild reserves the right to contact maintainers to ensure their project is still active. If the project is dormant, we will work with you to either find a new maintainer or take the project off our organization page.
 
-Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/MAINTAINERS)’ file (listing all maintainers) at its root. Your build/packaging configuration file (e.g., [pom.xml for Maven](https://maven.apache.org/pom.html#Developers)) can fulfill the purpose of a MAINTAINERS file. Format: 
+Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/MAINTAINERS)’ file (listing all maintainers) at its root. Your build/packaging configuration file (e.g., [pom.xml for Maven](https://maven.apache.org/pom.html#Developers)) can fulfill the purpose of a MAINTAINERS file. Format:
 
      [full name] <email address>
      [second full name] <email address>
      etc.
-     
+
+Please note that our Catwatch application [will collect maintainers from the MAINTAINERS files](https://github.com/zalando/catwatch/issues/29).
 
 **Official Namespace**
 
-The official namespace for our projects is ‘**org.zalando**’, where applicable. 
+The official namespace for our projects is ‘**org.zalando**’, where applicable.
 
 **Applying Changes**
 
@@ -200,12 +201,12 @@ All project artifacts should be [versioned semantically](http://semver.org/). Ta
 
 **Documentation**
 
-Markdown is the simplest and most easily understood syntax, which is why it’s so common on GitHub; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups). 
+Markdown is the simplest and most easily understood syntax, which is why it’s so common on GitHub; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
 
 Documentation should mainly cover all technical details and configuration options, and must include a README.md file with the following:
  - a small description of what the project is and does
  - where to find additional and more advanced documentation (optional)
- - a usage description or configuration 
+ - a usage description or configuration
  - directions on how to build, test, package and release the project
  - a ‘LICENSE’ file
 
@@ -215,11 +216,13 @@ Documentation should mainly cover all technical details and configuration option
 - Break up text often.
 - Think about SEO.
 - Create a TODO list and update it based on issues and desired features; add level-of-difficulty cues to onboard contributors at the suggested levels of skill.
-- If you need to include more content than the average README does, provide the link to your more detailed documentation. 
+- If you need to include more content than the average README does, provide the link to your more detailed documentation.
 
 http://zalando.github.io/, aka "CatWatch"
 ------------------------------------------------------------
-All Zalando open-source projects are listed on [zalando.github.io](http://zalando.github.io/), a dashboard created by our monthly onboarding teams and other internal contributors. The dashboard, otherwise known as [CatWatch](https://github.com/zalando/catwatch), presents statistics on our most popular public projects and our most active contributors in terms of commits, stars and forks. 
+All Zalando open-source projects are listed on [zalando.github.io](http://zalando.github.io/), a dashboard created by our monthly onboarding teams and other internal contributors. The dashboard, otherwise known as [CatWatch](https://github.com/zalando/catwatch), presents statistics on our most popular public projects and our most active contributors in terms of commits, stars and forks.
+
+Please add a [.catwatch.yaml file](https://github.com/zalando/zmon/blob/master/.catwatch.yaml) to the root of your repository to set a human-readable project title and image URL.
 
 Review
 ------------------------------------------------------------
