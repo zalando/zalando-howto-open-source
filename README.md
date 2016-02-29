@@ -7,14 +7,14 @@ Open Source:
 - can improve quality
 - can mitigate risks
 - can increase trust
-- can save us money, expand our technology choices, and help us remain cutting-edgecho
+- can save us money, expand our technology choices, and help us remain cutting-edge
 - is fun and makes us proud
 - enables us to give back to the community, build our tech brand, and attract talent
 
 Our Open Source First Principles
 ------------------------------------------------------------
 - **Do “Open Source First”**: If your Zalando project can also be useful to non-Zalandos, release it as open source from the start.
-- **Take Ownership**: Your team is responsible for ensuring that it’s possible to open source your project. Your delivery lead is available for guidance.
+- **Take Ownership**: Your team is responsible for ensuring that it’s possible to open-source your project. Your delivery lead is available for guidance.
 - **Share Your Code**: All code shared between teams must be open source.
 - **Be Safe**: To ensure the broadest possible use of your project, use the MIT License only.
 - **Deliver Quality**: Provide a great out-of-the-box experience.
