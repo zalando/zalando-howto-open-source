@@ -68,7 +68,7 @@ The Guild supports you in recruiting non-Zalandos to contribute to your project.
 
 Licensing
 ------------------------------------------------------------
-To allow the most broad usage of our source code, and to keep open sourcing easy and safe for our developers, we only use [the MIT license](https://opensource.org/licenses/MIT). MIT is succinct and straightforward, and also allows for easy use in closed-source projects. You do not even have to put a LICENSE file into your repository, as long as you use the correct MIT license URL.
+To allow the most broad usage of our source code, and to keep open sourcing easy and safe for our developers, we only use [the MIT license](https://opensource.org/licenses/MIT). MIT is succinct and straightforward, and also allows for easy use in closed-source projects.  
 
 To reiterate: You must apply the MIT license to all newly created open-source projects. If you fork other (external) projects or contribute to them, keep the original license.
 
