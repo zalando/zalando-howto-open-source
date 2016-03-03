@@ -220,9 +220,7 @@ Documentation should mainly cover all technical details and configuration option
 
 http://zalando.github.io/, aka "CatWatch"
 ------------------------------------------------------------
-All Zalando open-source projects are listed on [zalando.github.io](http://zalando.github.io/), a dashboard created by our monthly onboarding teams and other internal contributors. The dashboard, otherwise known as [CatWatch](https://github.com/zalando/catwatch), presents statistics on our most popular public projects and our most active contributors in terms of commits, stars and forks.
-
-Please add a [.catwatch.yaml file](https://github.com/zalando/zmon/blob/master/.catwatch.yaml) to the root of your repository to set a human-readable project title and image URL.
+All Zalando open-source projects are listed on [zalando.github.io](http://zalando.github.io/) (also called [CatWatch](https://github.com/zalando/catwatch)): our own metrics dashboard measuring our most popular public projects and our most active contributors in terms of commits, stars and forks. Please add a [.catwatch.yaml file](https://github.com/zalando/zmon/blob/master/.catwatch.yaml) to the root of your repository to set a human-readable project title and image URL.
 
 Review
 ------------------------------------------------------------
