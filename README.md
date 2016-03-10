@@ -43,10 +43,10 @@ Table of Contents
         - [I still have licensing questions. What can I do?](#i-still-have-licensing-questions-what-can-i-do)
         - [But I am a delivery lead.](#but-i-am-a-delivery-lead)
         - [But I am a department head.](#but-i-am-a-department-head)
-      - [Repository of meta information](#repository-of-meta-information)
+      - [Repository of Meta Information](#repository-of-meta-information)
       - [Restrictions Imposed by the License](#restrictions-imposed-by-the-license)
         - [Unusual Additions](#unusual-additions)
-      - [There is no license](#there-is-no-license)
+      - [There Is No License](#there-is-no-license)
       - Add a README Note
       - Restrictions Imposed by the License
     - Deprecate Responsibly
@@ -304,7 +304,7 @@ Ask your department head.
 
 Management can work with Legal to determine Intellectual Property concerns.
 
-####Repository of meta information
+####Repository of Meta Information
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
 
