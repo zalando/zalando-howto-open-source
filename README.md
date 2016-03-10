@@ -161,8 +161,8 @@ These are currently not suitable for the main org repo. Place them at github.com
  
 ####Using GitHub Enterprise (GHE)
 Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well, it is an option. But we don't recommend it, as projects here will be much less likely to reflect “open source first” values, will lose visibility, and will likely be forgotten.
-     - Is it possible to transfer GitHub issues from one project to the other? No.
-     - Is it possible to transfer the ownership of a Github repo to someone else? Yes.
+  - Is it possible to transfer GitHub issues from one project to the other? No.
+  - Is it possible to transfer the ownership of a Github repo to someone else? Yes.
 
 ##Open-Source Basics
 
