@@ -10,8 +10,9 @@ Table of Contents
   - [Our Open Source First Principles](#our-open-source-first-principles)
   - [To Open Source, or Not to Open Source?](#to-open-source-or-not-to-open-source)
     - [Never Open-Source These](#never-open-source-these)
-    - [Do "Open Source First"](#open-source-workflow)
-        - [Before Your Code](#truly-open-source-how-to-and-tips)
+    - [Do "Open Source First"](#do-open-source-first)
+    - [Project Workflow"](#do-open-source-first)
+        - [Before Your Code](#before-you-code)
       - If Your Project Isn't "Truly Open Source"  
   - [How to Open-Source](#our-open-source-first-principles)
     - Create a Useful README
@@ -89,7 +90,7 @@ If you're open-sourcing a project that has contained sensitive information in th
 
 **No issues? Great! On to the next section ...
 
-##Open Source Workflow
+##Project Workflow
 
 ##Do "Open Source First"
 Creating a new open source project should almost always be a team decision. This is because maintaining a project requires commitment, time, and resources. Before starting a new project, ask these questions:
