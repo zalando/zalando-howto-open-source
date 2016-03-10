@@ -26,7 +26,7 @@ Table of Contents
     - [Applying Changes](#applying-changes)
     - [Versioning](#versioning)
     - [Maintainers](#maintainers)
-      - [Create a Maintainers File]
+      - [Create a Maintainers File](#create-a-maintainers-file)
       - Be Prompt and Responsive
       - Use Issues Creatively
     - Code Review
@@ -214,7 +214,7 @@ Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/
 
 Our Catwatch application [will collect maintainers from the MAINTAINERS files](https://github.com/zalando/catwatch/issues/29).
 
-####Maintainer Responsibilities
+####Be Prompt and Responsive
 
 Respond promptly to pull requests and issues. “Within 72 hours” is a good window. Open issues do not make your project “look popular.” Instead, they make it look like you're neglecting your project. If project workload becomes unmanageable, ask the Guild or the community for help.
 
@@ -222,7 +222,7 @@ If you are away/on vacation and can’t respond to PRs/issues promptly, find som
 
 If you're not going to accept a PR, reject it ASAP and include a brief explanation why.  
 
-####Issues: Be Clear, and Get Creative
+####Use Issues Creatively
 Issues can be good for planning or for onboarding contributors. Issues should include a description of the point, question, discovery, or other detail prompting the issue. 
 
 Issues that consist solely of a title appear unprofessional and do not do much to invite discussion from the community.
