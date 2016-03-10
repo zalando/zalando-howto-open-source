@@ -63,8 +63,8 @@ Table of Contents
       - [Catwatch](#catwatch)
       - [Proactively Communicate](#proactively-communicate)
 - [Contributing to Non-Zalando Open-Source Projects](#contributing-to-non-zalando-open-source-projects)
-    - [General](#general)
-    - [Google Projects](#google-projects)
+      - [General](#general)
+      - [Google Projects](#google-projects)
   
 ###Why Open Source? 
 
