@@ -27,17 +27,16 @@ Table of Contents
     - [Versioning](#versioning)
     - [Maintainers](#maintainers)
       - [Create a Maintainers File](#create-a-maintainers-file)
-      - Be Prompt and Responsive
-      - Use Issues Creatively
-    - Code Review
-    - Deprecate Responsibly
-      - How to Deprecate
-      - Tips for Finding a New Owner
-    - Licensing 
+      - [Be Prompt and Responsive](#be-prompt-and-responsive)
+      - [Use Issues Creatively](#use-issues-creatively)
+    - About Licensing 
       - Quick FAQ
       - Create a License File
       - Add a README Note
       - Restrictions Imposed by the License
+    - Deprecate Responsibly
+      - How to Deprecate
+      - [Tips for Finding a New Owner](#tips-for-finding-a-new-owner)
     - Official Repositories
     - Working With External Contributors
     - Promotion
@@ -229,66 +228,42 @@ Issues that consist solely of a title appear unprofessional and do not do much t
 
 Label your issues with clear tags. This is a great way to organize and categorize issues.
 
-Forks: Make Them Meaningful
-------------------------------------------------------------
-*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using Github’s stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
+###About Licensing
 
-To fork, or not to fork? Some guidelines:
-- Only keep the fork open as long as needed.
-- “True/Long-Lived forks” are highly discouraged, even from Zalando projects. We avoid internal forks in order to avoid diverging widely from what we have published, and the inevitable hassle of getting the project to a state where we can support both code bases
-- Avoid two forks of the same project.
+####Quick FAQ
 
-If your goal is to make a small fix to a project, use your own/personal GitHub account.  
+#####Which license do we use?
+[The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe.
 
-Manage Your Deprecated Projects Responsibly
-------------------------------------------------------------
+#####Must I use MIT?
+Yes, for all newly created open-source projects. 
 
-To deprecate a project:
-- add “Deprecated” at the top of your README, as well as a notice stating your plans for the project: deletion, finding a new owner, etc.  
-- After announcing your decision to deprecate your project:
-     - notify your users and put a notice on your README. Wait 60 days. Or:
-     - Find a new owner. Consider internal options first, then seek an external owner. Ask the Guild for help. Or:
-     - Parking it on your personal page.
+#####I don't like the MIT license. Can I use another license?
 
-####Tips for Finding a New Owner
-Internally, you can use internal mailing lists and HipChat to announce your need. Externally, try social media platforms and community boards. Add 1-2 sentences to your announcements suggesting how your project might have potential to evolve into something bigger and better.
+Not without a compelling reason.
 
-Contributing to Non-Zalando Open-Source Projects
-------------------------------------------------------------
-We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
+#####What if I fork an external project and/or contribute to it?
 
-**Contributing to Google projects:** For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache.
+Keep the original license.
 
-Working with External Contributors
-------------------------------------------------------------
-The Guild supports you in recruiting non-Zalandos to contribute to your project. We simply require that you have external contributors sign a contributor licensing agreement (CLA). A few good models to follow and adapt:
- - [.Net Foundation](https://cla2.dotnetfoundation.org/) example (electronic submission via GitHub account)
- - [Google’s CLA](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-signing-the-cla) for contributing to AngularJS is a simple click-through form with a Googlebot that automatically checks for signatures
- - Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0)
+#####I'm open-sourcing a library. What should I do? 
+Consider using a weak copyleft license that won’t restrict the software that uses it to the same license; will allow usage in closed source software; and will potentially increase the number of users and contributors.
 
-Licensing
-------------------------------------------------------------
-To allow the most broad usage of our source code, and to keep open-sourcing easy and safe, we use [the MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects.  
+#####What if my team uses an external project whose license is not Zalando-recommended? 
 
-To reiterate: You must apply the MIT license to all newly created open-source projects. If you fork other (external) projects or contribute to them, keep the original license.
+You can can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
 
-**If Open-Sourcing a Library**: consider using a weak copyleft license that won’t restrict the software that uses it to the same license; will allow usage in closed source software; and will potentially increase the number of users and contributors.
+#####Who is the license owner?
 
-Please do not use any other license without a very compelling reason. Licensing questions? Ask the Open Source Guild or see our TechWiki page (internal doc) for the link to more detailed information about licensing.
+Zalando SE. 
 
-If your team uses an external project whose license is not Zalando-recommended, you can can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
+#####Does my project need a LICENSE file?
 
-**Who is the license owner?**
+Yes, at the root of the repository that contains the copy of the selected license (see above). [Here is an example](https://opensource.org/licenses/MIT) for MIT.
 
-Zalando SE.
+#####What about a README note?
 
-**LICENSE document**
-
-Every project needs a ‘LICENSE’ file at the root of the repository that contains the copy of the selected license (see above). [Here is an example](https://opensource.org/licenses/MIT) for MIT.
-
-**README note**
-
-Every README{.md,.rst} file must state the following at the end:
+Yep. Every README{.md,.rst} file must state the following at the end:
 
 >The MIT License (MIT)
 >Copyright © [yyyy] Zalando SE, https://tech.zalando.com
@@ -302,13 +277,17 @@ Every README{.md,.rst} file must state the following at the end:
 
 Replace the [yyyy] field with the year that you created the project, and do not update it. Do not provide multiple years.
 
-**Still unsure about what to do?**
+#####I still have licensing questions. What can I do? 
 
-If in doubt, ask your delivery lead.
+Ask the Open Source Guild or your delivery lead. See also our TechWiki page (internal doc) for a link to more detailed information.
 
-**Equally simple guideline for delivery leads**:
+#####But I am a delivery lead. ???
 
-If you’re in doubt, ask your department head. Management can work with Legal to determine Intellectual Property concerns.
+Ask your department head. 
+
+#####But I am a department head.
+
+Management can work with Legal to determine Intellectual Property concerns.
 
 **Repository of meta information**
 
@@ -342,6 +321,44 @@ A project always has a license. If there is no license statement, the author aut
 *Unusual additions*
 
 As stated by Zalando Legal, it is OK to use React and other Facebook open-source software projects for Zalando projects.
+
+
+###Deprecate Responsibly
+
+####How to Deprecate
+- add “Deprecated” at the top of your README, as well as a notice stating your plans for the project: deletion, finding a new owner, etc.  
+- After announcing your decision to deprecate your project:
+     - notify your users and put a notice on your README. Wait 60 days. Or:
+     - Find a new owner. Consider internal options first, then seek an external owner. Ask the Guild for help. Or:
+     - Parking it on your personal page.
+
+####Tips for Finding a New Owner
+Internally, you can use internal mailing lists and HipChat to announce your need. Externally, try social media platforms and community boards. Add 1-2 sentences to your announcements suggesting how your project might have potential to evolve into something bigger and better.
+
+Forks: Make Them Meaningful
+------------------------------------------------------------
+*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using Github’s stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
+
+To fork, or not to fork? Some guidelines:
+- Only keep the fork open as long as needed.
+- “True/Long-Lived forks” are highly discouraged, even from Zalando projects. We avoid internal forks in order to avoid diverging widely from what we have published, and the inevitable hassle of getting the project to a state where we can support both code bases
+- Avoid two forks of the same project.
+
+If your goal is to make a small fix to a project, use your own/personal GitHub account.  
+
+Contributing to Non-Zalando Open-Source Projects
+------------------------------------------------------------
+We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
+
+**Contributing to Google projects:** For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache.
+
+Working with External Contributors
+------------------------------------------------------------
+The Guild supports you in recruiting non-Zalandos to contribute to your project. We simply require that you have external contributors sign a contributor licensing agreement (CLA). A few good models to follow and adapt:
+ - [.Net Foundation](https://cla2.dotnetfoundation.org/) example (electronic submission via GitHub account)
+ - [Google’s CLA](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-signing-the-cla) for contributing to AngularJS is a simple click-through form with a Googlebot that automatically checks for signatures
+ - Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0)
+
 
 Official Repositories
 ------------------------------------------------------------
