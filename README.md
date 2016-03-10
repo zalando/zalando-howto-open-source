@@ -29,8 +29,11 @@ Table of Contents
       - [Create a Maintainers File](#create-a-maintainers-file)
       - [Be Prompt and Responsive](#be-prompt-and-responsive)
       - [Use Issues Creatively](#use-issues-creatively)
-    - About Licensing 
-      - Quick FAQ
+    - [About Licensing](#about-licensing)
+      - [Quick FAQ](#quick-faq)
+        - [Which License Do We Use][(#which-license-do-we-use)
+        - [Must I Use MIT?][(#must-i-use-mit)
+        - [But I Don't Like MIT.](#i-dont-like-the-mit-license-can-i-use-another-license)
       - Create a License File
       - Add a README Note
       - Restrictions Imposed by the License
