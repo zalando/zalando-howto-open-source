@@ -14,7 +14,8 @@ Table of Contents
     - [Project Workflow](#project-workflow)
         - [Before You Start Coding](#before-you-start-coding)
         - [Our Main Org Page: For the "Truly Open Source"](#our-main-org-page-for-the-truly-open-source)
-       - Open-Source, But Not "Truly Open Source"(#if-your-project-is-not-useful-beyond-zalando-yet)  
+       - Open-Source, But Not "Truly Open Source"(#open-source-but-not-truly-open-source)
+       - Using GitHub Enterprise (GHE)
   - [How to Open-Source](#our-open-source-first-principles)
     - Create a Useful README
       - Do
@@ -122,7 +123,7 @@ Creating a new open source project should almost always be a team decision. This
 
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
-###Our Main Org Page: For the "Truly Open Source"
+###/zalando: For the "Truly Open Source"
 Your code doesn’t have to be perfect before you open-source it. We *want* you to code in public from Day One. But to appear on our main org page, github.com/zalando, your project should be “truly open-source,” or in active development toward that goal. This means:
 - it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group. 
 - it’s useable out of the box and free of Zalando dependencies
@@ -132,15 +133,17 @@ Your code doesn’t have to be perfect before you open-source it. We *want* you 
     - clarifies if it's still in early development/a prototype  
 - you respond promptly (within 72 hours) to PRs, issues, and queries
 
-####Open-Source, But Not "Truly Open Source"
+####/zalando-zincubator: For the Open-Source, But Not "Truly Open Source"
 Projects that aren't "truly open source":
 - are dependent on our systems
+- are dependent on other Zalando open-source projects that haven't been widely adopted
 - are “experimental”/”maybe useful to others someday,” but you're not working on it (a Hack Week project, or something you've lost interest in)
 - lacking meaningful documentation (a README), and you're not working on any
 
-These are currently not suitable for the main org repo. Place them on our "Zincubator" page, not on our main repository. The Guild reserves the right to relocate such projects to the Zincubator on your behalf.  
+These are currently not suitable for the main org repo. Place them at github.com/zalando-zincubator. The Guild reserves the right to relocate such projects from our main org to the Zincubator on your behalf.  
  
-You can also maintain the project as a private repo on GitHub Enterprise. We don't recommend this option, as projects here will be much less likely to reflect “open source first” values, will lose visibility, and will likely be forgotten.
+####Using GitHub Enterprise (GHE)
+Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well, it is an option. But we don't recommend it, as projects here will be much less likely to reflect “open source first” values, will lose visibility, and will likely be forgotten.
      - Is it possible to transfer GitHub issues from one project to the other? No.
      - Is it possible to transfer the ownership of a Github repo to someone else? Yes.
 
