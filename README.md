@@ -6,6 +6,7 @@ Table of Contents
 ==================
 
   - [Why Open Source?](#Why-Open-Source)
+  - [Our Open Source First Principles](#Our-Open-Source-First-Principles)
   
 ###Why Open Source? 
 
