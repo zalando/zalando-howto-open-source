@@ -50,12 +50,13 @@ Table of Contents
         - [Unusual Additions](#unusual-additions)
       - [There Is No License](#there-is-no-license)
     - [Other Repository Information](#other-repository-information) 
-      - JVM artifacts
-      - Python packages
-      - SBT plugins
-      - Node modules
-      - Docker images
-    - Working With External Contributors
+      - [JVM artifacts](#jvm-artifacts)
+      - [Python packages](#python-packages)
+      - [SBT plugins](#sbt-plugins)
+      - [Node modules](#node-modules)
+      - [Docker images](#docker-images)
+    - [Working With External Contributors](#working-with-external-contributors)
+    - Forks: Make Them Meaningful
     - Deprecate Responsibly
       - How to Deprecate
       - [Tips for Finding a New Owner](#tips-for-finding-a-new-owner)
@@ -63,7 +64,6 @@ Table of Contents
       - Catwatch
       - Communication
 - Other Open-Source Topics
-  - Forks: Make Them Meaningful
   - Contributing to Non-Zalando Open-Source Projects
     - General
     - Google Projects
@@ -371,6 +371,22 @@ $ # on any other computer:
 $ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth needed for download!
 ```
 
+###Working with External Contributors
+
+The Guild supports you in recruiting non-Zalandos to contribute to your project. We simply require that you have external contributors sign a contributor licensing agreement (CLA). A few good models to follow and adapt: [.Net Foundation](https://cla2.dotnetfoundation.org/) example (electronic submission via GitHub account); [Google’s CLA](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-signing-the-cla) for contributing to AngularJS is a simple click-through form with a Googlebot that automatically checks for signatures; Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0).
+ - 
+
+###Make Forks Meaningful
+
+*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using Github’s stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
+
+To fork, or not to fork? Some guidelines:
+- Only keep the fork open as long as needed.
+- “True/Long-Lived forks” are highly discouraged, even from Zalando projects. We avoid internal forks in order to avoid diverging widely from what we have published, and the inevitable hassle of getting the project to a state where we can support both code bases
+- Avoid two forks of the same project.
+
+If your goal is to make a small fix to a project, use your own/personal GitHub account.  
+ 
 ###Deprecate Responsibly
 
 ####How to Deprecate
@@ -383,25 +399,6 @@ $ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth neede
 ####Tips for Finding a New Owner
 Internally, you can use internal mailing lists and HipChat to announce your need. Externally, try social media platforms and community boards. Add 1-2 sentences to your announcements suggesting how your project might have potential to evolve into something bigger and better.
 
-Forks: Make Them Meaningful
-------------------------------------------------------------
-*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using Github’s stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
-
-To fork, or not to fork? Some guidelines:
-- Only keep the fork open as long as needed.
-- “True/Long-Lived forks” are highly discouraged, even from Zalando projects. We avoid internal forks in order to avoid diverging widely from what we have published, and the inevitable hassle of getting the project to a state where we can support both code bases
-- Avoid two forks of the same project.
-
-If your goal is to make a small fix to a project, use your own/personal GitHub account.  
-
-
-Working with External Contributors
-------------------------------------------------------------
-The Guild supports you in recruiting non-Zalandos to contribute to your project. We simply require that you have external contributors sign a contributor licensing agreement (CLA). A few good models to follow and adapt:
- - [.Net Foundation](https://cla2.dotnetfoundation.org/) example (electronic submission via GitHub account)
- - [Google’s CLA](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-signing-the-cla) for contributing to AngularJS is a simple click-through form with a Googlebot that automatically checks for signatures
- - Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0)
-  
  Contributing to Non-Zalando Open-Source Projects
 ------------------------------------------------------------
 We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
