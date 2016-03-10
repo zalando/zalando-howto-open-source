@@ -1,12 +1,50 @@
 How to Open Source at Zalando
-------------------------------------------------------------
+==================
+
 A guide to releasing an open-source project at [Zalando](https://www.zalando.com>), Europe's largest online fashion platform.
 
 Table of Contents 
-==================
+------------------------------------------------------------
 
-  - [Why Open Source?](#Why-Open-Source)
+  - [Why Open Source?](#why-open-source)
   - [Our Open Source First Principles](#our-open-source-first-principles)
+  - [To Open Source, or Not to Open Source?](#our-open-source-first-principles)
+    - [Never Open-Source These](#our-open-source-first-principles)
+    - [Open Source Workflow]
+      - Aim for "Truly" Open Source
+      - Our Main Org Page: for the "Truly Open-Source"
+      - If Your Project Isn't "Truly Open Source"  
+  - [How to Open-Source](#our-open-source-first-principles)
+    - Create a Useful README
+      - Do
+      - Don't
+      - Syntax and Formatting
+      - Official Namespace
+      - Applying Changes
+      - Versioning
+    - Maintain Your Project
+      - Create a Maintainers File
+      - Be Prompt and Responsive
+      - Use Issues Creatively
+    - Code Review
+    - Deprecate Responsibly
+      - How to Deprecate
+      - Tips for Finding a New Owner
+    - Licensing 
+      - Quick FAQ
+      - Create a License File
+      - Add a README Note
+      - Restrictions Imposed by the License
+    - Official Repositories
+    - Working With External Contributors
+    - Promotion
+      - Catwatch
+      - Communication
+- Other Open-Source Topics
+  - Forks: Make Them Meaningful
+  - Contributing to Non-Zalando Open-Source Projects
+    - General
+    - Google Projects
   
 ###Why Open Source? 
 
@@ -37,7 +75,7 @@ Because It Can:
 
 [Go here](https://zalando-open-source-principles.readthedocs.org/en/latest/) to read the accompanying docs. [This blog post](https://tech.zalando.com/blog/zalando-techs-new-open-source-principles/) might also be of interest.
 
-What to Open Source, What Not to Open Source
+To Open Source, or Not to Open Source?
 ------------------------------------------------------------
 
 ###Never open-source these:
