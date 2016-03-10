@@ -12,7 +12,8 @@ Table of Contents
     - [Never Open-Source These](#never-open-source-these)
     - [Do "Open Source First"](#do-open-source-first)
     - [Project Workflow](#project-workflow)
-        - [Before Your Code](#before-you-code)
+        - [Before You Code](#before-you-code)
+        - [Our Main Org Page: For the "Truly Open Source"]
       - If Your Project Isn't "Truly Open Source"  
   - [How to Open-Source](#our-open-source-first-principles)
     - Create a Useful README
@@ -82,7 +83,9 @@ To Open Source, or Not to Open Source?
 
 - PCI DSS-related projects: e.g. payment services
 - Domain knowledge
-- Anything that would risk our competitive advantage: confidential source code, recommendation algorithms, etc.
+- Anything that would risk our competitive advantage: 
+  - confidential source code
+  - recommendation algorithms
 - Customer data
 - Unique Selling Points (USPs)
 
@@ -91,48 +94,43 @@ If you're open-sourcing a project that has contained sensitive information in th
 **No issues? Great! On to the next section ...
 
 ##Project Workflow
+Do "Open Source First"
+Our open source work should reflect and reinforce the principles of Radical Agility:
+- **Autonomy**: We support teams and individuals who contribute to open source
+- **Mastery**: Our projects reflect a high level of quality, thoughtfulness, and skill
+- **Purpose**: Our projects are useful to our team, and to the community at large
 
-##Do "Open Source First"
+###Before You Code
 Creating a new open source project should almost always be a team decision. This is because maintaining a project requires commitment, time, and resources. Before starting a new project, ask these questions:
-- Does the project already exist? (Do research so you can avoid reproducing an existing effort.)
+- What will the project do and not do? What is its purpose? What is it trying to solve?
+- Does the project already exist? 
+  - Do some research to avoid reproducing an existing effort.
 - Who is the audience?
+  - Our tech team is a great focus group. Ask your colleagues—the Open Source Guild, your team and delivery lead, other teams—for input, interest and feedback. 
 - Who will be a maintainer? 
      - We require at least one. 
-- Will you try to build community around the project?
-     - Internal community: This is very important. Promote your project to as many Zalando teams as possible so they can      consider using it. The internal success of a project can give you a good idea about its potential to be adopted/used externally. 
-     - External community: If you’re not eager to promote your project to the public, keep it internal.
- 
+- Can you envision working on/maintaining it six months from now? A year from now? 
+- Will you build community around the project? 
+   - Internal community: This is very important. The internal success of a project can give you a good idea about its potential to be adopted/used externally.
+   - External community: Who in your network would be willing to contribute? 
+   - Sources
+       - LinkedIn groups
+       - community forums/boards
+       - Meetup audiences  
+     - Will you need contributors with a different skillset to finish the project? 
+     - Create a “TODO” in your README to invite contributions.
+
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
-##Before You Code
-Our open source work should reflect and reinforce the principles of Radical Agility:
-- Autonomy: We support teams and individuals who contribute to open source
-- Mastery: Our projects reflect a high level of quality, thoughtfulness, and skill
-- Purpose: Our projects are useful to our team, and to the community at large
-
-####Getting—and Keeping—Your Project on Our Main Org Page (Github.com/zalando)
-#####Criteria
-Our main repository is reserved for projects that meet our “Truly Open Source” criteria. This means they embody the spirit of “Open Source First.” Your code doesn’t have to be perfect before you open-source it. We *want* you to code in public from Day One. 
-
-That said, to appear on github.com/zalando (our main org page) your project should be “truly open-source,” or in active development toward that goal. This means:
+###Our Main Org Page: For the "Truly Open Source"
+Your code doesn’t have to be perfect before you open-source it. We *want* you to code in public from Day One. But to appear on our main org page, github.com/zalando, your project should be “truly open-source,” or in active development toward that goal. This means:
 - it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group. 
-- it’s useable out of the box and independent of our systems
+- it’s useable out of the box and free of Zalando dependencies
 - it has a clear README that:
     - enables non-Zalando devs to download, install, run and use the project with minimal friction  
     - invites contributors via a TODO list 
-- You respond promptly (within 72 hours) to PRs, issues, and queries
- 
-#####How to Make Your Project “Truly Open Source”
-
-Some tips:
-- Before writing a single line of code, try define as clearly as possible what the project will do and not do. What is its purpose? What is it trying to solve?
-- Identify potential users/audience. Who will use it? How broadly can you promote it?  
-     - Our tech team is a great focus group. Ask your colleagues for input and feedback. 
-- Ask yourself: Will you want to be working on/maintaining it six months from now? A year from now? Who else can maintain the project with you? 
-- Build community: If a project is in development, list unfinished features/components in the “TODO” of your README and in your conversations with potential contributors.
-- Before releasing your project, ensure that the README is clear enough for potential contributors and users to understand what it does and the problem(s) it solves. See README guidance below.
-
-The Open Source Guild, your team, your delivery lead, LinkedIn groups, community forums/boards, and Meetup audiences can all be great sources of help.  
+    - clarifies if it's still in early development/a prototype  
+- you respond promptly (within 72 hours) to PRs, issues, and queries
 
 ####If Your Project Is Not Useful Beyond Zalando (Yet)
 If a project is in very early-stage development, dependent on our systems, built primarily for Zalando use, “experimental,” ”maybe useful to others someday,” or created for Hack Week, it’s not suitable for the main org repo—yet. The Guild will place your project in our "Zincubator" organization, so that your code remains public. Or, you can:
