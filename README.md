@@ -11,8 +11,8 @@ Table of Contents
   - [To Open Source, or Not to Open Source?](#to-open-source-or-not-to-open-source)
     - [Never Open-Source These](#never-open-source-these)
     - [Open Source Workflow](#open-source-workflow)
-      - Aim for "Truly" Open Source
-      - Our Main Org Page: for the "Truly Open-Source"
+      - [Aim for "Truly" Open Source](#aim-for-truly-open-source)
+      - ["Truly Open Source": How-To and Tips](#truly-open-source-how-to-and-tips)
       - If Your Project Isn't "Truly Open Source"  
   - [How to Open-Source](#our-open-source-first-principles)
     - Create a Useful README
