@@ -113,7 +113,6 @@ If you're open-sourcing a project that has contained sensitive information in th
 No issues? Great! On to the next section ...
 
 ##Doing Open Source: Project Workflow
-Do "Open Source First"
 Our open source work should reflect and reinforce the principles of Radical Agility:
 - **Autonomy**: We support teams and individuals who contribute to open source
 - **Mastery**: Our projects reflect a high level of quality, thoughtfulness, and skill
