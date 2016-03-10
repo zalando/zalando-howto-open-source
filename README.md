@@ -13,10 +13,10 @@ Table of Contents
     - [Do "Open Source First"](#do-open-source-first)
     - [Project Workflow](#project-workflow)
         - [Before You Start Coding](#before-you-start-coding)
-        - [/zalando: For the "Truly Open Source"](#zalando-for-the-truly-open-source)
-       - Open-Source, But Not "Truly Open Source"(#open-source-but-not-truly-open-source)
-       - Using GitHub Enterprise (GHE)
-  - [How to Open-Source](#our-open-source-first-principles)
+        - [The Main Zalando Repository: For the "Truly Open Source"](#zalando-for-the-truly-open-source)
+        - [The Zincubator: For the Open-Source, But Not "Truly Open Source"](#open-source-but-not-truly-open-source)
+       - Using GitHub Enterprise (GHE)(#using-github-enterprise-ghe)
+  - [Open-Source Basics](#our-open-source-first-principles)
     - Create a Useful README
       - Do
       - Don't
@@ -123,7 +123,7 @@ Creating a new open source project should almost always be a team decision. This
 
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
-###/zalando: For the "Truly Open Source"
+###The Main Zalando Repository: For the "Truly Open Source"
 Your code doesn’t have to be perfect before you open-source it. We *want* you to code in public from Day One. But to appear on our main org page, github.com/zalando, your project should be “truly open-source,” or in active development toward that goal. This means:
 - it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group. 
 - it’s useable out of the box and free of Zalando dependencies
@@ -133,7 +133,7 @@ Your code doesn’t have to be perfect before you open-source it. We *want* you 
     - clarifies if it's still in early development/a prototype  
 - you respond promptly (within 72 hours) to PRs, issues, and queries
 
-####/zalando-zincubator: For the Open-Source, But Not "Truly Open Source"
+####The Zincubator: For the Open-Source, But Not "Truly Open Source"
 Projects that aren't "truly open source":
 - are dependent on our systems
 - are dependent on other Zalando open-source projects that haven't been widely adopted
