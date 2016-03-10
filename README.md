@@ -12,9 +12,9 @@ Table of Contents
     - [Never Open-Source These](#never-open-source-these)
     - [Do "Open Source First"](#do-open-source-first)
     - [Project Workflow](#project-workflow)
-        - [Before You Code](#before-you-code)
-        - [Our Main Org Page: For the "Truly Open Source"]
-      - If Your Project Isn't "Truly Open Source"  
+        - [Before You Start Coding](#before-you-start-coding)
+        - [Our Main Org Page: For the "Truly Open Source"](#our-main-org-page-for-the-truly-open-source)
+       - Open-Source, But Not "Truly Open Source"(#if-your-project-is-not-useful-beyond-zalando-yet)  
   - [How to Open-Source](#our-open-source-first-principles)
     - Create a Useful README
       - Do
@@ -100,7 +100,7 @@ Our open source work should reflect and reinforce the principles of Radical Agil
 - **Mastery**: Our projects reflect a high level of quality, thoughtfulness, and skill
 - **Purpose**: Our projects are useful to our team, and to the community at large
 
-###Before You Code
+###Before You Start Coding
 Creating a new open source project should almost always be a team decision. This is because maintaining a project requires commitment, time, and resources. Before starting a new project, ask these questions:
 - What will the project do and not do? What is its purpose? What is it trying to solve?
 - Does the project already exist? 
@@ -132,11 +132,15 @@ Your code doesn’t have to be perfect before you open-source it. We *want* you 
     - clarifies if it's still in early development/a prototype  
 - you respond promptly (within 72 hours) to PRs, issues, and queries
 
-####If Your Project Is Not Useful Beyond Zalando (Yet)
-If a project is in very early-stage development, dependent on our systems, built primarily for Zalando use, “experimental,” ”maybe useful to others someday,” or created for Hack Week, it’s not suitable for the main org repo—yet. The Guild will place your project in our "Zincubator" organization, so that your code remains public. Or, you can:
+####Open-Source, But Not "Truly Open Source"
+Projects that aren't "truly open source":
+- are dependent on our systems
+- are “experimental”/”maybe useful to others someday,” but you're not working on it (a Hack Week project, or something you've lost interest in)
+- lacking meaningful documentation (a README), and you're not working on any
+
+These are currently not suitable for the main org repo. Place them on our "Zincubator" page, not on our main repository. The Guild reserves the right to relocate such projects to the Zincubator on your behalf.  
  
-- keep the project on your personal GitHub account. This makes sense if it isn’t tied to Zalando development. 
-- maintain the project as a private repo on GitHub Enterprise. We don't recommend this option, as projects here will be much less likely to reflect “open source first” values, lose visibility, and possibly disappear into the ether.
+You can also maintain the project as a private repo on GitHub Enterprise. We don't recommend this option, as projects here will be much less likely to reflect “open source first” values, will lose visibility, and will likely be forgotten.
      - Is it possible to transfer GitHub issues from one project to the other? No.
      - Is it possible to transfer the ownership of a Github repo to someone else? Yes.
 
