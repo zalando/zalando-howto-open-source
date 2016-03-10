@@ -75,7 +75,7 @@ That said, to appear on github.com/zalando (our main org page) your project shou
     - enables non-Zalando devs to download, install, run and use the project with minimal friction  
     - invites contributors via a TODO list 
 - You respond promptly (within 72 hours) to PRs, issues, and queries
-
+ 
 #####How to Make Your Project “Truly Open Source”
 
 Some tips:
@@ -95,6 +95,11 @@ If a project is in very early-stage development, dependent on our systems, built
 - maintain the project as a private repo on GitHub Enterprise. We don't recommend this option, as projects here will be much less likely to reflect “open source first” values, lose visibility, and possibly disappear into the ether.
      - Is it possible to transfer GitHub issues from one project to the other? No.
      - Is it possible to transfer the ownership of a Github repo to someone else? Yes.
+
+Code/Project Review
+------------------------------
+
+Ask your team and other peers to review your code and install and test your project prior to public release. Peer review tends to be more effective than unit testing. Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
 
 Creating a README
 ------------------------------
@@ -143,6 +148,43 @@ Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/
 Our Catwatch application [will collect maintainers from the MAINTAINERS files](https://github.com/zalando/catwatch/issues/29).
 
 ###Maintainer Responsibilities
+
+Respond promptly to pull requests and issues. “Within 72 hours” is a good window. Open issues do not make your project “look popular.” Instead, they make it look like you're neglecting your project. If project workload becomes unmanageable, ask the Guild or the community for help.
+
+If you are away/on vacation and can’t respond to PRs/issues promptly, find someone who can. 
+
+If you're not going to accept a PR, reject it ASAP and include a brief explanation why.  
+
+####Issues: Be Clear, and Get Creative
+Issues can be good for planning or for onboarding contributors. Issues should include a description of the point, question, discovery, or other detail prompting the issue. 
+
+Issues that consist solely of a title appear unprofessional and do not do much to invite discussion from the community.
+
+Label your issues with clear tags. This is a great way to organize and categorize issues.
+
+Forks: Make Them Meaningful
+------------------------------------------------------------
+*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using Github’s stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
+
+To fork, or not to fork? Some guidelines:
+- Only keep the fork open as long as needed.
+- “True/Long-Lived forks” are highly discouraged, even from Zalando projects. We avoid internal forks in order to avoid diverging widely from what we have published, and the inevitable hassle of getting the project to a state where we can support both code bases
+- Avoid two forks of the same project.
+
+If your goal is to make a small fix to a project, use your own/personal GitHub account.  
+
+Manage Your Deprecated Projects Responsibly
+------------------------------------------------------------
+
+To deprecate a project:
+- add “Deprecated” at the top of your README, as well as a notice stating your plans for the project: deletion, finding a new owner, etc.  
+- After announcing your decision to deprecate your project:
+     - notify your users and put a notice on your README. Wait 60 days. Or:
+     - Find a new owner. Consider internal options first, then seek an external owner. Ask the Guild for help. Or:
+     - Parking it on your personal page.
+
+####Tips for Finding a New Owner
+Internally, you can use internal mailing lists and HipChat to announce your need. Externally, try social media platforms and community boards. Add 1-2 sentences to your announcements suggesting how your project might have potential to evolve into something bigger and better.
 
 Contributing to Non-Zalando Open-Source Projects
 ------------------------------------------------------------
@@ -266,15 +308,16 @@ All repository changes, including those made by maintainers, should come from Gi
 
 All project artifacts should be [versioned semantically](http://semver.org/). Tag all versions in GitHub with the exact version name (like ‘0.1.0’, i.e. do not prefix tags with “v.” or similar). For a better user experience, use the GitHub “release notes” feature to add notes whenever you change something in the new version.
 
-http://zalando.github.io/, aka "CatWatch"
+Project Promotion
 ------------------------------------------------------------
+
+###Catwatch
 All Zalando open-source projects are listed on [zalando.github.io](http://zalando.github.io/) (also called [CatWatch](https://github.com/zalando/catwatch)): our own metrics dashboard measuring our most popular public projects and our most active contributors in terms of commits, stars and forks. Please add a [.catwatch.yaml file](https://github.com/zalando/zmon/blob/master/.catwatch.yaml) to the root of your repository to set a human-readable project title and image URL.
 
-Review
-------------------------------------------------------------
-Ask your team and other peers to review your code and install and test your project prior to public release. Peer review tends to be more effective than unit testing. Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
-
-Our basic quality criteria for open-source projects:
- - Is the project useful to others, including non-Zalandos?
- - Is the documentation clear and comprehensive?
-
+###Communication
+Share your project with:
+- relevant LinkedIn Groups
+- community forums/boards
+- e-newsletters and websites/newsletters dedicated to the problem(s) your project is trying to solve, the relevant languages, etc.
+- if you have contacts at a university, pitch your project to their students
+- major players in the industry
