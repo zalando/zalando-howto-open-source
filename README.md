@@ -28,7 +28,7 @@ Table of Contents
       - [Create a Maintainers File](#create-a-maintainers-file)
       - [Be Prompt and Responsive](#be-prompt-and-responsive)
       - [Use Issues Creatively](#use-issues-creatively)
-    - [Be Secure](#be-secure)
+    - [Stay Secure](#stay-secure)
       - [Two-Factor Authentication Is Required](#two-factor-authentication-is-required)
     - [About Licensing](#about-licensing)
       - [Quick FAQ](#quick-faq)
@@ -245,7 +245,7 @@ Issues that consist solely of a title appear unprofessional and do not do much t
 
 Label your issues with clear tags. This is a great way to organize and categorize issues.
 
-###Be Secure
+###Stay Secure
 #####Two-Factor Authentication Is Required
 GitHub organization owners must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/).
 
