@@ -147,32 +147,36 @@ Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well,
      - Is it possible to transfer GitHub issues from one project to the other? No.
      - Is it possible to transfer the ownership of a Github repo to someone else? Yes.
 
-Code/Project Review
-------------------------------
+##Open-Source Basics
 
-Ask your team and other peers to review your code and install and test your project prior to public release. Peer review tends to be more effective than unit testing. Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
+###Code Review
 
-Creating a README
-------------------------------
+Ask your team and other peers to:
+- review your code
+- install and 
+- test your project **prior to public release**. Peer review tends to be more effective than unit testing. 
 
-A project's success depends a great deal on README quality. Your README should:
-- begin with a short description of what the project is, does, and does not do
-- list features
-- place your project in context: who is likely to use it, and why?
-- cover all technical details and configuration options
-- link to additional and more advanced documentation (optional)
-- cover the basics: installing, running, configuring, etc.
-- eliminate as much friction as possible separating the user from your software
-- address any remaining friction points in separate sections
-- include a TODO list to invite potential contributors, citing specific needs/bugs/etc.
-- include badges
-- if possible, include screenshots and demo videos
+Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
 
-Your README should NOT:
-- refer to Zalando specifics, such as internal teams and processes
-- include large chunks of code without explaining what they represent
-- lack details critical to a user’s ability to install/run/use your project
-- include any code that presents security vulnerabilities
+###Creating a README
+
+####Do:
+- Begin with a short description of what the project is, does, and does not do
+- List features
+- Place your project in context: who is likely to use it, and why?
+- Cover all technical details—installing, running, and configuring—to eliminate friction separating the user from your software
+- Address any remaining friction points in separate sections
+- Link to additional and more advanced documentation (optional)
+- Include a TODO list to invite potential contributors, citing specific needs/bugs/etc.
+- Include badges
+- If possible, include screenshots and demo videos
+- Include a note ("this is in beta") if the project is still in active development
+
+####Don't:
+- Refer to Zalando specifics, such as internal teams and processes
+- Include large chunks of code without explaining what they represent
+- Lack details critical to a user’s ability to install/run/use your project
+- Include any code that presents security vulnerabilities
 
 ###Syntax and Formatting
 Markdown is the simplest and most easily understood syntax; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
