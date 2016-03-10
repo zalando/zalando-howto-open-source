@@ -22,11 +22,11 @@ Table of Contents
       - [Do](#do)
       - [Don't](#dont)
       - [Syntax and Formatting](#syntax-and-formatting)
-    - Official Namespace
-    - Applying Changes
-    - Versioning
-    - Maintain Your Project
-      - Create a Maintainers File
+    - [Official Namespace](#official-namespace)
+    - [Applying Changes](#applying-changes)
+    - [Versioning](#versioning)
+    - [Maintainers](#maintainers)
+      - [Create a Maintainers File]
       - Be Prompt and Responsive
       - Use Issues Creatively
     - Code Review
@@ -204,7 +204,7 @@ Maintainers are the contact people for a project. They are also the only contrib
 
 The Open Source Guild reserves the right to contact maintainers to ensure a project remains active/maintained. If the project is not being maintained, we will work with you to either find a new maintainer or remove the project from our organization page. Please be responsive to all internal queries about your project and its status. 
 
-###Maintainers File
+####Create a Maintainers File
 
 Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/MAINTAINERS)’ file (listing all maintainers) at its root. Your build/packaging configuration file (e.g., [pom.xml for Maven](https://maven.apache.org/pom.html#Developers)) can fulfill the purpose of a MAINTAINERS file. Format:
 
@@ -214,7 +214,7 @@ Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/
 
 Our Catwatch application [will collect maintainers from the MAINTAINERS files](https://github.com/zalando/catwatch/issues/29).
 
-###Maintainer Responsibilities
+####Maintainer Responsibilities
 
 Respond promptly to pull requests and issues. “Within 72 hours” is a good window. Open issues do not make your project “look popular.” Instead, they make it look like you're neglecting your project. If project workload becomes unmanageable, ask the Guild or the community for help.
 
