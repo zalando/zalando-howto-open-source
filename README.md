@@ -13,9 +13,9 @@ Table of Contents
     - [Do "Open Source First"](#do-open-source-first)
     - [Project Workflow](#project-workflow)
         - [Before You Start Coding](#before-you-start-coding)
-        - [The Main Zalando Repository: For the "Truly Open Source"](#zalando-for-the-truly-open-source)
-        - [The Zincubator: For the Open-Source, But Not "Truly Open Source"](#open-source-but-not-truly-open-source)
-       - Using GitHub Enterprise (GHE)(#using-github-enterprise-ghe)
+        - [The Main Zalando Repository: For the "Truly Open Source"](#the-main-zalando-repository-for-the-truly-open-source)
+        - [The Zincubator: For the Open-Source, But Not "Truly Open Source"](#the-zincubator-for-the-open-source-but-not-truly-open-source)
+       - [Using GitHub Enterprise (GHE)](#using-github-enterprise-ghe)
   - [Open-Source Basics](#our-open-source-first-principles)
     - Create a Useful README
       - Do
