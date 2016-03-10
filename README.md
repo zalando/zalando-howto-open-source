@@ -13,7 +13,7 @@ Table of Contents
     - [Do "Open Source First"](#do-open-source-first)
     - [Project Workflow](#project-workflow)
         - [Before You Start Coding](#before-you-start-coding)
-        - [Our Main Org Page: For the "Truly Open Source"](#our-main-org-page-for-the-truly-open-source)
+        - [/zalando: For the "Truly Open Source"](#zalando-for-the-truly-open-source)
        - Open-Source, But Not "Truly Open Source"(#open-source-but-not-truly-open-source)
        - Using GitHub Enterprise (GHE)
   - [How to Open-Source](#our-open-source-first-principles)
