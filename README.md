@@ -11,7 +11,7 @@ Table of Contents
   - [To Open Source, or Not to Open Source?](#to-open-source-or-not-to-open-source)
     - [Never Open-Source These](#never-open-source-these)
     - [Do "Open Source First"](#do-open-source-first)
-    - [Project Workflow"](#do-open-source-first)
+    - [Project Workflow](#project-workflow)
         - [Before Your Code](#before-you-code)
       - If Your Project Isn't "Truly Open Source"  
   - [How to Open-Source](#our-open-source-first-principles)
