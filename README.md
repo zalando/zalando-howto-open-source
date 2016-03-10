@@ -16,14 +16,15 @@ Table of Contents
         - [The Main Zalando Repository: For the "Truly Open Source"](#the-main-zalando-repository-for-the-truly-open-source)
         - [The Zincubator: For the Open-Source, But Not "Truly Open Source"](#the-zincubator-for-the-open-source-but-not-truly-open-source)
        - [Using GitHub Enterprise (GHE)](#using-github-enterprise-ghe)
-  - [Open-Source Basics](#our-open-source-first-principles)
-    - Create a Useful README
-      - Do
-      - Don't
-      - Syntax and Formatting
-      - Official Namespace
-      - Applying Changes
-      - Versioning
+  - [Open-Source Basics](#open-source-basics)
+    - [Code Review](#code-review)
+    - [Creating a README](#creating-a-readme)
+      - [Do](#do)
+      - [Don't](#dont)
+      - [Syntax and Formatting](#syntax-and-formatting)
+    - Official Namespace
+    - Applying Changes
+    - Versioning
     - Maintain Your Project
       - Create a Maintainers File
       - Be Prompt and Responsive
@@ -178,15 +179,26 @@ Not sure what to ask for, or how to peer-review? This list of [11 best practices
 - Lack details critical to a user’s ability to install/run/use your project
 - Include any code that presents security vulnerabilities
 
-###Syntax and Formatting
+####Syntax and Formatting
 Markdown is the simplest and most easily understood syntax; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
 
 For readability, break up text often.
 
 Think about SEO.
 
-Maintainers
-------------------------------
+###Official Namespace
+
+The official namespace for our projects is ‘**org.zalando**’, where applicable.
+
+###Applying Changes
+
+All repository changes, including those made by maintainers, should come from GitHub pull requests so that we can streamline review and change tracking (as per [GitHub Flow](https://guides.github.com/introduction/flow/)). Everyone should have their own fork, though you can still edit READMEs/documentation/related files with the GitHub “Edit” button. The ‘master’ branch should be the accepted development head; pull requests get merged there.
+
+###Versioning
+
+Version all project artifacts should be [semantically](http://semver.org/). Tag all versions in GitHub with the exact version name (like ‘0.1.0’; do not prefix tags with “v.” or similar). For a better user experience, use the GitHub “release notes” feature to add notes whenever you change something in the new version.
+
+###Maintainers
 
 Maintainers are the contact people for a project. They are also the only contributors who can package new versions and apply changes to the repository (i.e., merge pull requests). Every project must have at least one maintainer. [This helper script](https://github.com/zalando-stups/github-maintainer-cli) gives us an overview of repos that users are maintainers for. 
 
@@ -349,19 +361,6 @@ $ docker push registry-write.opensource.zalan.do/myteam/myartifact:1.0
 $ # on any other computer:
 $ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth needed for download!
 ```
-
-
-**Official Namespace**
-
-The official namespace for our projects is ‘**org.zalando**’, where applicable.
-
-**Applying Changes**
-
-All repository changes, including those made by maintainers, should come from GitHub pull requests so that we can streamline review and change tracking (as per [GitHub Flow](https://guides.github.com/introduction/flow/)). Everyone should have their own fork, though you can still edit READMEs/documentation/related files with the GitHub “Edit” button. The ‘master’ branch should be the accepted development head; pull requests get merged there.
-
-**Versioning**
-
-All project artifacts should be [versioned semantically](http://semver.org/). Tag all versions in GitHub with the exact version name (like ‘0.1.0’, i.e. do not prefix tags with “v.” or similar). For a better user experience, use the GitHub “release notes” feature to add notes whenever you change something in the new version.
 
 Project Promotion
 ------------------------------------------------------------
