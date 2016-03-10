@@ -10,8 +10,7 @@ Table of Contents
   - [Our Open Source First Principles](#our-open-source-first-principles)
   - [To Open Source, or Not to Open Source?](#to-open-source-or-not-to-open-source)
     - [Never Open-Source These](#never-open-source-these)
-    - [Do "Open Source First"](#do-open-source-first)
-    - [Project Workflow](#project-workflow)
+    - [Doing Open Source: Project Workflow](#project-workflow)
         - [Before You Start Coding](#before-you-start-coding)
         - [The Main Zalando Repository: For the "Truly Open Source"](#the-main-zalando-repository-for-the-truly-open-source)
         - [The Zincubator: For the Open-Source, But Not "Truly Open Source"](#the-zincubator-for-the-open-source-but-not-truly-open-source)
@@ -111,9 +110,9 @@ To Open Source, or Not to Open Source?
 
 If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the git commit history. Create an entirely new git repo for it before pushing it to GitHub.
 
-**No issues? Great! On to the next section ...
+No issues? Great! On to the next section ...
 
-##Project Workflow
+##Doing Open Source: Project Workflow
 Do "Open Source First"
 Our open source work should reflect and reinforce the principles of Radical Agility:
 - **Autonomy**: We support teams and individuals who contribute to open source
