@@ -45,11 +45,11 @@ Table of Contents
         - [I still have licensing questions. What can I do?](#i-still-have-licensing-questions-what-can-i-do)
         - [But I am a delivery lead.](#but-i-am-a-delivery-lead)
         - [But I am a department head.](#but-i-am-a-department-head)
+      - [Repository of Meta Information](#repository-of-meta-information)
       - [Restrictions Imposed by the License](#restrictions-imposed-by-the-license)
         - [Unusual Additions](#unusual-additions)
       - [There Is No License](#there-is-no-license)
-    - [Official Repositories]
-      - [Repository of Meta Information](#repository-of-meta-information)
+    - [Other Repository Information] 
       - JVM artifacts
       - Python packages
       - SBT plugins
@@ -313,7 +313,17 @@ Ask your department head.
 
 Management can work with Legal to determine Intellectual Property concerns.
 
-###Other Repository Information]
+####Restrictions Imposed by the License
+“Dependency” typically means “being linked with,” “included in your artifact,” or “depends on it during runtime.” Dependencies can limit you. To remain in compliance, check the licenses of your projects. Your build tool’s license does not affect your software’s license. A jar file or Python dependency will affect your software.
+
+#####Unusual Additions
+
+As stated by Zalando Legal, it is OK to use React and other Facebook open-source software projects for Zalando projects.
+
+####There Is No License
+
+If there is no license statement, the author automatically receives a copyright. [This](http://choosealicense.com/no-license/) implies that no one has the right to modify or redistribute the software. If you really need the software, contact the author (who is likely unaware) and ask him/her to provide a proper license.
+
 ####Repository of Meta Information
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
@@ -335,16 +345,8 @@ An example for Scala (with sbt):
 ```
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 ```
-####Restrictions Imposed by the License
-“Dependency” typically means “being linked with,” “included in your artifact,” or “depends on it during runtime.” Dependencies can limit you. To remain in compliance, check the licenses of your projects. Your build tool’s license does not affect your software’s license. A jar file or Python dependency will affect your software.
 
-#####Unusual Additions
-
-As stated by Zalando Legal, it is OK to use React and other Facebook open-source software projects for Zalando projects.
-
-####There Is No License
-
-If there is no license statement, the author automatically receives a copyright. [This](http://choosealicense.com/no-license/) implies that no one has the right to modify or redistribute the software. If you really need the software, contact the author (who is likely unaware) and ask him/her to provide a proper license.
+###Other Repository Information
 
 ###Deprecate Responsibly
 
