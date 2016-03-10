@@ -60,12 +60,12 @@ Table of Contents
     - [Deprecate Responsibly](#deprecate-responsibly)
       - [How to Deprecate](#how-to-deprecate)
       - [Tips for Finding a New Owner](#tips-for-finding-a-new-owner)
-    - [Project Promotion]
+    - [Project Promotion](#project-promotion)
       - [Catwatch](#catwatch)
       - [Communication](#communication)
 - [Contributing to Non-Zalando Open-Source Projects](#-contributing-to-non-zalando-open-source-projects)
-    - General
-    - Google Projects
+    - [General](#general)
+    - [Google Projects](#google-projects)
   
 ###Why Open Source? 
 
@@ -415,5 +415,5 @@ Share your project with:
 ####General
 We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
 
-####Contributing to Google Projects
+####Google Projects
 For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache.
