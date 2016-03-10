@@ -61,7 +61,7 @@ Table of Contents
       - [Tips for Finding a New Owner](#tips-for-finding-a-new-owner)
     - [Project Promotion](#project-promotion)
       - [Catwatch](#catwatch)
-      - [Communication](#communication)
+      - [Proactively Communicate](#proactively-communicate)
 - [Contributing to Non-Zalando Open-Source Projects](#-contributing-to-non-zalando-open-source-projects)
     - [General](#general)
     - [Google Projects](#google-projects)
@@ -386,21 +386,23 @@ If your goal is to make a small fix to a project, use your own/personal GitHub a
 ###Deprecate Responsibly
 
 ####How to Deprecate
-- add “Deprecated” at the top of your README, as well as a notice stating your plans for the project: deletion, finding a new owner, etc.  
-- After announcing your decision to deprecate your project:
-     - notify your users and put a notice on your README. Wait 60 days. Or:
-     - Find a new owner. Consider internal options first, then seek an external owner. Ask the Guild for help. Or:
-     - Parking it on your personal page.
+Add “Deprecated” at the top of your README, as well as a notice stating your plans for the project: deletion, finding a new owner, etc.  
+
+After announcing your decision to deprecate the project:
+   - notify your users. Put a notice on your README. 
+   - Wait 60 days.
+   - Try to find a new owner. Internal options first, then seek an external owner. Ask the Guild for help. 
+   - Try to find an external owner. More guidance on this to come soon; for now, alert the Guild of any such plans.
 
 ####Tips for Finding a New Owner
-Internally, you can use internal mailing lists and HipChat to announce your need. Externally, try social media platforms and community boards. Add 1-2 sentences to your announcements suggesting how your project might have potential to evolve into something bigger and better.
+Internally, you can use internal mailing lists and HipChat to announce your need. Externally, social media platforms and community boards work well. Add 1-2 sentences to your announcements suggesting how your project might have potential to evolve into something bigger and better.
 
 ###Project Promotion
 
 ####Catwatch
 All Zalando open-source projects are listed on [zalando.github.io](http://zalando.github.io/) (also called [CatWatch](https://github.com/zalando/catwatch)): our own metrics dashboard measuring our most popular public projects and our most active contributors in terms of commits, stars and forks. Please add a [.catwatch.yaml file](https://github.com/zalando/zmon/blob/master/.catwatch.yaml) to the root of your repository to set a human-readable project title and image URL.
 
-####Communication
+####Proactively Communicate
 Share your project with:
 - relevant LinkedIn Groups
 - community forums/boards
