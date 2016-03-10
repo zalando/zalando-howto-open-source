@@ -10,8 +10,7 @@ Table of Contents
   - [Our Open Source First Principles](#our-open-source-first-principles)
   - [To Open Source, or Not to Open Source?](#to-open-source-or-not-to-open-source)
     - [Never Open-Source These](#never-open-source-these)
-    - [Open Source Workflow](#open-source-workflow)
-      - [How to "Truly Open Source"](#how-to-truly-open-source)
+    - [Aim for "Truly Open Source"](#open-source-workflow)
         - [Before Your Code](#truly-open-source-how-to-and-tips)
       - If Your Project Isn't "Truly Open Source"  
   - [How to Open-Source](#our-open-source-first-principles)
@@ -104,7 +103,7 @@ Creating a new open source project should almost always be a team decision. This
  
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
-####How to "Truly Open Source" 
+##Before You Code
 Our open source work should reflect and reinforce the principles of Radical Agility:
 - Autonomy: We support teams and individuals who contribute to open source
 - Mastery: Our projects reflect a high level of quality, thoughtfulness, and skill
