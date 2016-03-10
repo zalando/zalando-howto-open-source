@@ -29,6 +29,8 @@ Table of Contents
       - [Create a Maintainers File](#create-a-maintainers-file)
       - [Be Prompt and Responsive](#be-prompt-and-responsive)
       - [Use Issues Creatively](#use-issues-creatively)
+    - [Think About Security](#about-licensing)
+      - Two-Factor Authentication Is Required
     - [About Licensing](#about-licensing)
       - [Quick FAQ](#quick-faq)
         - [Which License Do We Use?](#which-license-do-we-use)
@@ -47,13 +49,10 @@ Table of Contents
       - [Restrictions Imposed by the License](#restrictions-imposed-by-the-license)
         - [Unusual Additions](#unusual-additions)
       - [There Is No License](#there-is-no-license)
-      - Add a README Note
-      - Restrictions Imposed by the License
+    - Working With External Contributors
     - Deprecate Responsibly
       - How to Deprecate
       - [Tips for Finding a New Owner](#tips-for-finding-a-new-owner)
-    - Official Repositories
-    - Working With External Contributors
     - Promotion
       - Catwatch
       - Communication
@@ -243,6 +242,10 @@ Issues that consist solely of a title appear unprofessional and do not do much t
 
 Label your issues with clear tags. This is a great way to organize and categorize issues.
 
+###Think About Security
+#####Two-Factor Authentication Is Required
+GitHub organization owners must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/).
+
 ###About Licensing
 
 ####Quick FAQ
@@ -373,11 +376,6 @@ The Guild supports you in recruiting non-Zalandos to contribute to your project.
  - Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0)
 
 
-Official Repositories
-------------------------------------------------------------
-Some guidelines:
-- Host **all** source code in [the ‘zalando’ space](https://github.com/zalando) on GitHub.
-- GitHub organization owners must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/).
 - Host JVM artifacts (*.jar) on Maven Central in [the ‘org.zalando’ group](https://repo1.maven.org/maven2/org/zalando/).  To do this, get a [Sonatype](http://central.sonatype.org/) account and ask the STUPS team to add it to Zalando.
 - Host Python packages on [PyPI](https://pypi.python.org/pypi/) (PyPI has no namespaces) and make sure that multiple persons have “maintainer” rights.
 - Publish SBT plugins [on Bintray](https://bintray.com/zalando). An example of the publishing process is [here](http://www.scala-sbt.org/0.13/docs/Bintray-For-Plugins.html); these SBT files ([#1](https://github.com/zalando/swagger-speccer/blob/master/build.sbt) and [#2](https://github.com/zalando/swagger-speccer/blob/master/project/bintray.sbt)) illustrate the publishing configuration.
