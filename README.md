@@ -2,14 +2,17 @@ How to Open Source at Zalando
 ------------------------------------------------------------
 A guide to releasing an open-source project at [Zalando](https://www.zalando.com>), Europe's largest online fashion platform.
 
-Open Source:
+Why Open Source? Because It Can:
 ------------------------------------------------------------
-- can improve quality
-- can mitigate risks
-- can increase trust
-- can save us money, expand our technology choices, and help us remain cutting-edge
-- is fun and makes us proud
-- enables us to give back to the community, build our tech brand, and attract talent
+- improve quality
+- mitigate risks
+- increase trust
+- save us money
+- expand our technology choices
+- be fun 
+- enable us to give back to the community
+- strengthen our tech brand
+- attract talent
 
 Our Open Source First Principles
 ------------------------------------------------------------
@@ -28,30 +31,63 @@ Our Open Source First Principles
 
 What to Open Source, What Not to Open Source
 ------------------------------------------------------------
-Never publish these as open source:
+##Never open-source these:
 - PCI DSS-related projects: e.g. payment services
 - Domain knowledge
 - Anything that would risk our competitive advantage: confidential source code, recommendation algorithms, etc.
 - Customer data
 - Unique Selling Points (USPs)
 
-If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the git commit history. Therefore, you should create an entirely new git repo for it before pushing it to GitHub.
+If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the git commit history. Create an entirely new git repo for it before pushing it to GitHub.
 
-**No issues? OK, go ahead and open source!**
+**No issues? Great! On to the next section ...
 
-But ask yourself these questions, too:
-- Will your project benefit others, including non-Zalando engineers? If your project is tightly coupled to our business, or doesn’t solve a problem, the community will likely view it as noise.
-- Do you have time to maintain the code? If not, you can recruit help(ers) either internally or externally. Ask the Guild for assistance.
-- Is your project infrastructure-related? These are usually easier to open source because they don’t touch our core business.
-- Is your project a framework? These are also pretty safe for releasing publicly.
+##Open Source Workflow
 
-**Still unsure about what to do?**
+###Creating a new project
+Creating a new open source project should almost always be a team decision. This is because maintaining a project requires commitment, time, and resources. Before starting a new project, ask these questions:
+- Does the project already exist? (Do research so you can avoid reproducing an existing effort.)
+- Who is the audience?
+- Who will be a maintainer? 
+     - We require at least one. 
+- Will you try to build community around the project?
+     - Internal community: This is very important. Promote your project to as many Zalando teams as possible so they can      consider using it. The internal success of a project can give you a good idea about its potential to be adopted/used externally. 
+     - External community: If you’re not eager to promote your project to the public, keep it internal.
+ 
+If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
-If in doubt, ask your delivery lead.
+###"Truly Open Source": How-To and Tips  
+Our open source work should reflect and reinforce the principles of Radical Agility:
+- Autonomy: We support teams and individuals who contribute to open source
+- Mastery: Our projects reflect a high level of quality, thoughtfulness, and skill
+- Purpose: Our projects are useful to our team, and to the community at large
 
-**Equally simple guideline for delivery leads**:
+####Getting & Keeping Your Project on Our Main Org Page
+#####Criteria
+The “Open Source First” principles we’ve established encourage you to code in public from the very beginning of your project. Your code doesn’t have to be perfect before you open-source it.  
 
-If you’re in doubt, ask your department head. Management can work with Legal to determine Intellectual Property concerns.
+That said, to appear on github.com/zalando (our main org page) your project should be “truly open-source,” or aimed at becoming so. This means:
+- it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group. 
+- it’s useable out of the box and independent of our systems
+- it has a clear README that:
+    - enables non-Zalando devs to download, install, run and use the project with minimal friction (because you’ve been   thorough in your detail)
+    - invites contributors via a TODO list 
+- You respond promptly (within 72 hours) to PRs, issues, and queries
+
+These criteria are meant to help drive the adoption, use and overall success of your work—not to impose restrictions. 
+
+#####How to Make Your Project “Truly Open Source”
+
+Some tips:
+- In the earliest stages of development, define what the project will do and not do as clearly as possible. Think of it as a product: What is its purpose?
+- Identify potential users/audience. Who will use it? How broadly can you promote it?  
+     - Our tech team is a great focus group. Ask your colleagues for input and feedback. 
+- Ask yourself: Will you want to be working on/maintaining it six months from now? A year from now? Who else can maintain the project with you? 
+- Build community: If a project is in development, list unfinished features/components in the “TODO” of your README and in your conversations with potential contributors.
+- Before releasing your project, ensure that the README is clear enough for potential contributors and users to understand what it does and the problem(s) it solves.
+
+Not sure about your project’s usefulness? The Open Source Guild, your team, your delivery lead, LinkedIn groups, community forums/boards, and Meetup audiences can all be great sources of info.  
+
 
 Contributing to Non-Zalando Open-Source Projects
 ------------------------------------------------------------
@@ -68,13 +104,13 @@ The Guild supports you in recruiting non-Zalandos to contribute to your project.
 
 Licensing
 ------------------------------------------------------------
-To allow the most broad usage of our source code, and to keep open sourcing easy and safe for our developers, we only use [the MIT license](https://opensource.org/licenses/MIT). MIT is succinct and straightforward, and also allows for easy use in closed-source projects.  
+To allow the most broad usage of our source code, and to keep open-sourcing easy and safe, we use [the MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects.  
 
 To reiterate: You must apply the MIT license to all newly created open-source projects. If you fork other (external) projects or contribute to them, keep the original license.
 
 **If Open-Sourcing a Library**: consider using a weak copyleft license that won’t restrict the software that uses it to the same license; will allow usage in closed source software; and will potentially increase the number of users and contributors.
 
-Please do not use any other license without a very compelling reason. Licensing questions? Ask the Open Source Guild or see our TechWiki page for the link to more detailed information about licensing.
+Please do not use any other license without a very compelling reason. Licensing questions? Ask the Open Source Guild or see our TechWiki page (internal doc) for the link to more detailed information about licensing.
 
 If your team uses an external project whose license is not Zalando-recommended, you can can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
 
@@ -82,40 +118,35 @@ If your team uses an external project whose license is not Zalando-recommended, 
 
 Zalando SE.
 
-**How do you choose the correct license?**
-
-*LICENSE document*
+**LICENSE document**
 
 Every project needs a ‘LICENSE’ file at the root of the repository that contains the copy of the selected license (see above). [Here is an example](https://opensource.org/licenses/MIT) for MIT.
 
-*README note*
+**README note**
 
 Every README{.md,.rst} file must state the following at the end:
 
 >The MIT License (MIT)
 >Copyright © [yyyy] Zalando SE, https://tech.zalando.com
 
->Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
->The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
->THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+>
 
 Replace the [yyyy] field with the year that you created the project, and do not update it. Do not provide multiple years.
 
-*Repository of meta information*
+**Still unsure about what to do?**
+
+If in doubt, ask your delivery lead.
+
+**Equally simple guideline for delivery leads**:
+
+If you’re in doubt, ask your department head. Management can work with Legal to determine Intellectual Property concerns.
+
+**Repository of meta information**
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
 
