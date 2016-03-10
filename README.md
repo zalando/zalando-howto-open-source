@@ -10,7 +10,7 @@ Table of Contents
   - [Our Open Source First Principles](#our-open-source-first-principles)
   - [To Open Source, or Not to Open Source?](#to-open-source-or-not-to-open-source)
     - [Never Open-Source These](#never-open-source-these)
-    - [Doing Open Source: Project Workflow](#project-workflow)
+    - [Doing Open Source: Project Workflow](#doing-open-source-project-workflow)
         - [Before You Start Coding](#before-you-start-coding)
         - [The Main Zalando Repository: For the "Truly Open Source"](#the-main-zalando-repository-for-the-truly-open-source)
         - [The Zincubator: For the Open-Source, But Not "Truly Open Source"](#the-zincubator-for-the-open-source-but-not-truly-open-source)
