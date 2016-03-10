@@ -2,8 +2,8 @@ How to Open Source at Zalando
 ------------------------------------------------------------
 A guide to releasing an open-source project at [Zalando](https://www.zalando.com>), Europe's largest online fashion platform.
 
-Why Open Source? Because It Can:
-------------------------------------------------------------
+###Why Open Source? Because It Can:
+
 - improve quality
 - mitigate risks
 - increase trust
@@ -32,7 +32,8 @@ Our Open Source First Principles
 What to Open Source, What Not to Open Source
 ------------------------------------------------------------
 
-##Never open-source these:
+###Never open-source these:
+
 - PCI DSS-related projects: e.g. payment services
 - Domain knowledge
 - Anything that would risk our competitive advantage: confidential source code, recommendation algorithms, etc.
