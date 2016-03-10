@@ -56,15 +56,14 @@ Table of Contents
       - [Node modules](#node-modules)
       - [Docker images](#docker-images)
     - [Working With External Contributors](#working-with-external-contributors)
-    - Forks: Make Them Meaningful
-    - Deprecate Responsibly
-      - How to Deprecate
+    - [Make Forks Meaningful](#make-forks-meaningful)
+    - [Deprecate Responsibly](#deprecate-responsibly)
+      - [How to Deprecate](#how-to-deprecate)
       - [Tips for Finding a New Owner](#tips-for-finding-a-new-owner)
-    - Promotion
-      - Catwatch
-      - Communication
-- Other Open-Source Topics
-  - Contributing to Non-Zalando Open-Source Projects
+    - [Project Promotion]
+      - [Catwatch](#catwatch)
+      - [Communication](#communication)
+- [Contributing to Non-Zalando Open-Source Projects](#-contributing-to-non-zalando-open-source-projects)
     - General
     - Google Projects
   
@@ -374,7 +373,6 @@ $ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth neede
 ###Working with External Contributors
 
 The Guild supports you in recruiting non-Zalandos to contribute to your project. We simply require that you have external contributors sign a contributor licensing agreement (CLA). A few good models to follow and adapt: [.Net Foundation](https://cla2.dotnetfoundation.org/) example (electronic submission via GitHub account); [Google’s CLA](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-signing-the-cla) for contributing to AngularJS is a simple click-through form with a Googlebot that automatically checks for signatures; Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0).
- - 
 
 ###Make Forks Meaningful
 
@@ -399,22 +397,23 @@ If your goal is to make a small fix to a project, use your own/personal GitHub a
 ####Tips for Finding a New Owner
 Internally, you can use internal mailing lists and HipChat to announce your need. Externally, try social media platforms and community boards. Add 1-2 sentences to your announcements suggesting how your project might have potential to evolve into something bigger and better.
 
- Contributing to Non-Zalando Open-Source Projects
-------------------------------------------------------------
-We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
+###Project Promotion
 
-**Contributing to Google projects:** For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache.
-
-Project Promotion
-------------------------------------------------------------
-
-###Catwatch
+####Catwatch
 All Zalando open-source projects are listed on [zalando.github.io](http://zalando.github.io/) (also called [CatWatch](https://github.com/zalando/catwatch)): our own metrics dashboard measuring our most popular public projects and our most active contributors in terms of commits, stars and forks. Please add a [.catwatch.yaml file](https://github.com/zalando/zmon/blob/master/.catwatch.yaml) to the root of your repository to set a human-readable project title and image URL.
 
-###Communication
+####Communication
 Share your project with:
 - relevant LinkedIn Groups
 - community forums/boards
 - e-newsletters and websites/newsletters dedicated to the problem(s) your project is trying to solve, the relevant languages, etc.
 - if you have contacts at a university, pitch your project to their students
 - major players in the industry
+
+###Contributing to Non-Zalando Open-Source Projects
+
+####General
+We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
+
+####Contributing to Google Projects
+For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache.
