@@ -31,6 +31,7 @@ Our Open Source First Principles
 
 What to Open Source, What Not to Open Source
 ------------------------------------------------------------
+
 ##Never open-source these:
 - PCI DSS-related projects: e.g. payment services
 - Domain knowledge
@@ -62,32 +63,85 @@ Our open source work should reflect and reinforce the principles of Radical Agil
 - Mastery: Our projects reflect a high level of quality, thoughtfulness, and skill
 - Purpose: Our projects are useful to our team, and to the community at large
 
-####Getting & Keeping Your Project on Our Main Org Page
+####Getting—and Keeping—Your Project on Our Main Org Page (Github.com/zalando)
 #####Criteria
-The “Open Source First” principles we’ve established encourage you to code in public from the very beginning of your project. Your code doesn’t have to be perfect before you open-source it.  
+Our main repository is reserved for projects that meet our “Truly Open Source” criteria. This means they embody the spirit of “Open Source First.” Your code doesn’t have to be perfect before you open-source it. We *want* you to code in public from Day One. 
 
-That said, to appear on github.com/zalando (our main org page) your project should be “truly open-source,” or aimed at becoming so. This means:
+That said, to appear on github.com/zalando (our main org page) your project should be “truly open-source,” or in active development toward that goal. This means:
 - it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group. 
 - it’s useable out of the box and independent of our systems
 - it has a clear README that:
-    - enables non-Zalando devs to download, install, run and use the project with minimal friction (because you’ve been   thorough in your detail)
+    - enables non-Zalando devs to download, install, run and use the project with minimal friction  
     - invites contributors via a TODO list 
 - You respond promptly (within 72 hours) to PRs, issues, and queries
-
-These criteria are meant to help drive the adoption, use and overall success of your work—not to impose restrictions. 
 
 #####How to Make Your Project “Truly Open Source”
 
 Some tips:
-- In the earliest stages of development, define what the project will do and not do as clearly as possible. Think of it as a product: What is its purpose?
+- Before writing a single line of code, try define as clearly as possible what the project will do and not do. What is its purpose? What is it trying to solve?
 - Identify potential users/audience. Who will use it? How broadly can you promote it?  
      - Our tech team is a great focus group. Ask your colleagues for input and feedback. 
 - Ask yourself: Will you want to be working on/maintaining it six months from now? A year from now? Who else can maintain the project with you? 
 - Build community: If a project is in development, list unfinished features/components in the “TODO” of your README and in your conversations with potential contributors.
-- Before releasing your project, ensure that the README is clear enough for potential contributors and users to understand what it does and the problem(s) it solves.
+- Before releasing your project, ensure that the README is clear enough for potential contributors and users to understand what it does and the problem(s) it solves. See README guidance below.
 
-Not sure about your project’s usefulness? The Open Source Guild, your team, your delivery lead, LinkedIn groups, community forums/boards, and Meetup audiences can all be great sources of info.  
+The Open Source Guild, your team, your delivery lead, LinkedIn groups, community forums/boards, and Meetup audiences can all be great sources of help.  
 
+####If Your Project Is Not Useful Beyond Zalando (Yet)
+If a project is in very early-stage development, dependent on our systems, built primarily for Zalando use, “experimental,” ”maybe useful to others someday,” or created for Hack Week, it’s not suitable for the main org repo—yet. The Guild will place your project in our "Zincubator" organization, so that your code remains public. Or, you can:
+ 
+- keep the project on your personal GitHub account. This makes sense if it isn’t tied to Zalando development. 
+- maintain the project as a private repo on GitHub Enterprise. We don't recommend this option, as projects here will be much less likely to reflect “open source first” values, lose visibility, and possibly disappear into the ether.
+     - Is it possible to transfer GitHub issues from one project to the other? No.
+     - Is it possible to transfer the ownership of a Github repo to someone else? Yes.
+
+Creating a README
+------------------------------
+
+A project's success depends a great deal on README quality. Your README should:
+- begin with a short description of what the project is, does, and does not do
+- list features
+- place your project in context: who is likely to use it, and why?
+- cover all technical details and configuration options
+- link to additional and more advanced documentation (optional)
+- cover the basics: installing, running, configuring, etc.
+- eliminate as much friction as possible separating the user from your software
+- address any remaining friction points in separate sections
+- include a TODO list to invite potential contributors, citing specific needs/bugs/etc.
+- include badges
+- if possible, include screenshots and demo videos
+
+Your README should NOT:
+- refer to Zalando specifics, such as internal teams and processes
+- include large chunks of code without explaining what they represent
+- lack details critical to a user’s ability to install/run/use your project
+- include any code that presents security vulnerabilities
+
+###Syntax and Formatting
+Markdown is the simplest and most easily understood syntax; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
+
+For readability, break up text often.
+
+Think about SEO.
+
+Maintainers
+------------------------------
+
+Maintainers are the contact people for a project. They are also the only contributors who can package new versions and apply changes to the repository (i.e., merge pull requests). Every project must have at least one maintainer. [This helper script](https://github.com/zalando-stups/github-maintainer-cli) gives us an overview of repos that users are maintainers for. 
+
+The Open Source Guild reserves the right to contact maintainers to ensure a project remains active/maintained. If the project is not being maintained, we will work with you to either find a new maintainer or remove the project from our organization page. Please be responsive to all internal queries about your project and its status. 
+
+###Maintainers File
+
+Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/MAINTAINERS)’ file (listing all maintainers) at its root. Your build/packaging configuration file (e.g., [pom.xml for Maven](https://maven.apache.org/pom.html#Developers)) can fulfill the purpose of a MAINTAINERS file. Format:
+
+     [full name] <email address>
+     [second full name] <email address>
+     etc.
+
+Our Catwatch application [will collect maintainers from the MAINTAINERS files](https://github.com/zalando/catwatch/issues/29).
+
+###Maintainer Responsibilities
 
 Contributing to Non-Zalando Open-Source Projects
 ------------------------------------------------------------
@@ -198,25 +252,6 @@ $ # on any other computer:
 $ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth needed for download!
 ```
 
-Open Source Workflow
-------------------------------------------------------------
-**Creating a new project**
-
-Creating a new open source project should almost always be a team decision. This is because maintaining a project requires commitment and time, and your team needs to prioritize and allocate resources. If you are an individual who wants to launch a new project individually, talk to your delivery lead first and let them know about your plans.
-
-**Official Maintainers**
-
-Every project needs at least one dedicated maintainer (contact person). List the maintainer(s) of your project (including email) in the MAINTAINERS file. Only maintainers can package new versions and apply changes to the repository (i.e., merging pull requests). [This helper script](https://github.com/zalando-stups/github-maintainer-cli) will enable us to keep an overview of repos that users are maintainers for.
-
-The Open Source Guild reserves the right to contact maintainers to ensure their project is still active. If the project is dormant, we will work with you to either find a new maintainer or take the project off our organization page.
-
-Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/MAINTAINERS)’ file (listing all maintainers) at its root. Your build/packaging configuration file (e.g., [pom.xml for Maven](https://maven.apache.org/pom.html#Developers)) can fulfill the purpose of a MAINTAINERS file. Format:
-
-     [full name] <email address>
-     [second full name] <email address>
-     etc.
-
-Please note that our Catwatch application [will collect maintainers from the MAINTAINERS files](https://github.com/zalando/catwatch/issues/29).
 
 **Official Namespace**
 
@@ -229,25 +264,6 @@ All repository changes, including those made by maintainers, should come from Gi
 **Versioning**
 
 All project artifacts should be [versioned semantically](http://semver.org/). Tag all versions in GitHub with the exact version name (like ‘0.1.0’, i.e. do not prefix tags with “v.” or similar). For a better user experience, use the GitHub “release notes” feature to add notes whenever you change something in the new version.
-
-**Documentation**
-
-Markdown is the simplest and most easily understood syntax, which is why it’s so common on GitHub; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
-
-Documentation should mainly cover all technical details and configuration options, and must include a README.md file with the following:
- - a small description of what the project is and does
- - where to find additional and more advanced documentation (optional)
- - a usage description or configuration
- - directions on how to build, test, package and release the project
- - a ‘LICENSE’ file
-
-*Some tips*
-- State at the beginning what the project does and what problem(s) it solves.
-- Keep your docs short and sweet.
-- Break up text often.
-- Think about SEO.
-- Create a TODO list and update it based on issues and desired features; add level-of-difficulty cues to onboard contributors at the suggested levels of skill.
-- If you need to include more content than the average README does, provide the link to your more detailed documentation.
 
 http://zalando.github.io/, aka "CatWatch"
 ------------------------------------------------------------
