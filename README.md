@@ -31,7 +31,7 @@ Table of Contents
       - [Use Issues Creatively](#use-issues-creatively)
     - [About Licensing](#about-licensing)
       - [Quick FAQ](#quick-faq)
-        - [Which License Do We Use](#which-license-do-we-use)
+        - [Which License Do We Use?](#which-license-do-we-use)
         - [Must I Use MIT?](#must-i-use-mit)
         - [I don't like the MIT license. Can I use another license?](#i-dont-like-the-mit-license-can-i-use-another-license)
         - [What if I fork an external project and/or contribute to it?](#what-if-i-fork-an-external-project-andor-contribute-to-it)
@@ -45,8 +45,8 @@ Table of Contents
         - [But I am a department head.](#but-i-am-a-department-head)
       - [Repository of meta information](#repository-of-meta-information)
       - [Restrictions Imposed by the License](#restrictions-imposed-by-the-license)
-        - [Unusual Additions]()
-      - [There is no license]
+        - [Unusual Additions](#unusual-additions)
+      - [There is no license](#there-is-no-license)
       - Add a README Note
       - Restrictions Imposed by the License
     - Deprecate Responsibly
