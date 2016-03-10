@@ -22,7 +22,7 @@ Because It Can:
 - strengthen our tech brand
 - attract talent
 
-###Our Open Source First Principles
+##Our Open Source First Principles
 
 - **Do “Open Source First”**: If your Zalando project can also be useful to non-Zalandos, release it as open source from the start.
 - **Take Ownership**: Your team is responsible for ensuring that it’s possible to open-source your project. Your delivery lead is available for guidance.
