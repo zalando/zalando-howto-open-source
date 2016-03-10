@@ -29,8 +29,8 @@ Table of Contents
       - [Create a Maintainers File](#create-a-maintainers-file)
       - [Be Prompt and Responsive](#be-prompt-and-responsive)
       - [Use Issues Creatively](#use-issues-creatively)
-    - [Think About Security](#about-licensing)
-      - Two-Factor Authentication Is Required
+    - [Be Secure](#be-secure)
+      - [Two-Factor Authentication Is Required](#two-factor-authentication-is-required)
     - [About Licensing](#about-licensing)
       - [Quick FAQ](#quick-faq)
         - [Which License Do We Use?](#which-license-do-we-use)
@@ -45,10 +45,16 @@ Table of Contents
         - [I still have licensing questions. What can I do?](#i-still-have-licensing-questions-what-can-i-do)
         - [But I am a delivery lead.](#but-i-am-a-delivery-lead)
         - [But I am a department head.](#but-i-am-a-department-head)
-      - [Repository of Meta Information](#repository-of-meta-information)
       - [Restrictions Imposed by the License](#restrictions-imposed-by-the-license)
         - [Unusual Additions](#unusual-additions)
       - [There Is No License](#there-is-no-license)
+    - [Official Repositories]
+      - [Repository of Meta Information](#repository-of-meta-information)
+      - JVM artifacts
+      - Python packages
+      - SBT plugins
+      - Node modules
+      - Docker images
     - Working With External Contributors
     - Deprecate Responsibly
       - How to Deprecate
@@ -242,7 +248,7 @@ Issues that consist solely of a title appear unprofessional and do not do much t
 
 Label your issues with clear tags. This is a great way to organize and categorize issues.
 
-###Think About Security
+###Be Secure
 #####Two-Factor Authentication Is Required
 GitHub organization owners must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/).
 
@@ -307,6 +313,7 @@ Ask your department head.
 
 Management can work with Legal to determine Intellectual Property concerns.
 
+###Other Repository Information]
 ####Repository of Meta Information
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
