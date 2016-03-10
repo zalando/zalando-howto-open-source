@@ -62,9 +62,9 @@ Table of Contents
     - [Project Promotion](#project-promotion)
       - [Catwatch](#catwatch)
       - [Proactively Communicate](#proactively-communicate)
-- [Contributing to Non-Zalando Open-Source Projects](#-contributing-to-non-zalando-open-source-projects)
-    - [General](#general)
-    - [Google Projects](#google-projects)
+- [Contributing to Non-Zalando Open-Source Projects](#contributing-to-non-zalando-open-source-projects)
+  - [General](#general)
+  - [Google Projects](#google-projects)
   
 ###Why Open Source? 
 
