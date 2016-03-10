@@ -49,7 +49,7 @@ Table of Contents
       - [Restrictions Imposed by the License](#restrictions-imposed-by-the-license)
         - [Unusual Additions](#unusual-additions)
       - [There Is No License](#there-is-no-license)
-    - [Other Repository Information] 
+    - [Other Repository Information](#other-repository-information) 
       - JVM artifacts
       - Python packages
       - SBT plugins
@@ -313,17 +313,6 @@ Ask your department head.
 
 Management can work with Legal to determine Intellectual Property concerns.
 
-####Restrictions Imposed by the License
-“Dependency” typically means “being linked with,” “included in your artifact,” or “depends on it during runtime.” Dependencies can limit you. To remain in compliance, check the licenses of your projects. Your build tool’s license does not affect your software’s license. A jar file or Python dependency will affect your software.
-
-#####Unusual Additions
-
-As stated by Zalando Legal, it is OK to use React and other Facebook open-source software projects for Zalando projects.
-
-####There Is No License
-
-If there is no license statement, the author automatically receives a copyright. [This](http://choosealicense.com/no-license/) implies that no one has the right to modify or redistribute the software. If you really need the software, contact the author (who is likely unaware) and ask him/her to provide a proper license.
-
 ####Repository of Meta Information
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
@@ -346,7 +335,41 @@ An example for Scala (with sbt):
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 ```
 
+####Restrictions Imposed by the License
+“Dependency” typically means “being linked with,” “included in your artifact,” or “depends on it during runtime.” Dependencies can limit you. To remain in compliance, check the licenses of your projects. Your build tool’s license does not affect your software’s license. A jar file or Python dependency will affect your software.
+
+#####Unusual Additions
+
+As stated by Zalando Legal, it is OK to use React and other Facebook open-source software projects for Zalando projects.
+
+####There Is No License
+
+If there is no license statement, the author automatically receives a copyright. [This](http://choosealicense.com/no-license/) implies that no one has the right to modify or redistribute the software. If you really need the software, contact the author (who is likely unaware) and ask him/her to provide a proper license.
+
 ###Other Repository Information
+
+####JVM Artifacts
+Host JVM artifacts (*.jar) on Maven Central in [the ‘org.zalando’ group](https://repo1.maven.org/maven2/org/zalando/).  To do this, get a [Sonatype](http://central.sonatype.org/) account and ask the STUPS team to add it to Zalando.
+
+####Python Packages
+Host Python packages on [PyPI](https://pypi.python.org/pypi/) (PyPI has no namespaces) and make sure that multiple persons have “maintainer” rights.
+
+####SBT plugins
+- Publish [on Bintray](https://bintray.com/zalando). An example of the publishing process is [here](http://www.scala-sbt.org/0.13/docs/Bintray-For-Plugins.html).
+
+####Node Modules
+[Node](https://www.npmjs.com/) modules [now have namespaces](http://blog.npmjs.org/post/116936804365/solving-npms-hard-problem-naming-packages). Prefix them with a short product name: e.g. [karma](https://karma-runner.github.io/0.12/index.html) plugins are prefixed “karma-”; the same goes for gulp, grunt, etc. Host your Node modules in the public NPM registry. Here is [how to publish to NPM](https://gist.github.com/coolaj86/1318304).
+
+####Docker Images
+You can currently browse it [here](https://registry.opensource.zalan.do/ui/), or with the Pier One command line utility. We have an [open source registry](https://registry.opensource.zalan.do/ui/) that everyone can read. It is deployed in the AWS open source account and Docker images can be pushed by any team member to their respective team repo:
+
+```bash
+$ # you need to login to registry-write.opensource.zalan.do (workaround for Docker V2 bug)
+$ pierone login --url registry-write.opensource.zalan.do
+$ docker push registry-write.opensource.zalan.do/myteam/myartifact:1.0
+$ # on any other computer:
+$ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth needed for download!
+```
 
 ###Deprecate Responsibly
 
@@ -371,11 +394,6 @@ To fork, or not to fork? Some guidelines:
 
 If your goal is to make a small fix to a project, use your own/personal GitHub account.  
 
-Contributing to Non-Zalando Open-Source Projects
-------------------------------------------------------------
-We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
-
-**Contributing to Google projects:** For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache.
 
 Working with External Contributors
 ------------------------------------------------------------
@@ -383,21 +401,12 @@ The Guild supports you in recruiting non-Zalandos to contribute to your project.
  - [.Net Foundation](https://cla2.dotnetfoundation.org/) example (electronic submission via GitHub account)
  - [Google’s CLA](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-signing-the-cla) for contributing to AngularJS is a simple click-through form with a Googlebot that automatically checks for signatures
  - Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0)
+  
+ Contributing to Non-Zalando Open-Source Projects
+------------------------------------------------------------
+We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
 
-
-- Host JVM artifacts (*.jar) on Maven Central in [the ‘org.zalando’ group](https://repo1.maven.org/maven2/org/zalando/).  To do this, get a [Sonatype](http://central.sonatype.org/) account and ask the STUPS team to add it to Zalando.
-- Host Python packages on [PyPI](https://pypi.python.org/pypi/) (PyPI has no namespaces) and make sure that multiple persons have “maintainer” rights.
-- Publish SBT plugins [on Bintray](https://bintray.com/zalando). An example of the publishing process is [here](http://www.scala-sbt.org/0.13/docs/Bintray-For-Plugins.html); these SBT files ([#1](https://github.com/zalando/swagger-speccer/blob/master/build.sbt) and [#2](https://github.com/zalando/swagger-speccer/blob/master/project/bintray.sbt)) illustrate the publishing configuration.
-- [Node](https://www.npmjs.com/) modules [now have namespaces](http://blog.npmjs.org/post/116936804365/solving-npms-hard-problem-naming-packages). We prefix them with our (hopefully short!) product name — e.g. [karma](https://karma-runner.github.io/0.12/index.html) plugins are prefixed “karma-”; the same goes for gulp, grunt, etc. Host your Node modules in the public NPM registry. Here is [how to publish to NPM](https://gist.github.com/coolaj86/1318304).
-- For Docker images: You can currently browse it [here](https://registry.opensource.zalan.do/ui/), or with the Pier One command line utility. We have an [open source registry](https://registry.opensource.zalan.do/ui/) that everyone can read. It is deployed in the AWS open source account and Docker images can be pushed by any team member to their respective team repo:
-
-```bash
-$ # you need to login to registry-write.opensource.zalan.do (workaround for Docker V2 bug)
-$ pierone login --url registry-write.opensource.zalan.do
-$ docker push registry-write.opensource.zalan.do/myteam/myartifact:1.0
-$ # on any other computer:
-$ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth needed for download!
-```
+**Contributing to Google projects:** For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache.
 
 Project Promotion
 ------------------------------------------------------------
