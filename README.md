@@ -31,10 +31,19 @@ Table of Contents
       - [Use Issues Creatively](#use-issues-creatively)
     - [About Licensing](#about-licensing)
       - [Quick FAQ](#quick-faq)
-        - [Which License Do We Use][(#which-license-do-we-use)
-        - [Must I Use MIT?][(#must-i-use-mit)
-        - [But I Don't Like MIT.](#i-dont-like-the-mit-license-can-i-use-another-license)
-      - Create a License File
+        - [Which License Do We Use](#which-license-do-we-use)
+        - [Must I Use MIT?](#must-i-use-mit)
+        - [I don't like the MIT license. Can I use another license?](#i-dont-like-the-mit-license-can-i-use-another-license)
+        - [What if I fork an external project and/or contribute to it?](#what-if-i-fork-an-external-project-andor-contribute-to-it)
+        - [I'm open-sourcing a library. What should I do?](#im-open-sourcing-a-library-what-should-i-do)
+        - [What if my team uses an external project whose license is not Zalando-recommended?](#what-if-my-team-uses-an-external-project-whose-license-is-not-zalando-recommended)
+        - [Who is the license owner?](#who-is-the-license-owner)
+        - [Does my project need a LICENSE file?](#does-my-project-need-a-license-file)
+        - [What about a README note?](#what-about-a-readme-note)
+        - [I still have licensing questions. What can I do?](#i-still-have-licensing-questions-what-can-i-do)
+        - [But I am a delivery lead.](#but-i-am-a-delivery-lead)
+        - [But I am a department head.](#but-i-am-a-department-head)
+      - [Repository of meta information]
       - Add a README Note
       - Restrictions Imposed by the License
     - Deprecate Responsibly
@@ -284,7 +293,7 @@ Replace the [yyyy] field with the year that you created the project, and do not 
 
 Ask the Open Source Guild or your delivery lead. See also our TechWiki page (internal doc) for a link to more detailed information.
 
-#####But I am a delivery lead. ???
+#####But I am a delivery lead.
 
 Ask your department head. 
 
@@ -292,7 +301,7 @@ Ask your department head.
 
 Management can work with Legal to determine Intellectual Property concerns.
 
-**Repository of meta information**
+####Repository of meta information
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
 
