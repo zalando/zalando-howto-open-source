@@ -159,7 +159,7 @@ Projects that aren't "truly open source":
 
 These are currently not suitable for the main org repo. Place them at github.com/zalando-incubator. The Incubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
 
-The Guild reserves the right to relocate such projects from our main org to the Zincubator on your behalf.  
+The Guild reserves the right to relocate such projects from our main org to the Incubator on your behalf.  
 
  
 ####Using GitHub Enterprise (GHE)
