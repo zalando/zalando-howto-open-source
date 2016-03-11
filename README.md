@@ -13,7 +13,7 @@ Table of Contents
     - [Doing Open Source: Project Workflow](#doing-open-source-project-workflow)
         - [Before You Start Coding](#before-you-start-coding)
         - [The Main Zalando Repository: For the "Truly Open Source"](#the-main-zalando-repository-for-the-truly-open-source)
-        - [The Zincubator: For the Open-Source, But Not "Truly Open Source"](#the-zincubator-for-the-open-source-but-not-truly-open-source)
+        - [The Incubator: For the Open-Source, But Not "Truly Open Source"](#the-incubator-for-the-open-source-but-not-truly-open-source)
        - [Using GitHub Enterprise (GHE)](#using-github-enterprise-ghe)
   - [Open-Source Basics](#open-source-basics)
     - [Code Review](#code-review)
@@ -150,14 +150,14 @@ Your code doesn’t have to be perfect before you open-source it. We *want* you 
     - clarifies if it's still in early development/a prototype  
 - you respond promptly (within 72 hours) to PRs, issues, and queries
 
-####The Zincubator: For the Open-Source, But Not "Truly Open Source"
+####The Incubator: For the Open-Source, But Not "Truly Open Source"
 Projects that aren't "truly open source":
 - are dependent on our systems
 - are dependent on other Zalando open-source projects that haven't been widely adopted
 - are “experimental”/”maybe useful to others someday,” but you're not working on it (a Hack Week project, or something you've lost interest in)
 - lacking meaningful documentation (a README), and you're not working on any
 
-These are currently not suitable for the main org repo. Place them at github.com/zalando-zincubator. The Zincubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Zincubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
+These are currently not suitable for the main org repo. Place them at github.com/zalando-incubator. The Incubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
 
 The Guild reserves the right to relocate such projects from our main org to the Zincubator on your behalf.  
 
