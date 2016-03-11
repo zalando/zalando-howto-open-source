@@ -157,7 +157,10 @@ Projects that aren't "truly open source":
 - are “experimental”/”maybe useful to others someday,” but you're not working on it (a Hack Week project, or something you've lost interest in)
 - lacking meaningful documentation (a README), and you're not working on any
 
-These are currently not suitable for the main org repo. Place them at github.com/zalando-zincubator. The Guild reserves the right to relocate such projects from our main org to the Zincubator on your behalf.  
+These are currently not suitable for the main org repo. Place them at github.com/zalando-zincubator. The Zincubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Zincubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
+
+The Guild reserves the right to relocate such projects from our main org to the Zincubator on your behalf.  
+
  
 ####Using GitHub Enterprise (GHE)
 Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well, it is an option. But we don't recommend it, as projects here will be much less likely to reflect “open source first” values, will lose visibility, and will likely be forgotten.
