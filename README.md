@@ -6,62 +6,62 @@ A guide to releasing an open-source project at [Zalando](https://www.zalando.com
 Table of Contents
 ------------------------------------------------------------
 
-  - [Why Open Source?](#why-open-source)
-  - [Our Open Source First Principles](#our-open-source-first-principles)
-  - [To Open Source, or Not to Open Source?](#to-open-source-or-not-to-open-source)
-    - [Never Open-Source These](#never-open-source-these)
-    - [Doing Open Source: Project Workflow](#doing-open-source-project-workflow)
-        - [Before You Start Coding](#before-you-start-coding)
-        - [The Main Zalando Repository: For the "Truly Open Source"](#the-main-zalando-repository-for-the-truly-open-source)
-        - [The Incubator: For the Open-Source, But Not "Truly Open Source"](#the-incubator-for-the-open-source-but-not-truly-open-source)
-       - [Using GitHub Enterprise (GHE)](#using-github-enterprise-ghe)
-  - [Open-Source Basics](#open-source-basics)
-    - [Code Review](#code-review)
-    - [Creating a README](#creating-a-readme)
-      - [Do](#do)
-      - [Don't](#dont)
-      - [Syntax and Formatting](#syntax-and-formatting)
-    - [Official Namespace](#official-namespace)
-    - [Applying Changes](#applying-changes)
-    - [Versioning](#versioning)
-    - [Maintainers](#maintainers)
-      - [Create a Maintainers File](#create-a-maintainers-file)
-      - [Be Prompt and Responsive](#be-prompt-and-responsive)
-      - [Use Issues Creatively](#use-issues-creatively)
-    - [Stay Secure](#stay-secure)
-      - [Two-Factor Authentication Is Required](#two-factor-authentication-is-required)
-    - [About Licensing](#about-licensing)
-      - [Quick FAQ](#quick-faq)
-        - [Which License Do We Use?](#which-license-do-we-use)
-        - [Must I Use MIT?](#must-i-use-mit)
-        - [I don't like the MIT license. Can I use another license?](#i-dont-like-the-mit-license-can-i-use-another-license)
-        - [What if I fork an external project and/or contribute to it?](#what-if-i-fork-an-external-project-andor-contribute-to-it)
-        - [I'm open-sourcing a library. What should I do?](#im-open-sourcing-a-library-what-should-i-do)
-        - [What if my team uses an external project whose license is not Zalando-recommended?](#what-if-my-team-uses-an-external-project-whose-license-is-not-zalando-recommended)
-        - [Who is the license two-factor?](#who-is-the-license-two-factor)
-        - [Does my project need a LICENSE file?](#does-my-project-need-a-license-file)
-        - [Do I need to add a license header to every source file?](#do-i-need-to-add-a-license-header-to-every-source-file)
-        - [What about a README note?](#what-about-a-readme-note)
-        - [I still have licensing questions. What can I do?](#i-still-have-licensing-questions-what-can-i-do)
-        - [But I am a delivery lead.](#but-i-am-a-delivery-lead)
-        - [But I am a department head.](#but-i-am-a-department-head)
-      - [Repository of Meta Information](#repository-of-meta-information)
-      - [Restrictions Imposed by the License](#restrictions-imposed-by-the-license)
-        - [Unusual Additions](#unusual-additions)
-      - [There Is No License](#there-is-no-license)
-    - [Other Repository Information](#other-repository-information)
-      - [JVM artifacts](#jvm-artifacts)
-      - [Python packages](#python-packages)
-      - [SBT plugins](#sbt-plugins)
-      - [Node modules](#node-modules)
-      - [Docker images](#docker-images)
-    - [Working With External Contributors](#working-with-external-contributors)
-    - [Make Forks Meaningful](#make-forks-meaningful)
-    - [Deprecate Responsibly](#deprecate-responsibly)
-      - [How to Deprecate](#how-to-deprecate)
-      - [Tips for Finding a New Owner](#tips-for-finding-a-new-owner)
-    - [Project Promotion](#project-promotion)
-      - [Catwatch](#catwatch)
+- [Why Open Source?](#why-open-source)
+- [Our Open Source First Principles](#our-open-source-first-principles)
+- [To Open Source, or Not to Open Source?](#to-open-source-or-not-to-open-source)
+  - [Never Open-Source These](#never-open-source-these)
+  - [Doing Open Source: Project Workflow](#doing-open-source-project-workflow)
+      - [Before You Start Coding](#before-you-start-coding)
+      - [The Main Zalando Repository: For the "Truly Open Source"](#the-main-zalando-repository-for-the-truly-open-source)
+      - [The Incubator: For the Open-Source, But Not "Truly Open Source"](#the-incubator-for-the-open-source-but-not-truly-open-source)
+     - [Using GitHub Enterprise (GHE)](#using-github-enterprise-ghe)
+- [Open-Source Basics](#open-source-basics)
+  - [Code Review](#code-review)
+  - [Creating a README](#creating-a-readme)
+    - [Do](#do)
+    - [Don't](#dont)
+    - [Syntax and Formatting](#syntax-and-formatting)
+  - [Official Namespace](#official-namespace)
+  - [Applying Changes](#applying-changes)
+  - [Versioning](#versioning)
+  - [Maintainers](#maintainers)
+    - [Create a Maintainers File](#create-a-maintainers-file)
+    - [Be Prompt and Responsive](#be-prompt-and-responsive)
+    - [Use Issues Creatively](#use-issues-creatively)
+  - [Stay Secure](#stay-secure)
+    - [Two-Factor Authentication Is Required](#two-factor-authentication-is-required)
+  - [About Licensing](#about-licensing)
+    - [Quick FAQ](#quick-faq)
+      - [Which License Do We Use?](#which-license-do-we-use)
+      - [Must I Use MIT?](#must-i-use-mit)
+      - [I don't like the MIT license. Can I use another license?](#i-dont-like-the-mit-license-can-i-use-another-license)
+      - [What if I fork an external project and/or contribute to it?](#what-if-i-fork-an-external-project-andor-contribute-to-it)
+      - [I'm open-sourcing a library. What should I do?](#im-open-sourcing-a-library-what-should-i-do)
+      - [What if my team uses an external project whose license is not Zalando-recommended?](#what-if-my-team-uses-an-external-project-whose-license-is-not-zalando-recommended)
+      - [Who is the license two-factor?](#who-is-the-license-two-factor)
+      - [Does my project need a LICENSE file?](#does-my-project-need-a-license-file)
+      - [Do I need to add a license header to every source file?](#do-i-need-to-add-a-license-header-to-every-source-file)
+      - [What about a README note?](#what-about-a-readme-note)
+      - [I still have licensing questions. What can I do?](#i-still-have-licensing-questions-what-can-i-do)
+      - [But I am a delivery lead.](#but-i-am-a-delivery-lead)
+      - [But I am a department head.](#but-i-am-a-department-head)
+    - [Repository of Meta Information](#repository-of-meta-information)
+    - [Restrictions Imposed by the License](#restrictions-imposed-by-the-license)
+      - [Unusual Additions](#unusual-additions)
+    - [There Is No License](#there-is-no-license)
+  - [Other Repository Information](#other-repository-information)
+    - [JVM artifacts](#jvm-artifacts)
+    - [Python packages](#python-packages)
+    - [SBT plugins](#sbt-plugins)
+    - [Node modules](#node-modules)
+    - [Docker images](#docker-images)
+  - [Working With External Contributors](#working-with-external-contributors)
+  - [Make Forks Meaningful](#make-forks-meaningful)
+  - [Deprecate Responsibly](#deprecate-responsibly)
+    - [How to Deprecate](#how-to-deprecate)
+    - [Tips for Finding a New Owner](#tips-for-finding-a-new-owner)
+  - [Project Promotion](#project-promotion)
+    - [Catwatch](#catwatch)
       - [Proactively Communicate](#proactively-communicate)
 - [Contributing to Non-Zalando Open-Source Projects](#contributing-to-non-zalando-open-source-projects)
       - [General](#general)
@@ -125,19 +125,19 @@ Creating a new open source project should almost always be a team decision. This
 - Does the project already exist?
   - Do some research to avoid reproducing an existing effort.
 - Who is the audience?
-  - Our tech team is a great focus group. Ask your colleagues—the Open Source Guild, your team and delivery lead, other teams—for input, interest and feedback.
+  - Our tech team is a great focus group. Ask your colleagues — the Open Source Guild, your team and delivery lead, other teams — for input, interest and feedback.
 - Who will be a maintainer?
-     - We require at least one.
+  - We require at least one.
 - Can you envision working on/maintaining it six months from now? A year from now?
 - Will you build community around the project?
-   - Internal community: This is very important. The internal success of a project can give you a good idea about its potential to be adopted/used externally.
-   - External community: Who in your network would be willing to contribute?
-   - Sources
-       - LinkedIn groups
-       - community forums/boards
-       - Meetup audiences
-     - Will you need contributors with a different skillset to finish the project?
-     - Create a “TODO” in your README to invite contributions.
+  - Internal community: This is very important. The internal success of a project can give you a good idea about its potential to be adopted/used externally.
+  - External community: Who in your network would be willing to contribute?
+  - Sources
+    - LinkedIn groups
+    - community forums/boards
+    - Meetup audiences
+    - Will you need contributors with a different skillset to finish the project?
+    - Create a “TODO” in your README to invite contributions.
 
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
@@ -146,9 +146,9 @@ Your code doesn’t have to be perfect before you open-source it. We *want* you 
 - it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group.
 - it’s useable out of the box and free of Zalando dependencies
 - it has a clear README that:
-    - enables non-Zalando devs to download, install, run and use the project with minimal friction
-    - invites contributors via a TODO list
-    - clarifies if it's still in early development/a prototype
+  - enables non-Zalando devs to download, install, run and use the project with minimal friction
+  - invites contributors via a TODO list
+  - clarifies if it's still in early development/a prototype
 - you respond promptly (within 72 hours) to PRs, issues, and queries
 
 ####The Incubator: For the Open-Source, But Not "Truly Open Source"
@@ -161,7 +161,6 @@ Projects that aren't "truly open source":
 These are currently not suitable for the main org repo. Place them at github.com/zalando-incubator. The Incubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
 
 The Guild reserves the right to relocate such projects from our main org to the Incubator on your behalf.
-
 
 ####Using GitHub Enterprise (GHE)
 Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well, it is an option. But we don't recommend it, as projects here will be much less likely to reflect “open source first” values, will lose visibility, and will likely be forgotten.
@@ -185,7 +184,7 @@ Not sure what to ask for, or how to peer-review? This list of [11 best practices
 - Begin with a short description of what the project is, does, and does not do
 - List features
 - Place your project in context: who is likely to use it, and why?
-- Cover all technical details—installing, running, and configuring—to eliminate friction separating the user from your software
+- Cover all technical details — installing, running, and configuring — to eliminate friction separating the user from your software
 - Address any remaining friction points in separate sections
 - Link to additional and more advanced documentation (optional)
 - Include a TODO list to invite potential contributors, citing specific needs/bugs/etc.
@@ -325,18 +324,18 @@ Management can work with Legal to determine Intellectual Property concerns.
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
 
  ```<licenses>
- <license>
-   <name>MIT</name>
-   <url>https://opensource.org/licenses/MIT</url>
-   <distribution>repo</distribution>
+  <license>
+    <name>MIT</name>
+    <url>https://opensource.org/licenses/MIT</url>
+    <distribution>repo</distribution>
   </license>
- </licenses>
- ```
+</licenses>
+```
 An example for [Node](https://docs.npmjs.com/files/package.json#license), according to [this](https://gist.github.com/robertkowalski/7620849):
 
 ```
 “license”: “MIT”
- ```
+```
 An example for Scala (with sbt):
 ```
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
@@ -399,10 +398,10 @@ If your goal is to make a small fix to a project, use your own/personal GitHub a
 Add “Deprecated” at the top of your README, as well as a notice stating your plans for the project: deletion, finding a new owner, etc.
 
 After announcing your decision to deprecate the project:
-   - notify your users. Put a notice on your README.
-   - Wait 60 days.
-   - Try to find a new owner. Internal options first, then seek an external owner. Ask the Guild for help.
-   - Try to find an external owner. More guidance on this to come soon; for now, alert the Guild of any such plans.
+- notify your users. Put a notice on your README.
+- Wait 60 days.
+- Try to find a new owner. Internal options first, then seek an external owner. Ask the Guild for help.
+- Try to find an external owner. More guidance on this to come soon; for now, alert the Guild of any such plans.
 
 ####Tips for Finding a New Owner
 Internally, you can use internal mailing lists and HipChat to announce your need. Externally, social media platforms and community boards work well. Add 1-2 sentences to your announcements suggesting how your project might have potential to evolve into something bigger and better.
