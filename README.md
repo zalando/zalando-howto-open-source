@@ -84,12 +84,12 @@ Because It Can:
 ##Our Open Source First Principles
 
 - **Do “Open Source First”**: If your Zalando project can also be useful to non-Zalandos, release it as open source from the start.
-- **Take Ownership**: Your team is responsible for ensuring that it’s possible to open-source your project. Your delivery lead is available for guidance.
+- **Take Ownership**: Your team is responsible for ensuring that it's possible to open-source your project. Your delivery lead is available for guidance.
 - **Share Your Code**: All code shared between teams must be open source.
 - **Be Safe**: To ensure the broadest possible use of your project, use the MIT License only.
 - **Deliver Quality**: Provide a great out-of-the-box experience.
 - **Provide Documentation**: Include a clear README and default working configuration.
-- **Stay Secure**: Make sure your project doesn’t include Zalando specifics, such as credentials and private identifiers.
+- **Stay Secure**: Make sure your project doesn't include Zalando specifics, such as credentials and private identifiers.
 - **Ask for Help**: Find colleagues to brainstorm ideas for your project and to review your work.
 - **Promote**: Tell the world about your project via blog posts, social media and conference talks.
 - **Join the Open Source Guild**: Help us make open source stronger at Zalando! Come on, it'll be fun. :)
@@ -142,9 +142,9 @@ Creating a new open source project should almost always be a team decision. This
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
 ###The Main Zalando Repository: For the "Truly Open Source"
-Your code doesn’t have to be perfect before you open-source it. We *want* you to code in public from Day One. But to appear on our main org page, github.com/zalando, your project should be “truly open-source,” or in active development toward that goal. This means:
-- it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group.
-- it’s useable out of the box and free of Zalando dependencies
+Your code doesn't have to be perfect before you open-source it. We *want* you to code in public from Day One. But to appear on our main org page, github.com/zalando, your project should be “truly open-source,” or in active development toward that goal. This means:
+- it's useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group.
+- it's usable out of the box and free of Zalando dependencies
 - it has a clear README that:
   - enables non-Zalando devs to download, install, run and use the project with minimal friction
   - invites contributors via a TODO list
@@ -195,11 +195,11 @@ Not sure what to ask for, or how to peer-review? This list of [11 best practices
 ####Don't:
 - Refer to Zalando specifics, such as internal teams and processes
 - Include large chunks of code without explaining what they represent
-- Lack details critical to a user’s ability to install/run/use your project
+- Lack details critical to a user's ability to install/run/use your project
 - Include any code that presents security vulnerabilities
 
 ####Syntax and Formatting
-Markdown is the simplest and most easily understood syntax; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
+Markdown is the simplest and most easily understood syntax; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn't use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
 
 For readability, break up text often.
 
@@ -342,7 +342,7 @@ licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 ```
 
 ####Restrictions Imposed by the License
-“Dependency” typically means “being linked with,” “included in your artifact,” or “depends on it during runtime.” Dependencies can limit you. To remain in compliance, check the licenses of your projects. Your build tool’s license does not affect your software’s license. A jar file or Python dependency will affect your software.
+“Dependency” typically means “being linked with,” “included in your artifact,” or “depends on it during runtime.” Dependencies can limit you. To remain in compliance, check the licenses of your projects. Your build tool's license does not affect your software's license. A jar file or Python dependency will affect your software.
 
 #####Unusual Additions
 
@@ -379,11 +379,11 @@ $ docker pull registry.opensource.zalan.do/myteam/myartifact:1.0 # no auth neede
 
 ###Working with External Contributors
 
-The Guild supports you in recruiting non-Zalandos to contribute to your project. We simply require that you have external contributors sign a contributor licensing agreement (CLA). A few good models to follow and adapt: [.Net Foundation](https://cla2.dotnetfoundation.org/) example (electronic submission via GitHub account); [Google’s CLA](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-signing-the-cla) for contributing to AngularJS is a simple click-through form with a Googlebot that automatically checks for signatures; Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0).
+The Guild supports you in recruiting non-Zalandos to contribute to your project. We simply require that you have external contributors sign a contributor licensing agreement (CLA). A few good models to follow and adapt: [.Net Foundation](https://cla2.dotnetfoundation.org) example (electronic submission via GitHub account); [Google's CLA](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-signing-the-cla) for contributing to AngularJS is a simple click-through form with a Googlebot that automatically checks for signatures; Selenium/Software Freedom Conservancy uses a [Google form](https://docs.google.com/a/zalando.de/forms/d/11Z8LoYpTGUIwCegifVH1YtL9smxVDNk-fOykUZTAWhE/viewform?hl=en_US&formkey=dFFjXzBzM1VwekFlOWFWMjFFRjJMRFE6MQ#gid=0).
 
 ###Make Forks Meaningful
 
-*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using Github’s stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
+*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using Github's stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
 
 To fork, or not to fork? Some guidelines:
 - Only keep the fork open as long as needed.
