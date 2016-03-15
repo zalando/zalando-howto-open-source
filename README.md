@@ -71,15 +71,15 @@ Table of Contents
 
 Because It Can:
 
-- improve quality
-- mitigate risks
-- increase trust
-- save us money
-- expand our technology choices
-- be fun
-- enable us to give back to the community
-- strengthen our tech brand
-- attract talent
+- Improve quality
+- Mitigate risks
+- Increase trust
+- Save us money
+- Expand our technology choices
+- Be fun
+- Enable us to give back to the community
+- Strengthen our tech brand
+- Attract talent
 
 ##Our Open Source First Principles
 
@@ -134,7 +134,7 @@ Creating a new open source project should almost always be a team decision. This
   - External community: Who in your network would be willing to contribute?
   - Sources
     - LinkedIn groups
-    - community forums/boards
+    - Community forums/boards
     - Meetup audiences
     - Will you need contributors with a different skillset to finish the project?
     - Create a “TODO” in your README to invite contributions.
@@ -143,20 +143,20 @@ If you want to launch a new project separate from your team, talk to your delive
 
 ###The Main Zalando Repository: For the “Truly Open Source”
 Your code doesn't have to be perfect before you open-source it. We *want* you to code in public from Day One. But to appear on our main org page, github.com/zalando, your project should be “truly open-source,” or in active development toward that goal. This means:
-- it's useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group.
-- it's usable out of the box and free of Zalando dependencies
-- it has a clear README that:
-  - enables non-Zalando devs to download, install, run and use the project with minimal friction
-  - invites contributors via a TODO list
-  - clarifies if it's still in early development/a prototype
-- you respond promptly (within 72 hours) to PRs, issues, and queries
+- It's useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group.
+- It's usable out of the box and free of Zalando dependencies
+- It has a clear README that:
+  - Enables non-Zalando devs to download, install, run and use the project with minimal friction
+  - Invites contributors via a TODO list
+  - Clarifies if it's still in early development/a prototype
+- You respond promptly (within 72 hours) to PRs, issues, and queries
 
 ####The Incubator: For the Open-Source, But Not “Truly Open Source”
 Projects that aren't “truly open source”:
-- are dependent on our systems
-- are dependent on other Zalando open-source projects that haven't been widely adopted
-- are “experimental”/”maybe useful to others someday,” but you're not working on it (a Hack Week project, or something you've lost interest in)
-- lacking meaningful documentation (a README), and you're not working on any
+- Are dependent on our systems
+- Are dependent on other Zalando open-source projects that haven't been widely adopted
+- Are “experimental”/”maybe useful to others someday,” but you're not working on it (a Hack Week project, or something you've lost interest in)
+- Lacking meaningful documentation (a README), and you're not working on any
 
 These are currently not suitable for the main org repo. Place them at github.com/zalando-incubator. The Incubator reiterates the Open Source First principle, “Share Your Code: All code shared between teams must be open source.” Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
 
@@ -165,16 +165,16 @@ The Guild reserves the right to relocate such projects from our main org to the 
 ####Using GitHub Enterprise (GHE)
 Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well, it is an option. But we don't recommend it, as projects here will be much less likely to reflect “open source first” values, will lose visibility, and will likely be forgotten.
   - Is it possible to transfer GitHub issues from one project to the other? No.
-  - Is it possible to transfer the ownership of a Github repo to someone else? Yes.
+  - Is it possible to transfer the ownership of a GitHub repo to someone else? Yes.
 
 ##Open-Source Basics
 
 ###Code Review
 
 Ask your team and other peers to:
-- review your code
-- install and
-- test your project **prior to public release**. Peer review tends to be more effective than unit testing.
+- Review your code
+- Install and
+- Test your project **prior to public release**. Peer review tends to be more effective than unit testing.
 
 Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
 
@@ -279,7 +279,7 @@ Consider using a weak copyleft license that won’t restrict the software that u
 
 You can can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
 
-#####Who is the license owner?
+#####Who is the license two-factor?
 
 Zalando SE.
 
@@ -384,7 +384,7 @@ The Guild supports you in recruiting non-Zalandos to contribute to your project.
 
 ###Make Forks Meaningful
 
-*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using Github's stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
+*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using GitHub's stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
 
 To fork, or not to fork? Some guidelines:
 - Only keep the fork open as long as needed.
@@ -399,10 +399,10 @@ If your goal is to make a small fix to a project, use your own/personal GitHub a
 Add “Deprecated” at the top of your README, as well as a notice stating your plans for the project: deletion, finding a new owner, etc.
 
 After announcing your decision to deprecate the project:
-- notify your users. Put a notice on your README.
-- Wait 60 days.
-- Try to find a new owner. Internal options first, then seek an external owner. Ask the Guild for help.
-- Try to find an external owner. More guidance on this to come soon; for now, alert the Guild of any such plans.
+- Notify your users, put a notice on your README
+- Wait 60 days
+- Try to find a new owner; internal options first, then seek an external owner; ask the Guild for help
+- Try to find an external owner; more guidance on this to come soon; for now, alert the Guild of any such plans
 
 ####Tips for Finding a New Owner
 Internally, you can use internal mailing lists and HipChat to announce your need. Externally, social media platforms and community boards work well. Add 1-2 sentences to your announcements suggesting how your project might have potential to evolve into something bigger and better.
@@ -414,11 +414,11 @@ All Zalando open-source projects are listed on [zalando.github.io](http://zaland
 
 ####Proactively Communicate
 Share your project with:
-- relevant LinkedIn Groups
-- community forums/boards
-- e-newsletters and websites/newsletters dedicated to the problem(s) your project is trying to solve, the relevant languages, etc.
-- if you have contacts at a university, pitch your project to their students
-- major players in the industry
+- Relevant LinkedIn Groups
+- Community forums/boards
+- E-newsletters and websites/newsletters dedicated to the problem(s) your project is trying to solve, the relevant languages, etc.
+- If you have contacts at a university, pitch your project to their students
+- Major players in the industry
 
 ###Contributing to Non-Zalando Open-Source Projects
 
