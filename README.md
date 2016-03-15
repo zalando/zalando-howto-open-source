@@ -12,8 +12,8 @@ Table of Contents
   - [Never Open-Source These](#never-open-source-these)
   - [Doing Open Source: Project Workflow](#doing-open-source-project-workflow)
       - [Before You Start Coding](#before-you-start-coding)
-      - [The Main Zalando Repository: For the "Truly Open Source"](#the-main-zalando-repository-for-the-truly-open-source)
-      - [The Incubator: For the Open-Source, But Not "Truly Open Source"](#the-incubator-for-the-open-source-but-not-truly-open-source)
+      - [The Main Zalando Repository: For the “Truly Open Source”](#the-main-zalando-repository-for-the-truly-open-source)
+      - [The Incubator: For the Open-Source, But Not “Truly Open Source”](#the-incubator-for-the-open-source-but-not-truly-open-source)
      - [Using GitHub Enterprise (GHE)](#using-github-enterprise-ghe)
 - [Open-Source Basics](#open-source-basics)
   - [Code Review](#code-review)
@@ -141,7 +141,7 @@ Creating a new open source project should almost always be a team decision. This
 
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
-###The Main Zalando Repository: For the "Truly Open Source"
+###The Main Zalando Repository: For the “Truly Open Source”
 Your code doesn't have to be perfect before you open-source it. We *want* you to code in public from Day One. But to appear on our main org page, github.com/zalando, your project should be “truly open-source,” or in active development toward that goal. This means:
 - it's useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group.
 - it's usable out of the box and free of Zalando dependencies
@@ -151,14 +151,14 @@ Your code doesn't have to be perfect before you open-source it. We *want* you to
   - clarifies if it's still in early development/a prototype
 - you respond promptly (within 72 hours) to PRs, issues, and queries
 
-####The Incubator: For the Open-Source, But Not "Truly Open Source"
-Projects that aren't "truly open source":
+####The Incubator: For the Open-Source, But Not “Truly Open Source”
+Projects that aren't “truly open source”:
 - are dependent on our systems
 - are dependent on other Zalando open-source projects that haven't been widely adopted
 - are “experimental”/”maybe useful to others someday,” but you're not working on it (a Hack Week project, or something you've lost interest in)
 - lacking meaningful documentation (a README), and you're not working on any
 
-These are currently not suitable for the main org repo. Place them at github.com/zalando-incubator. The Incubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
+These are currently not suitable for the main org repo. Place them at github.com/zalando-incubator. The Incubator reiterates the Open Source First principle, “Share Your Code: All code shared between teams must be open source.” Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
 
 The Guild reserves the right to relocate such projects from our main org to the Incubator on your behalf.
 
@@ -190,7 +190,7 @@ Not sure what to ask for, or how to peer-review? This list of [11 best practices
 - Include a TODO list to invite potential contributors, citing specific needs/bugs/etc.
 - Include badges
 - If possible, include screenshots and demo videos
-- Include a note ("this is in beta") if the project is still in active development
+- Include a note (“this is in beta”) if the project is still in active development
 
 ####Don't:
 - Refer to Zalando specifics, such as internal teams and processes
@@ -323,7 +323,8 @@ Management can work with Legal to determine Intellectual Property concerns.
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
 
- ```<licenses>
+```xml
+<licenses>
   <license>
     <name>MIT</name>
     <url>https://opensource.org/licenses/MIT</url>
@@ -333,11 +334,11 @@ Many package managers include a feature to make the applied license machine read
 ```
 An example for [Node](https://docs.npmjs.com/files/package.json#license), according to [this](https://gist.github.com/robertkowalski/7620849):
 
-```
-“license”: “MIT”
+```json
+"license": "MIT"
 ```
 An example for Scala (with sbt):
-```
+```scala
 licenses += ("MIT", url("http://opensource.org/licenses/MIT"))
 ```
 
