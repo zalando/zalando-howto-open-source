@@ -38,7 +38,7 @@ Table of Contents
         - [What if I fork an external project and/or contribute to it?](#what-if-i-fork-an-external-project-andor-contribute-to-it)
         - [I'm open-sourcing a library. What should I do?](#im-open-sourcing-a-library-what-should-i-do)
         - [What if my team uses an external project whose license is not Zalando-recommended?](#what-if-my-team-uses-an-external-project-whose-license-is-not-zalando-recommended)
-        - [Who is the license owner?](#who-is-the-license-owner)
+        - [Who is the license two-factor?](#who-is-the-license-two-factor)
         - [Does my project need a LICENSE file?](#does-my-project-need-a-license-file)
         - [What about a README note?](#what-about-a-readme-note)
         - [I still have licensing questions. What can I do?](#i-still-have-licensing-questions-what-can-i-do)
@@ -250,7 +250,7 @@ Label your issues with clear tags. This is a great way to organize and categoriz
 
 ###Stay Secure
 #####Two-Factor Authentication Is Required
-GitHub organization owners must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/).
+GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/).
 
 ###About Licensing
 
