@@ -91,7 +91,7 @@ Because It Can:
 - **Stay Secure**: Make sure your project doesn’t include Zalando specifics, such as credentials and private identifiers.
 - **Ask for Help**: Find colleagues to brainstorm ideas for your project and to review your work.
 - **Promote**: Tell the world about your project via blog posts, social media and conference talks.
-- **Join the Open Source Guild**: Help us make open source stronger at Zalando!
+- **Join the Open Source Guild**: Help us make open source stronger at Zalando! Come on, it'll be fun. :)
 
 [Go here](https://zalando-open-source-principles.readthedocs.org/en/latest/) to read the accompanying docs. [This blog post](https://tech.zalando.com/blog/zalando-techs-new-open-source-principles/) might also be of interest.
 
