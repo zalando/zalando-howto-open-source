@@ -250,7 +250,7 @@ Label your issues with clear tags. This is a great way to organize and categoriz
 
 ###Stay Secure
 #####Two-Factor Authentication Is Required
-GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/) in keeping with our Open Soure First principle to "Stay Secure."
+GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/) in keeping with our Open Soure First principle to "Stay Secure." Read [GitHub's post on 2FA](https://help.github.com/articles/about-two-factor-authentication/) for more information.
 
 ###About Licensing
 
