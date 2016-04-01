@@ -250,14 +250,14 @@ Label your issues with clear tags. This is a great way to organize and categoriz
 
 ###Stay Secure
 #####Two-Factor Authentication Is Required
-GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/).
+GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/) in keeping with our Open Soure First principle to "Stay Secure."
 
 ###About Licensing
 
 ####Quick FAQ
 
 #####Which license do we use?
-[The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe.
+[The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe. Read [GitHub's post on this topic](https://help.github.com/articles/about-two-factor-authentication/) for more information.
 
 #####Must I use MIT?
 Yes, for all newly created open-source projects. 
