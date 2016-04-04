@@ -3,7 +3,7 @@ How to Open Source at Zalando
 
 A guide to releasing an open-source project at [Zalando](https://www.zalando.com>), Europe's largest online fashion platform.
 
-Table of Contents 
+Table of Contents
 ------------------------------------------------------------
 
   - [Why Open Source?](#why-open-source)
@@ -40,6 +40,7 @@ Table of Contents
         - [What if my team uses an external project whose license is not Zalando-recommended?](#what-if-my-team-uses-an-external-project-whose-license-is-not-zalando-recommended)
         - [Who is the license two-factor?](#who-is-the-license-two-factor)
         - [Does my project need a LICENSE file?](#does-my-project-need-a-license-file)
+        - [Do I need to add a license header to every source file?](#do-i-need-to-add-license-header-to-every-source-file)
         - [What about a README note?](#what-about-a-readme-note)
         - [I still have licensing questions. What can I do?](#i-still-have-licensing-questions-what-can-i-do)
         - [But I am a delivery lead.](#but-i-am-a-delivery-lead)
@@ -48,7 +49,7 @@ Table of Contents
       - [Restrictions Imposed by the License](#restrictions-imposed-by-the-license)
         - [Unusual Additions](#unusual-additions)
       - [There Is No License](#there-is-no-license)
-    - [Other Repository Information](#other-repository-information) 
+    - [Other Repository Information](#other-repository-information)
       - [JVM artifacts](#jvm-artifacts)
       - [Python packages](#python-packages)
       - [SBT plugins](#sbt-plugins)
@@ -65,8 +66,8 @@ Table of Contents
 - [Contributing to Non-Zalando Open-Source Projects](#contributing-to-non-zalando-open-source-projects)
       - [General](#general)
       - [Google Projects](#google-projects)
-  
-###Why Open Source? 
+
+###Why Open Source?
 
 Because It Can:
 
@@ -75,7 +76,7 @@ Because It Can:
 - increase trust
 - save us money
 - expand our technology choices
-- be fun 
+- be fun
 - enable us to give back to the community
 - strengthen our tech brand
 - attract talent
@@ -102,7 +103,7 @@ To Open Source, or Not to Open Source?
 
 - PCI DSS-related projects: e.g. payment services
 - Domain knowledge
-- Anything that would risk our competitive advantage: 
+- Anything that would risk our competitive advantage:
   - confidential source code
   - recommendation algorithms
 - Customer data
@@ -121,33 +122,33 @@ Our open source work should reflect and reinforce the principles of Radical Agil
 ###Before You Start Coding
 Creating a new open source project should almost always be a team decision. This is because maintaining a project requires commitment, time, and resources. Before starting a new project, ask these questions:
 - What will the project do and not do? What is its purpose? What is it trying to solve?
-- Does the project already exist? 
+- Does the project already exist?
   - Do some research to avoid reproducing an existing effort.
 - Who is the audience?
-  - Our tech team is a great focus group. Ask your colleagues—the Open Source Guild, your team and delivery lead, other teams—for input, interest and feedback. 
-- Who will be a maintainer? 
-     - We require at least one. 
-- Can you envision working on/maintaining it six months from now? A year from now? 
-- Will you build community around the project? 
+  - Our tech team is a great focus group. Ask your colleagues—the Open Source Guild, your team and delivery lead, other teams—for input, interest and feedback.
+- Who will be a maintainer?
+     - We require at least one.
+- Can you envision working on/maintaining it six months from now? A year from now?
+- Will you build community around the project?
    - Internal community: This is very important. The internal success of a project can give you a good idea about its potential to be adopted/used externally.
-   - External community: Who in your network would be willing to contribute? 
+   - External community: Who in your network would be willing to contribute?
    - Sources
        - LinkedIn groups
        - community forums/boards
-       - Meetup audiences  
-     - Will you need contributors with a different skillset to finish the project? 
+       - Meetup audiences
+     - Will you need contributors with a different skillset to finish the project?
      - Create a “TODO” in your README to invite contributions.
 
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
 ###The Main Zalando Repository: For the "Truly Open Source"
 Your code doesn’t have to be perfect before you open-source it. We *want* you to code in public from Day One. But to appear on our main org page, github.com/zalando, your project should be “truly open-source,” or in active development toward that goal. This means:
-- it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group. 
+- it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group.
 - it’s useable out of the box and free of Zalando dependencies
 - it has a clear README that:
-    - enables non-Zalando devs to download, install, run and use the project with minimal friction  
-    - invites contributors via a TODO list 
-    - clarifies if it's still in early development/a prototype  
+    - enables non-Zalando devs to download, install, run and use the project with minimal friction
+    - invites contributors via a TODO list
+    - clarifies if it's still in early development/a prototype
 - you respond promptly (within 72 hours) to PRs, issues, and queries
 
 ####The Incubator: For the Open-Source, But Not "Truly Open Source"
@@ -159,9 +160,9 @@ Projects that aren't "truly open source":
 
 These are currently not suitable for the main org repo. Place them at github.com/zalando-incubator. The Incubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
 
-The Guild reserves the right to relocate such projects from our main org to the Incubator on your behalf.  
+The Guild reserves the right to relocate such projects from our main org to the Incubator on your behalf.
 
- 
+
 ####Using GitHub Enterprise (GHE)
 Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well, it is an option. But we don't recommend it, as projects here will be much less likely to reflect “open source first” values, will lose visibility, and will likely be forgotten.
   - Is it possible to transfer GitHub issues from one project to the other? No.
@@ -173,8 +174,8 @@ Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well,
 
 Ask your team and other peers to:
 - review your code
-- install and 
-- test your project **prior to public release**. Peer review tends to be more effective than unit testing. 
+- install and
+- test your project **prior to public release**. Peer review tends to be more effective than unit testing.
 
 Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
 
@@ -219,9 +220,9 @@ Version all project artifacts should be [semantically](http://semver.org/). Tag 
 
 ###Maintainers
 
-Maintainers are the contact people for a project. They are also the only contributors who can package new versions and apply changes to the repository (i.e., merge pull requests). Every project must have at least one maintainer. [This helper script](https://github.com/zalando-stups/github-maintainer-cli) gives us an overview of repos that users are maintainers for. 
+Maintainers are the contact people for a project. They are also the only contributors who can package new versions and apply changes to the repository (i.e., merge pull requests). Every project must have at least one maintainer. [This helper script](https://github.com/zalando-stups/github-maintainer-cli) gives us an overview of repos that users are maintainers for.
 
-The Open Source Guild reserves the right to contact maintainers to ensure a project remains active/maintained. If the project is not being maintained, we will work with you to either find a new maintainer or remove the project from our organization page. Please be responsive to all internal queries about your project and its status. 
+The Open Source Guild reserves the right to contact maintainers to ensure a project remains active/maintained. If the project is not being maintained, we will work with you to either find a new maintainer or remove the project from our organization page. Please be responsive to all internal queries about your project and its status.
 
 ####Create a Maintainers File
 
@@ -237,12 +238,12 @@ Our Catwatch application [will collect maintainers from the MAINTAINERS files](h
 
 Respond promptly to pull requests and issues. “Within 72 hours” is a good window. Open issues do not make your project “look popular.” Instead, they make it look like you're neglecting your project. If project workload becomes unmanageable, ask the Guild or the community for help.
 
-If you are away/on vacation and can’t respond to PRs/issues promptly, find someone who can. 
+If you are away/on vacation and can’t respond to PRs/issues promptly, find someone who can.
 
-If you're not going to accept a PR, reject it ASAP and include a brief explanation why.  
+If you're not going to accept a PR, reject it ASAP and include a brief explanation why.
 
 ####Use Issues Creatively
-Issues can be good for planning or for onboarding contributors. Issues should include a description of the point, question, discovery, or other detail prompting the issue. 
+Issues can be good for planning or for onboarding contributors. Issues should include a description of the point, question, discovery, or other detail prompting the issue.
 
 Issues that consist solely of a title appear unprofessional and do not do much to invite discussion from the community.
 
@@ -252,7 +253,7 @@ Label your issues with clear tags. This is a great way to organize and categoriz
 #####Two-Factor Authentication Is Required
 GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/) in keeping with our Open Source First principle to "Stay Secure." Read [GitHub's post on 2FA](https://help.github.com/articles/about-two-factor-authentication/) for more information.
 
-Don't have a smartphone, and/or want to give your phone number to GitHub? According to GitHub support, SMS or a TOTP app are currently the only primary 2FA methods that work. You can set up 2FA with a Google Voice SMS number, but should add a U2F device as backup. 
+Don't have a smartphone, and/or want to give your phone number to GitHub? According to GitHub support, SMS or a TOTP app are currently the only primary 2FA methods that work. You can set up 2FA with a Google Voice SMS number, but should add a U2F device as backup.
 
 ###About Licensing
 
@@ -262,7 +263,7 @@ Don't have a smartphone, and/or want to give your phone number to GitHub? Accord
 [The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe. Read [GitHub's post on this topic](https://help.github.com/articles/about-two-factor-authentication/) for more information.
 
 #####Must I use MIT?
-Yes, for all newly created open-source projects. 
+Yes, for all newly created open-source projects.
 
 #####I don't like the MIT license. Can I use another license?
 
@@ -272,20 +273,24 @@ Not without a compelling reason.
 
 Keep the original license.
 
-#####I'm open-sourcing a library. What should I do? 
+#####I'm open-sourcing a library. What should I do?
 Consider using a weak copyleft license that won’t restrict the software that uses it to the same license; will allow usage in closed source software; and will potentially increase the number of users and contributors.
 
-#####What if my team uses an external project whose license is not Zalando-recommended? 
+#####What if my team uses an external project whose license is not Zalando-recommended?
 
 You can can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
 
 #####Who is the license owner?
 
-Zalando SE. 
+Zalando SE.
 
 #####Does my project need a LICENSE file?
 
 Yes, at the root of the repository that contains the copy of the selected license (see above). [Here is an example](https://opensource.org/licenses/MIT) for MIT.
+
+#####Do I need to add a license header to every source file?
+
+No, having one `LICENSE` file in the repository is enough.
 
 #####What about a README note?
 
@@ -303,13 +308,13 @@ Yep. Every README{.md,.rst} file must state the following at the end:
 
 Replace the [yyyy] field with the year that you created the project, and do not update it. Do not provide multiple years.
 
-#####I still have licensing questions. What can I do? 
+#####I still have licensing questions. What can I do?
 
 Ask the Open Source Guild or your delivery lead. See also our TechWiki page (internal doc) for a link to more detailed information.
 
 #####But I am a delivery lead.
 
-Ask your department head. 
+Ask your department head.
 
 #####But I am a department head.
 
@@ -386,17 +391,17 @@ To fork, or not to fork? Some guidelines:
 - “True/Long-Lived forks” are highly discouraged, even from Zalando projects. We avoid internal forks in order to avoid diverging widely from what we have published, and the inevitable hassle of getting the project to a state where we can support both code bases
 - Avoid two forks of the same project.
 
-If your goal is to make a small fix to a project, use your own/personal GitHub account.  
- 
+If your goal is to make a small fix to a project, use your own/personal GitHub account.
+
 ###Deprecate Responsibly
 
 ####How to Deprecate
-Add “Deprecated” at the top of your README, as well as a notice stating your plans for the project: deletion, finding a new owner, etc.  
+Add “Deprecated” at the top of your README, as well as a notice stating your plans for the project: deletion, finding a new owner, etc.
 
 After announcing your decision to deprecate the project:
-   - notify your users. Put a notice on your README. 
+   - notify your users. Put a notice on your README.
    - Wait 60 days.
-   - Try to find a new owner. Internal options first, then seek an external owner. Ask the Guild for help. 
+   - Try to find a new owner. Internal options first, then seek an external owner. Ask the Guild for help.
    - Try to find an external owner. More guidance on this to come soon; for now, alert the Guild of any such plans.
 
 ####Tips for Finding a New Owner
@@ -423,4 +428,4 @@ We encourage you to contribute to other open-source projects in ways that benefi
 CLAs that are safe: Oracle, Apache.
 
 ####Google Projects
-For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. 
+For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt.
