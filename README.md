@@ -40,7 +40,7 @@ Table of Contents
         - [What if my team uses an external project whose license is not Zalando-recommended?](#what-if-my-team-uses-an-external-project-whose-license-is-not-zalando-recommended)
         - [Who is the license two-factor?](#who-is-the-license-two-factor)
         - [Does my project need a LICENSE file?](#does-my-project-need-a-license-file)
-        - [Do I need to add a license header to every source file?](#do-i-need-to-add-license-header-to-every-source-file)
+        - [Do I need to add a license header to every source file?](#do-i-need-to-add-a-license-header-to-every-source-file)
         - [What about a README note?](#what-about-a-readme-note)
         - [I still have licensing questions. What can I do?](#i-still-have-licensing-questions-what-can-i-do)
         - [But I am a delivery lead.](#but-i-am-a-delivery-lead)
