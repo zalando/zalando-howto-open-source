@@ -94,7 +94,7 @@ Because It Can:
 - **Promote**: Tell the world about your project via blog posts, social media and conference talks.
 - **Join the Open Source Guild**: Help us make open source stronger at Zalando! Come on, it'll be fun. :)
 
-[Go here](https://zalando-open-source-principles.readthedocs.org/en/latest/) to read the accompanying docs. [This blog post](https://tech.zalando.com/blog/zalando-techs-new-open-source-principles/) might also be of interest.
+[Go here](https://zalando-open-source-principles.readthedocs.org/en/latest) to read the accompanying docs. [This blog post](https://tech.zalando.com/blog/zalando-techs-new-open-source-principles) might also be of interest.
 
 To Open Source, or Not to Open Source?
 ------------------------------------------------------------
@@ -176,7 +176,7 @@ Ask your team and other peers to:
 - Install and
 - Test your project **prior to public release**. Peer review tends to be more effective than unit testing.
 
-Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
+Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review) should help.
 
 ###Creating a README
 
@@ -199,7 +199,7 @@ Not sure what to ask for, or how to peer-review? This list of [11 best practices
 - Include any code that presents security vulnerabilities
 
 ####Syntax and Formatting
-Markdown is the simplest and most easily understood syntax; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn't use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
+Markdown is the simplest and most easily understood syntax; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn't use Markdown. If Markdown isn't practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
 
 For readability, break up text often.
 
@@ -207,15 +207,15 @@ Think about SEO.
 
 ###Official Namespace
 
-The official namespace for our projects is ‘**org.zalando**’, where applicable.
+The official namespace for our projects is “**org.zalando**”, where applicable.
 
 ###Applying Changes
 
-All repository changes, including those made by maintainers, should come from GitHub pull requests so that we can streamline review and change tracking (as per [GitHub Flow](https://guides.github.com/introduction/flow)). Everyone should have their own fork, though you can still edit READMEs/documentation/related files with the GitHub “Edit” button. The ‘master’ branch should be the accepted development head; pull requests get merged there.
+All repository changes, including those made by maintainers, should come from GitHub pull requests so that we can streamline review and change tracking (as per [GitHub Flow](https://guides.github.com/introduction/flow)). Everyone should have their own fork, though you can still edit READMEs/documentation/related files with the GitHub “Edit” button. The “master” branch should be the accepted development head; pull requests get merged there.
 
 ###Versioning
 
-Version all project artifacts should be [semantically](http://semver.org). Tag all versions in GitHub with the exact version name (like ‘0.1.0’; do not prefix tags with “v.” or similar). For a better user experience, use the GitHub “release notes” feature to add notes whenever you change something in the new version.
+Version all project artifacts should be [semantically](http://semver.org). Tag all versions in GitHub with the exact version name (like “0.1.0”; do not prefix tags with “v.” or similar). For a better user experience, use the GitHub “release notes” feature to add notes whenever you change something in the new version.
 
 ###Maintainers
 
@@ -225,7 +225,7 @@ The Open Source Guild reserves the right to contact maintainers to ensure a proj
 
 ####Create a Maintainers File
 
-Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/MAINTAINERS)’ file (listing all maintainers) at its root. Your build/packaging configuration file (e.g., [pom.xml for Maven](https://maven.apache.org/pom.html#Developers)) can fulfill the purpose of a MAINTAINERS file. Format:
+Every project needs a “[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/tree/MAINTAINERS)” file (listing all maintainers) at its root. Your build/packaging configuration file (e.g., [pom.xml for Maven](https://maven.apache.org/pom.html#Developers)) can fulfill the purpose of a MAINTAINERS file. Format:
 
      [full name] <email address>
      [second full name] <email address>
@@ -237,7 +237,7 @@ Our Catwatch application [will collect maintainers from the MAINTAINERS files](h
 
 Respond promptly to pull requests and issues. “Within 72 hours” is a good window. Open issues do not make your project “look popular.” Instead, they make it look like you're neglecting your project. If project workload becomes unmanageable, ask the Guild or the community for help.
 
-If you are away/on vacation and can’t respond to PRs/issues promptly, find someone who can.
+If you are away/on vacation and can't respond to PRs/issues promptly, find someone who can.
 
 If you're not going to accept a PR, reject it ASAP and include a brief explanation why.
 
@@ -250,7 +250,7 @@ Label your issues with clear tags. This is a great way to organize and categoriz
 
 ###Stay Secure
 #####Two-Factor Authentication Is Required
-GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/) in keeping with our Open Source First principle to "Stay Secure." Read [GitHub's post on 2FA](https://help.github.com/articles/about-two-factor-authentication) for more information.
+GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication) in keeping with our Open Source First principle to "Stay Secure." Read [GitHub's post on 2FA](https://help.github.com/articles/about-two-factor-authentication) for more information.
 
 Don't have a smartphone, and/or want to give your phone number to GitHub? According to GitHub support, SMS or a TOTP app are currently the only primary 2FA methods that work. You can set up 2FA with a Google Voice SMS number, but should add a U2F device as backup.
 
@@ -259,7 +259,7 @@ Don't have a smartphone, and/or want to give your phone number to GitHub? Accord
 ####Quick FAQ
 
 #####Which license do we use?
-[The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe. Read [GitHub's post on this topic](https://help.github.com/articles/about-two-factor-authentication/) for more information.
+[The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe. Read [GitHub's post on this topic](https://help.github.com/articles/about-two-factor-authentication) for more information.
 
 #####Must I use MIT?
 Yes, for all newly created open-source projects.
@@ -273,7 +273,7 @@ Not without a compelling reason.
 Keep the original license.
 
 #####I'm open-sourcing a library. What should I do?
-Consider using a weak copyleft license that won’t restrict the software that uses it to the same license; will allow usage in closed source software; and will potentially increase the number of users and contributors.
+Consider using a weak copyleft license that won't restrict the software that uses it to the same license; will allow usage in closed source software; and will potentially increase the number of users and contributors.
 
 #####What if my team uses an external project whose license is not Zalando-recommended?
 
@@ -356,7 +356,7 @@ If there is no license statement, the author automatically receives a copyright.
 ###Other Repository Information
 
 ####JVM Artifacts
-Host JVM artifacts (*.jar) on Maven Central in [the ‘org.zalando’ group](https://repo1.maven.org/maven2/org/zalando). To do this, get a [Sonatype](http://central.sonatype.org) account and ask the STUPS team to add it to Zalando.
+Host JVM artifacts (*.jar) on Maven Central in [the 'org.zalando' group](https://repo1.maven.org/maven2/org/zalando). To do this, get a [Sonatype](http://central.sonatype.org) account and ask the STUPS team to add it to Zalando.
 
 ####Python Packages
 Host Python packages on [PyPI](https://pypi.python.org/pypi) (PyPI has no namespaces) and make sure that multiple persons have “maintainer” rights.
@@ -384,7 +384,7 @@ The Guild supports you in recruiting non-Zalandos to contribute to your project.
 
 ###Make Forks Meaningful
 
-*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don’t understand this and end up equating the ‘fork’ button with ‘download’ or ‘bookmark’. Little do they know, you can download code directly from the original repository and you can bookmark things using GitHub's stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
+*“Forks are for making your own snapshot of a codebase so that you can make a new version of it with your own special sauce, or so that you can contribute a change in the form of a pull request. Simply, you must make a fork whenever you need to modify the codebase, but do not have direct access to do so. New users don't understand this and end up equating the “fork” button with “download” or “bookmark”. Little do they know, you can download code directly from the original repository and you can bookmark things using GitHub's stars.”* —[Eric Greer](http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html)
 
 To fork, or not to fork? Some guidelines:
 - Only keep the fork open as long as needed.
@@ -428,4 +428,4 @@ We encourage you to contribute to other open-source projects in ways that benefi
 CLAs that are safe: Oracle, Apache.
 
 ####Google Projects
-For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt.
+For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you're in doubt.
