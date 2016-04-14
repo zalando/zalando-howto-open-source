@@ -290,7 +290,7 @@ Yes, at the root of the repository that contains the copy of the selected licens
 
 #####Do I need to add a license header to every source file?
 
-No, having one `LICENSE` file in the repository is enough.
+No. In fact, we discourage it because it blows up file sizes, requires some build checking/pre-processing, and sometimes leads to situations [like this](http://trillian.mit.edu/~jc/humor/ATT_Copyright_true.html). It's also not needed for the licenses we use. Having one `LICENSE` file in the repository is enough.
 
 #####What about a README note?
 
