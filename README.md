@@ -158,7 +158,9 @@ Projects that aren't "truly open source":
 - are “experimental”/”maybe useful to others someday,” but you're not working on it (a Hack Week project, or something you've lost interest in)
 - lacking meaningful documentation (a README), and you're not working on any
 
-These are currently not suitable for the main org repo. Place them at github.com/zalando-incubator. The Incubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
+These are currently not suitable for the main org repo. Place them at here at the [Zalando Incubator](https://github.com/zalando-incubator/). The Incubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
+
+**Can you launch a project directly to the Incubator?** Yes; just request an invite to join the Incubator org, and you'll receive instant membership.
 
 The Guild reserves the right to relocate such projects from our main org to the Incubator on your behalf.
 
