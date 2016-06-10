@@ -358,7 +358,9 @@ If there is no license statement, the author automatically receives a copyright.
 ###Other Repository Information
 
 ####JVM Artifacts
-Host JVM artifacts (*.jar) on Maven Central in [the ‘org.zalando’ group](https://repo1.maven.org/maven2/org/zalando/).  To do this, get a [Sonatype](http://central.sonatype.org/) account and ask the STUPS team to add it to Zalando.
+Host JVM artifacts (*.jar) on Maven Central in [the ‘org.zalando’ group](https://repo1.maven.org/maven2/org/zalando/). To do this, get a [Sonatype](http://central.sonatype.org/) account. If you don't have an account yet, register with Sonatype using your Zalando email address.
+
+If you want to push to Sonatype but not to *.zalando, register a different Sonatype account with a non-Zalando email address.
 
 ####Python Packages
 Host Python packages on [PyPI](https://pypi.python.org/pypi/) (PyPI has no namespaces) and make sure that multiple persons have “maintainer” rights.
