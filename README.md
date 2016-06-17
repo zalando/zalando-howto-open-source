@@ -97,7 +97,7 @@ Because It Can:
 - **Promote**: Tell the world about your project via blog posts, social media and conference talks.
 - **Join the Open Source Guild**: Help us make open source stronger at Zalando! Come on, it'll be fun. :)
 
-[Go here](https://zalando-open-source-principles.readthedocs.org/en/latest/) to read the accompanying docs. [This blog post](https://tech.zalando.com/blog/zalando-techs-new-open-source-principles/) might also be of interest.
+[This blog post](https://tech.zalando.com/blog/zalando-techs-new-open-source-principles/) might also be of interest.
 
 To Open Source, or Not to Open Source?
 ------------------------------------------------------------
