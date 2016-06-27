@@ -144,7 +144,7 @@ Creating a new open source project should almost always be a team decision. This
 
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
-###Open Source, Coding in the Open, and InnerSource
+##Open Source, Coding in the Open, and InnerSource
 Based on quality, usefulness and maintenance considerations, we use this matrix to decide how to classify and place our projects:
 
 - InnerSource = GitHub Enterprise
