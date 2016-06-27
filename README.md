@@ -158,7 +158,7 @@ The next sections offer more details on differences between open source, “codi
 ###What Makes a Project “Open Source”
 An open source project:
 - **is useful beyond Zalando**. It is free of Zalando dependencies and simple for a non-Zalando to install and start using.
-- **has high-quality documentation** that is up-to-date and clear about what the project does. (This template can help you.)
+- **has high-quality documentation** that is up-to-date and clear about what the project does. ([This template can help you](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md).)
 - **is tested**. It has automated tests and takes advantage of test coverage.
 - **is under active development**, or is stable enough to be considered a “finished” product. If the project is incomplete, at least one maintainer has worked on it in the last three months. If it’s stable and doesn’t require constant maintenance, you’ve stated as much in your README.
 - **is innovative**. If it duplicates an existing project, it does at least one thing better, faster, differently, etc., or is higher-quality.
