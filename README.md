@@ -11,11 +11,11 @@ Table of Contents
   - [Project Design](#project-design)
     - [How to Build a Useful Project (Checklist)](#how-to-build-a-useful-project-checklist) 
     - [Never Open-Source These](#never-open-source-these)
-  - [Where to Publish: GitHub, Incubator, or GHE?](#where-to-publish-github-incubator-or-ghe)
-  - [What Makes a Project “Open Source”](#what-makes-a-project-open-source)
-  - [What Makes a Project "Coding in the Open"](#what-makes-a-project-coding-in-the-open)
-      - [Quick Incubator FAQ](#quick-incubator-faq)
-  - [What Makes a Project InnerSource](#what-makes-a-project-innersource)
+  - [Where to Publish: Main Org, Incubator, or GHE?](#where-to-publish-main-org-incubator-or-ghe)
+    - [What Makes a Project “Open Source”](#what-makes-a-project-open-source)
+    - [What Makes a Project "Coding in the Open"](#what-makes-a-project-coding-in-the-open)
+        - [Quick Incubator FAQ](#quick-incubator-faq)
+    - [What Makes a Project InnerSource](#what-makes-a-project-innersource)
   - [Project Basics](#project-basics)
     - [Code Review](#code-review)
     - [Creating a README](#creating-a-readme)
@@ -108,7 +108,7 @@ If you're open-sourcing a project that has contained sensitive information in th
 
 No issues? Great! On to the next section ...
 
-###Where to Publish: GitHub, Incubator, or GHE?
+###Where to Publish: Main Org, Incubator, or GHE?
 
 Based on quality, usefulness and maintenance considerations, we use this matrix to decide how to classify and place our projects:
 
@@ -120,7 +120,7 @@ In the inverse, you could think of these three categories as “steps” for you
 
 The next sections offer more details on differences between open source, “coding in the open” and InnerSource.
 
-###What Makes a Project “Open Source”
+####What Makes a Project “Open Source”
 An open source project:
 - **is useful beyond Zalando**. It is free of Zalando dependencies and simple for a non-Zalando to install and start using.
 - **has high-quality documentation** that is up-to-date and clear about what the project does. ([This template can help you](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md).)
@@ -136,7 +136,7 @@ An open source project:
 
 We have also published some document-only repositories like our RESTful API guidelines, our “How to Open Source” guidelines, the Tech Radar, and our Rules of Play. These reflect our organizational perspective on technical topics, and are therefore of potential interest to other companies who are looking for ideas and case studies. We should keep them limited in number and broad in scope.
 
-### What Makes a Project “Coding in the Open”
+#### What Makes a Project “Coding in the Open”
 
 “Coding in the open” is how we describe a Zalando project that is already public—or that you want to make public for personal reasons—but not currently useful beyond Zalando Tech because it is affected by at least one of the following issues:
 - it is dependent on other Zalando projects
@@ -149,35 +149,35 @@ We have also published some document-only repositories like our RESTful API guid
 **Example projects**: oakkeeper, STUPS, stups2go, solution-center-login, Tarbela, Tranzlate 
 **Where it belongs**: [Zalando Incubator](https://github.com/zalando-incubator/)
 
-####Quick Incubator FAQ
+#####Quick Incubator FAQ
 
-#####Why did we make the Incubator?
+######Why did we make the Incubator?
 To support our Open Source First principle, "Share Your Code,” while reserving our main GitHub org for projects useful beyond Zalando.
 
-#####Can you launch a project directly to the Incubator? 
+######Can you launch a project directly to the Incubator? 
 Yes. And you should, if it meets “coding in the open” criteria.
 
-#####Do Incubator projects have to follow our security and compliance guidelines?
+######Do Incubator projects have to follow our security and compliance guidelines?
 Yes, even if we are developing them for Zalandos only, “experimental,” etc.
 
-#####Can an Incubator project ever appear in the main Zalando GitHub org?
+######Can an Incubator project ever appear in the main Zalando GitHub org?
 Absolutely. Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day they might be.
 
-#####What happens when you transfer a repo from one org to another?
+######What happens when you transfer a repo from one org to another?
 The URL is re-routed to the new organization (zalando-incubator). All git clone, git fetch, or git push operations targeting the previous location will continue to function as if made on the new location. Links will be transferred to the new repository. 
 
 That said, GitHub strongly recommends that anyone who had a reference to the old link locally change to the new URL. Read GitHub’s documentation to learn more.  
 
-#####What happens if I “code in the open” on the main org?
+######What happens if I “code in the open” on the main org?
 The Guild will ask you to transfer the project yourself to the Incubator, first by filing an Issue on the project and then via HipChat/one-on-one. If we don’t get any response within 14 days, or if you agree to the transfer but don’t take action within a week (seven days), your project will be relocated to the Incubator for you.
 
-#####Is it possible to transfer GitHub issues from one project to the other? 
+######Is it possible to transfer GitHub issues from one project to the other? 
 No, GitHub doesn’t allow it.
 
-#####Is it possible to transfer the ownership of a Github repo to someone else? 
+######Is it possible to transfer the ownership of a Github repo to someone else? 
 Yes.
 
-###What Makes a Project InnerSource
+####What Makes a Project InnerSource
 InnerSource projects meet all the same criteria as “coding in the open” projects, but with one major difference: they appear on GitHub Enterprise, and are not accessible to the public. No one outside of Zalando Tech can see or contribute to them. 
 
 **Wait, I thought we were “Open Source First.” Doesn’t keeping private repos contradict that?**
