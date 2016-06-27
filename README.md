@@ -112,7 +112,7 @@ To Open Source, or Not to Open Source?
 - Customer data
 - Unique Selling Points (USPs)
 
-If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the git commit history. Create an entirely new git repo for it before pushing it to GitHub.
+If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the Git commit history. Create an entirely new Git repo for it before pushing it to GitHub.
 
 No issues? Great! On to the next section ...
 
@@ -144,35 +144,88 @@ Creating a new open source project should almost always be a team decision. This
 
 If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
 
-###The Main Zalando Repository: For the "Truly Open Source"
-Your code doesn’t have to be perfect before you open-source it. We *want* you to code in public from Day One. But to appear on our main org page, github.com/zalando, your project should be “truly open-source,” or in active development toward that goal. This means:
-- it’s useful and interesting to non-Zalandos. It might serve an entire language community, users of specific tools (Docker, Maven, etc.), or some other group.
-- it’s useable out of the box and free of Zalando dependencies
-- it has a clear README that:
-    - enables non-Zalando devs to download, install, run and use the project with minimal friction
-    - invites contributors via a TODO list
-    - clarifies if it's still in early development/a prototype
-- you respond promptly (within 72 hours) to PRs, issues, and queries
+###Open Source, Coding in the Open, and InnerSource
+Based on quality, usefulness and maintenance considerations, we use this matrix to decide how to classify and place our projects:
 
-####The Incubator: For the Open-Source, But Not "Truly Open Source"
-Projects that aren't "truly open source":
-- are dependent on our systems
-- are dependent on other Zalando open-source projects that haven't been widely adopted
-- are “experimental”/”maybe useful to others someday,” but you're not working on it (a Hack Week project, or something you've lost interest in)
-- lacking meaningful documentation (a README), and you're not working on any
+- InnerSource = GitHub Enterprise
+- Coding in the Open = Incubator
+- Open source = main Zalando org
 
-These are currently not suitable for the main org repo. Place them at here at the [Zalando Incubator](https://github.com/zalando-incubator/). The Incubator reiterates the Open Source First principle, "Share Your Code: All code shared between teams must be open source." Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day, they might be.
+In the inverse, you could think of these three categories as “steps” for your project as it develops from an idea to a minimum viable product (MVP) that someone on the outside could understand, use and possibly work on as a contributor. 
 
-**Can you launch a project directly to the Incubator?** Yes; just request an invite to join the Incubator org, and you'll receive instant membership.
+The next sections offer more details on differences between open source, “coding in the open” and InnerSource.
 
-The Guild reserves the right to relocate such projects from our main org to the Incubator on your behalf.
+###What Makes a Project “Open Source”
+An open source project:
+- **is useful beyond Zalando**. It is free of Zalando dependencies and simple for a non-Zalando to install and start using.
+- **has high-quality documentation** that is up-to-date and clear about what the project does. (This template can help you.)
+- **is tested**. It has automated tests and takes advantage of test coverage.
+- **is under active development**, or is stable enough to be considered a “finished” product. If the project is incomplete, at least one maintainer has worked on it in the last three months. If it’s stable and doesn’t require constant maintenance, you’ve stated as much in your README.
+- **is innovative**. If it duplicates an existing project, it does at least one thing better, faster, differently, etc., or is higher-quality.
+- **meets our non-negotiable guidelines** regarding security and compliance. 
+- **is an MVP**. It either meets or surpasses “minimum viable product” status. An outside developer could use it and even contribute to it. If it’s buggy or very early-stage, it includes a brief development status in the intro stating as much. (This template can help you.)
+- **has a plan**. Its maintainers care about making it a success. They commit to responding to PRs and issues in a timely manner (48-72 hours), thank contributors, and convert quality contributors to trusted maintainers as appropriate.
 
+**Example projects**: Patroni, Connexion, Zappr, NSEnter, Tailor, Spoton.
+**Where it belongs**: Zalando main org
 
-####Using GitHub Enterprise (GHE)
-Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well, it is an option. But we don't recommend it, as projects here will be much less likely to reflect “open source first” values, will lose visibility, and will likely be forgotten.
-  - Is it possible to transfer GitHub issues from one project to the other? No.
-  - Is it possible to transfer the ownership of a Github repo to someone else? Yes.
+We have also published some document-only repositories like our RESTful API guidelines, our “How to Open Source” guidelines, the Tech Radar, and our Rules of Play. These reflect our organizational perspective on technical topics, and are therefore of potential interest to other companies who are looking for ideas and case studies. We should keep them limited in number and broad in scope.
 
+### What Makes a Project “Coding in the Open”
+
+“Coding in the open” is how we describe a Zalando project that is already public—or that you want to make public for personal reasons—but not currently useful beyond Zalando Tech because it is affected by at least one of the following issues:
+- it is dependent on other Zalando projects
+- it is difficult or impossible for a non-Zalando to install 
+- it has documentation that lacks essential user information, or lacks docs altogether
+- it isn’t currently maintained
+- it is in pre-MVP (minimum viable product) status
+- duplicates the functionality of an existing project and is of questionable quality (due to lack of code review or testing)
+
+**Example projects**: oakkeeper, STUPS, stups2go, solution-center-login, Tarbela, Tranzlate 
+**Where it belongs**: [Zalando Incubator](https://github.com/zalando-incubator/)
+
+####Quick Incubator FAQ
+
+#####Why did we make the Incubator?
+To support our Open Source First principle, "Share Your Code,” while reserving our main GitHub org for projects useful beyond Zalando.
+
+#####Can you launch a project directly to the Incubator? 
+Yes. And you should, if it meets “coding in the open” criteria.
+
+#####Do Incubator projects have to follow our security and compliance guidelines?
+Yes, even if we are developing them for Zalandos only, “experimental,” etc.
+
+#####Can an Incubator project ever appear in the main Zalando GitHub org?
+Absolutely. Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day they might be.
+
+#####What happens when you transfer a repo from one org to another?
+The URL is re-routed to the new organization (zalando-incubator). All git clone, git fetch, or git push operations targeting the previous location will continue to function as if made on the new location. Links will be transferred to the new repository. 
+
+That said, GitHub strongly recommends that anyone who had a reference to the old link locally change to the new URL. Read GitHub’s documentation to learn more.  
+
+#####What happens if I “code in the open” on the main org?
+The Guild will ask you to transfer the project yourself to the Incubator, first by filing an Issue on the project and then via HipChat/one-on-one. If we don’t get any response within 14 days, or if you agree to the transfer but don’t take action within a week (seven days), your project will be relocated to the Incubator for you.
+
+#####Is it possible to transfer GitHub issues from one project to the other? 
+No, GitHub doesn’t allow it.
+
+#####Is it possible to transfer the ownership of a Github repo to someone else? 
+Yes.
+
+###What Makes a Project InnerSource
+InnerSource projects meet all the same criteria as “coding in the open” projects, but with one major difference: they appear on GitHub Enterprise, and are not accessible to the public. No one outside of Zalando Tech can see or contribute to them. 
+
+**Wait, I thought we were “Open Source First.” Doesn’t keeping private repos contradict that?**
+
+Nope. Not every project we create will be appropriate for sharing publicly. Some projects will be [too sensitive for publication](https://github.com/zalando/zalando-howto-open-source#never-open-source-these). Other projects would act as “noise,” because they are too tightly coupled to what we do internally. An organization's open source footprint says a lot about that organization, especially if the org cannot maintain a good signal-to-noise ratio.
+
+However, we still want you to share these projects inside Zalando. This is why we advocate the InnerSource collaboration model. 
+
+Put simply, InnerSource operates just like open-source in that project teams invite, accept and reject PRs; provide quality documentation; and build them gradually. The main difference is that InnerSource is limited to a single organization—in our case, Zalando Tech.
+
+With InnerSource, we encourage you to make your GitHub Enterprise organization open to other internal teams so they can find out about your work, fix bugs, make PRs, and even add features that your own team currently has no time to develop. We have internal docs to help your team get started working in this way.
+
+**Where InnerSource projects belong**: GitHub Enterprise
 ##Open-Source Basics
 
 ###Code Review
@@ -180,7 +233,7 @@ Can you maintain the project as a private repo on GitHub Enterprise (GHE)? Well,
 Ask your team and other peers to:
 - review your code
 - install and
-- test your project **prior to public release**. Peer review tends to be more effective than unit testing.
+- test your project **prior to public release**. 
 
 Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
 
