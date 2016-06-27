@@ -73,7 +73,7 @@ Table of Contents
 
 Because it can: improve quality, mitigate risk, increase trust, save us money, expand our technology choices, be fun, enable us to give back to the community, strengthen our tech brand, and attract talent.
 
-##Our Open Source First Principles
+###Our Open Source First Principles
 
 **Vision**: 
 *We strongly believe that open source software benefits the tech community, and that providing broadly useful code to the world is a virtue. We strive to work in an open source way to the betterment of Zalando and the world.*
