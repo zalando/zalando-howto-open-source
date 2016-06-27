@@ -54,7 +54,7 @@ User research helps you to avoid duplication/building something in a silo; techn
 5. KPI ANALYSIS AND SUCCESS INDICATORS
 How will you be define and measure success in terms of gaining and keeping users?  
 
-6. ROADMAP: FUTURE FEATURES, ETC.
+6. FUTURE FEATURES
 - What are bad results for the user? (If an experience doesn’t go well, what happens?)
 - How will you communicate with and involve your users long-term to ensure you’re still serving their needs with this project?
 - What else do you think your users would want this project to do
