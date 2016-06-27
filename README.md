@@ -206,7 +206,7 @@ Not sure what to ask for, or how to peer-review? This list of [11 best practices
 ###Creating a README
 
 ####Do:
-- [use this checklist](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md). 
+- [Use this checklist](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md). 
 - Break up text often, for better readability.
 - Think about SEO.
 
