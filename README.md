@@ -14,7 +14,7 @@ Table of Contents
   - [Where to Publish: GitHub, Incubator, or GHE?](#where-to-publish-github-incubator-or-ghe)
   - [What Makes a Project “Open Source”](#what-makes-a-project-open-source)
   - [What Makes a Project "Coding in the Open"](#what-makes-a-project-coding-in-the-open)
-      -[Quick Incubator FAQ](#quick-incubator-faq)
+      - [Quick Incubator FAQ](#quick-incubator-faq)
   - [What Makes a Project InnerSource](#what-makes-a-project-innersource)
   - [Project Basics](#project-basics)
     - [Code Review](#code-review)
