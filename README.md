@@ -91,6 +91,8 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 [This blog post](https://tech.zalando.com/blog/zalando-techs-new-open-source-principles/) might also be of interest.
 
 ###Before You Start Coding
+####How to Build a Useful Project
+Use [this checklist](https://github.com/zalando/zalando-howto-open-source/blob/master/producttemplate.md) to develop your "product mindset" for your project and make is as useful as possible.
 
 ####Never open-source these:
 - PCI DSS-related projects: e.g. payment services
@@ -104,8 +106,6 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the Git commit history. Create an entirely new Git repo for it before pushing it to GitHub.
 
 No issues? Great! On to the next section ...
-
-###Answer the "Why"
 
 ##Open Source, Coding in the Open, and InnerSource
 Based on quality, usefulness and maintenance considerations, we use this matrix to decide how to classify and place our projects:
@@ -196,7 +196,7 @@ With InnerSource, we encourage you to make your GitHub Enterprise organization o
 Ask your team and other peers to:
 - review your code
 - install and
-- test your project **prior to public release**. 
+- test your project prior to public release. 
 
 Not sure what to ask for, or how to peer-review? This list of [11 best practices](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/) should help.
 
