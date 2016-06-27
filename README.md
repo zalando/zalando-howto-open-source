@@ -172,7 +172,7 @@ That said, GitHub strongly recommends that anyone who had a reference to the old
 The Guild will ask you to transfer the project yourself to the Incubator, first by filing an Issue on the project and then via HipChat/one-on-one. If we don’t get any response within 14 days, or if you agree to the transfer but don’t take action within a week (seven days), your project will be relocated to the Incubator for you.
 
 ######Is it possible to transfer GitHub issues from one project to the other? 
-No, GitHub doesn’t allow it.
+No, GitHub doesn’t allow it. (There are migration tools that can copy issues and their comments to another project, but these don't transfer the relevant author info; they assign ownership to the account used by the migration tool.)
 
 ######Is it possible to transfer the ownership of a Github repo to someone else? 
 Yes.
