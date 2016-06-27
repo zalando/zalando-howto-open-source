@@ -168,8 +168,8 @@ An open source project:
 - **is an MVP**. It either meets or surpasses “minimum viable product” status. An outside developer could use it and even contribute to it. If it’s buggy or very early-stage, it includes a brief development status in the intro stating as much. (This template can help you.)
 - **has a plan**. Its maintainers care about making it a success. They commit to responding to PRs and issues in a timely manner (48-72 hours), thank contributors, and convert quality contributors to trusted maintainers as appropriate.
 
-**Example projects**: Patroni, Connexion, Zappr, NSEnter, Tailor, Spoton.
-**Where it belongs**: Zalando main org
+- **Example projects**: [Patroni](https://github.com/zalando/Patroni), [Connexion](https://github.com/zalando/connexion), [Zappr](https://github.com/zalando/zappr), [Python NSEnter](https://github.com/zalando/python-nsenter), [Tailor](https://github.com/zalando/tailor), [Spoton](https://github.com/zalando/tailor).
+- **Where it belongs**: Zalando [main org](https://github.com/zalando)
 
 We have also published some document-only repositories like our RESTful API guidelines, our “How to Open Source” guidelines, the Tech Radar, and our Rules of Play. These reflect our organizational perspective on technical topics, and are therefore of potential interest to other companies who are looking for ideas and case studies. We should keep them limited in number and broad in scope.
 
