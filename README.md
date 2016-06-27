@@ -90,8 +90,9 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 
 [This blog post](https://tech.zalando.com/blog/zalando-techs-new-open-source-principles/) might also be of interest.
 
-###Before You Start Coding
-####How to Build a Useful Project
+###Project Design
+
+####How to Build a Useful Project (Checklist) 
 Use [this checklist](https://github.com/zalando/zalando-howto-open-source/blob/master/producttemplate.md) to develop your "product mindset" for your project and make is as useful as possible.
 
 ####Never open-source these:
@@ -107,7 +108,8 @@ If you're open-sourcing a project that has contained sensitive information in th
 
 No issues? Great! On to the next section ...
 
-##Open Source, Coding in the Open, and InnerSource
+###Where to Publish: GitHub, Incubator, or GHE?
+
 Based on quality, usefulness and maintenance considerations, we use this matrix to decide how to classify and place our projects:
 
 - InnerSource = GitHub Enterprise
@@ -189,7 +191,8 @@ Put simply, InnerSource operates just like open-source in that project teams inv
 With InnerSource, we encourage you to make your GitHub Enterprise organization open to other internal teams so they can find out about your work, fix bugs, make PRs, and even add features that your own team currently has no time to develop. We have internal docs to help your team get started working in this way.
 
 **Where InnerSource projects belong**: GitHub Enterprise
-##Open-Source Basics
+
+##Project Basics
 
 ###Code Review
 
