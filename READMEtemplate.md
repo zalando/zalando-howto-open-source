@@ -11,6 +11,8 @@ Please copy-paste this into a new document and save as you build your READMEs. Y
 - Note and briefly describe any key concepts (technical, philosophical, or both) important to the user’s understanding.
 - Link to any supplementary blog posts or project main pages.
 - Note its development status.
+- Include badges.
+- If possible, include screenshots and demo videos.
 
 ###Core Technical Concepts/Inspiration
 
