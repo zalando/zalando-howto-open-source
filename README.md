@@ -92,7 +92,7 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 
 ###Before You Start Coding
 
-Never open-source these:
+####Never open-source these:
 - PCI DSS-related projects: e.g. payment services
 - Domain knowledge
 - Anything that would risk our competitive advantage:
