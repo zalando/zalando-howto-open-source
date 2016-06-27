@@ -240,29 +240,17 @@ Not sure what to ask for, or how to peer-review? This list of [11 best practices
 ###Creating a README
 
 ####Do:
-- Begin with a short description of what the project is, does, and does not do
-- List features
-- Place your project in context: who is likely to use it, and why?
-- Cover all technical details—installing, running, and configuring—to eliminate friction separating the user from your software
-- Address any remaining friction points in separate sections
-- Link to additional and more advanced documentation (optional)
-- Include a TODO list to invite potential contributors, citing specific needs/bugs/etc.
-- Include badges
-- If possible, include screenshots and demo videos
-- Include a note ("this is in beta") if the project is still in active development
+- [use this checklist](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md). 
+- Break up text often, for better readability.
+- Think about SEO.
 
 ####Don't:
 - Refer to Zalando specifics, such as internal teams and processes
 - Include large chunks of code without explaining what they represent
-- Lack details critical to a user’s ability to install/run/use your project
 - Include any code that presents security vulnerabilities
 
 ####Syntax and Formatting
-Markdown is the simplest and most easily understood syntax; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one markup format in your project. The format you choose should be [GitHub-supported](https://github.com/github/markup#markups).
-
-For readability, break up text often.
-
-Think about SEO.
+Markdown is the simplest and most easily understood syntax; we recommend using it for all your documentation. However, we realize that there are exceptions: PyPi, for example, uses reStructuredText, and the Python community in general doesn’t use Markdown. If Markdown isn’t practical, then we recommend using only one [GitHub-supported](https://github.com/github/markup#markups) markup format.
 
 ###Official Namespace
 
