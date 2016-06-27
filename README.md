@@ -10,7 +10,6 @@ Table of Contents
   - [Our Open Source First Principles](#our-open-source-first-principles)
   - [To Open Source, or Not to Open Source?](#to-open-source-or-not-to-open-source)
     - [Never Open-Source These](#never-open-source-these)
-    - [Doing Open Source: Project Workflow](#doing-open-source-project-workflow)
         - [Before You Start Coding](#before-you-start-coding)
         - [Open Source, Coding in the Open, and InnerSource](#open-source-coding-in-the-open-and-innersource)
           - [What Makes a Project Open-Source](#what-makes-a-project-open-source)
@@ -91,11 +90,9 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 
 [This blog post](https://tech.zalando.com/blog/zalando-techs-new-open-source-principles/) might also be of interest.
 
-To Open Source, or Not to Open Source?
-------------------------------------------------------------
+###Before You Start Coding
 
-###Never open-source these:
-
+Never open-source these:
 - PCI DSS-related projects: e.g. payment services
 - Domain knowledge
 - Anything that would risk our competitive advantage:
@@ -108,33 +105,7 @@ If you're open-sourcing a project that has contained sensitive information in th
 
 No issues? Great! On to the next section ...
 
-##Doing Open Source: Project Workflow
-Our open source work should reflect and reinforce the principles of Radical Agility:
-- **Autonomy**: We support teams and individuals who contribute to open source
-- **Mastery**: Our projects reflect a high level of quality, thoughtfulness, and skill
-- **Purpose**: Our projects are useful to our team, and to the community at large
-
-###Before You Start Coding
-Creating a new open source project should almost always be a team decision. This is because maintaining a project requires commitment, time, and resources. Before starting a new project, ask these questions:
-- What will the project do and not do? What is its purpose? What is it trying to solve?
-- Does the project already exist?
-  - Do some research to avoid reproducing an existing effort.
-- Who is the audience?
-  - Our tech team is a great focus group. Ask your colleagues—the Open Source Guild, your team and delivery lead, other teams—for input, interest and feedback.
-- Who will be a maintainer?
-     - We require at least one.
-- Can you envision working on/maintaining it six months from now? A year from now?
-- Will you build community around the project?
-   - Internal community: This is very important. The internal success of a project can give you a good idea about its potential to be adopted/used externally.
-   - External community: Who in your network would be willing to contribute?
-   - Sources
-       - LinkedIn groups
-       - community forums/boards
-       - Meetup audiences
-     - Will you need contributors with a different skillset to finish the project?
-     - Create a “TODO” in your README to invite contributions.
-
-If you want to launch a new project separate from your team, talk to your delivery lead first. Let them know about your plan. Then ask yourself the questions immediately above.
+###Answer the "Why"
 
 ##Open Source, Coding in the Open, and InnerSource
 Based on quality, usefulness and maintenance considerations, we use this matrix to decide how to classify and place our projects:
