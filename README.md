@@ -71,17 +71,7 @@ Table of Contents
 
 ###Why Open Source?
 
-Because It Can:
-
-- improve quality
-- mitigate risks
-- increase trust
-- save us money
-- expand our technology choices
-- be fun
-- enable us to give back to the community
-- strengthen our tech brand
-- attract talent
+Because it can: improve quality, mitigate risk, increase trust, save us money, expand our technology choices, be fun, enable us to give back to the community, strengthen our tech brand, and attract talent.
 
 ##Our Open Source First Principles
 
