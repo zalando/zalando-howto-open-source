@@ -1,4 +1,4 @@
-##Building a User-Friendly Project/"Product": A Template
+##Building a Useful, User-Friendly Project/"Product"
 
 So, you want to build a brand-new open-source project. Great! Use this stakeholder interview questions list (derived from [this](http://www.uxapprentice.com/resources/stakeholder-interview-template/)) to ensure that the project you build is as great as possible--from a product, innovation, and usability perspective.
 
