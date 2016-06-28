@@ -1,3 +1,5 @@
+##Building a Strong Open-Source Project/"Product": A Template
+
 So, you want to build a brand-new open-source project. Great! Use this stakeholder interview questions list (derived from [this](http://www.uxapprentice.com/resources/stakeholder-interview-template/)) to ensure that the project you build is as great as possible--from a product, innovation, and usability perspective.
 
 ####1. PROJECT VISION
