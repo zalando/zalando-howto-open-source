@@ -17,6 +17,7 @@ Table of Contents
         - [Quick Incubator FAQ](#quick-incubator-faq)
     - [What Makes a Project InnerSource](#what-makes-a-project-innersource)
   - [Project Basics](#project-basics)
+    - [Must Haves](#must-haves)
     - [Code Review](#code-review)
     - [Creating a README](#creating-a-readme)
       - [Do](#do)
@@ -193,6 +194,12 @@ With InnerSource, we encourage you to make your GitHub Enterprise organization o
 **Where InnerSource projects belong**: GitHub Enterprise
 
 ##Project Basics
+
+###Must-Haves
+
+- You have to enable MFA for your github.com account
+- you have to be a public member of the zalando organization on github.com
+- you have to sign up for the open-source guild emails
 
 ###Code Review
 
