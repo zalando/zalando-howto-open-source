@@ -197,7 +197,7 @@ With InnerSource, we encourage you to make your GitHub Enterprise organization o
 
 ###Must-Haves
 
-- You have to enable MFA for your github.com account
+- you have to enable MFA for your github.com account
 - you have to be a public member of the zalando organization on github.com
 - you have to sign up for the open-source guild emails
 
