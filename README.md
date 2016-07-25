@@ -180,7 +180,7 @@ Yes.
 ####What Makes a Project InnerSource
 InnerSource projects meet all the same criteria as “coding in the open” projects, but with one major difference: they appear on GitHub Enterprise, and are not accessible to the public. No one outside of Zalando Tech can see or contribute to them. 
 
-**Wait, I thought we were “Open Source First.” Doesn’t keeping private repos contradict that?**
+**Wait, I thought we were “Open Source First.” Doesn’t keeping repos on GHE contradict that?**
 
 Nope. Not every project we create will be appropriate for sharing publicly. Some projects will be [too sensitive for publication](https://github.com/zalando/zalando-howto-open-source#never-open-source-these). Other projects would act as “noise,” because they are too tightly coupled to what we do internally. An organization's open source footprint says a lot about that organization, especially if the org cannot maintain a good signal-to-noise ratio.
 
@@ -188,7 +188,9 @@ However, we still want you to share these projects inside Zalando. This is why w
 
 Put simply, InnerSource operates just like open-source in that project teams invite, accept and reject PRs; provide quality documentation; and build them gradually. The main difference is that InnerSource is limited to a single organization—in our case, Zalando Tech.
 
-With InnerSource, we encourage you to make your GitHub Enterprise organization open to other internal teams so they can find out about your work, fix bugs, make PRs, and even add features that your own team currently has no time to develop. We have internal docs to help your team get started working in this way.
+With InnerSource, we encourage you to make your GitHub Enterprise organization open to other internal teams so they can find out about your work, fix bugs, make PRs, and even add features that your own team currently has no time to develop. 
+
+We request that you use private GHE repositories only if they include sensitive information that can't store elsewhere.
 
 **Where InnerSource projects belong**: GitHub Enterprise
 
