@@ -425,7 +425,7 @@ Internally, you can use internal mailing lists and HipChat to announce your need
 
 ###Project Promotion
 
-####Catwatch
+####zalando.github.io: Our Open-Source Projects Dashboard
 All Zalando open-source projects are listed on [zalando.github.io](http://zalando.github.io/) (also called [CatWatch](https://github.com/zalando/catwatch)): our own metrics dashboard measuring our most popular public projects and our most active contributors in terms of commits, stars and forks. Please add a [.catwatch.yaml file](https://github.com/zalando/zmon/blob/master/.catwatch.yaml) to the root of your repository to set a human-readable project title and image URL.
 
 ####Proactively Communicate
