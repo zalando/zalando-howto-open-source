@@ -276,6 +276,8 @@ Don't have a smartphone, and/or want to give your phone number to GitHub? Accord
 #####Which license do we use?
 [The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe.
 
+For documents like this how-to, we recommend using [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
+
 #####Must I use MIT?
 Yes, for all newly created open-source projects.
 
