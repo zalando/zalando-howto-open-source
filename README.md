@@ -246,7 +246,7 @@ Every project needs a ‘[MAINTAINERS](https://git.kernel.org/cgit/linux/kernel/
      [second full name] <email address>
      etc.
 
-Our Catwatch application [will collect maintainers from the MAINTAINERS files](https://github.com/zalando/catwatch/issues/29).
+Our Catwatch application [collects maintainers from the MAINTAINERS files](https://github.com/zalando/catwatch/issues/29).
 
 ####Be Prompt and Responsive
 
@@ -267,7 +267,7 @@ Label your issues with clear tags. This is a great way to organize and categoriz
 #####Two-Factor Authentication Is Required
 GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/) in keeping with our Open Source First principle to "Stay Secure." Read [GitHub's post on 2FA](https://help.github.com/articles/about-two-factor-authentication/) for more information.
 
-Don't have a smartphone, and/or want to give your phone number to GitHub? According to GitHub support, SMS or a TOTP app are currently the only primary 2FA methods that work. There are mobile and desktop TOTP apps that also work. See [Github's article on 2FA via TOTP apps](https://help.github.com/articles/configuring-two-factor-authentication-via-a-totp-mobile-app/) for more information.  You can set up 2FA with a Google Voice SMS number, but should add a U2F device as backup.
+Don't have a smartphone, and/or want to give your phone number to GitHub? According to GitHub support, SMS or a TOTP app are currently the only primary 2FA methods that work. There are mobile and desktop TOTP apps that also work. See [GitHub's article on 2FA via TOTP apps](https://help.github.com/articles/configuring-two-factor-authentication-via-a-totp-mobile-app/) for more information. You can set up 2FA with a Google Voice SMS number, but should add a U2F device as backup.
 
 ###About Licensing
 
