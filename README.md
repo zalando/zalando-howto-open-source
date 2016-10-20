@@ -146,7 +146,7 @@ We have also published some document-only repositories like our RESTful API guid
 - it is in pre-MVP (minimum viable product) status
 - duplicates the functionality of an existing project and is of questionable quality (due to lack of code review or testing)
 
-- **Example projects**: oakkeeper, [STUPS](https://stups.io/), [stups2go](https://github.com/zalando-incubator/stups2go), [solution-center-login](https://github.com/zalando-incubator/solution-center-login), [Tarbela](https://github.com/zalando-incubator/tarbela), [Tranzlate](https://github.com/zalando-incubator/tranzlate) 
+- **Example projects**: [oakkeeper](https://github.com/zalando-incubator/oakkeeper), [STUPS](https://stups.io/), [stups2go](https://github.com/zalando-incubator/stups2go), [solution-center-login](https://github.com/zalando-incubator/solution-center-login), [Tarbela](https://github.com/zalando-incubator/tarbela), [Tranzlate](https://github.com/zalando-incubator/tranzlate) 
 - **Where it belongs**: [Zalando Incubator](https://github.com/zalando-incubator/)
 
 #####Quick Incubator FAQ
