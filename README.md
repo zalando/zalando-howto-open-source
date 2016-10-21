@@ -274,7 +274,7 @@ Don't have a smartphone, and/or want to give your phone number to GitHub? Accord
 ####Quick FAQ
 
 #####Which license do we use?
-[The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe. [This helpful blog post](https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html) breaks down the license line by line for you.
+[The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe. [This helpful blog post](https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html) breaks down the license line by line for you. (If you're really interested in open source licensing, [Rosenlaw & Einschlag's free online book](http://www.rosenlaw.com/oslbook.htm) is a useful resource.
 
 For documents like this how-to, we recommend using [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 
