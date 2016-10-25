@@ -2,7 +2,7 @@
 
 Please copy-paste this into a new document and save as you build your READMEs. You could also use [this similar checklist](https://github.com/cfpb/open-source-project-template).
 
-###Project name/Intro
+###Project Name/Intro
 
 - Describe very briefly but clearly what the project does.
 - State if it is out-of-the-box user-friendly, so it’s clear to the user.
@@ -22,7 +22,7 @@ Please copy-paste this into a new document and save as you build your READMEs. Y
 - Highlight the technical concepts that your project demonstrates or supports. Keep it very brief.
 - Keep it useful.
 
-###Getting Started/RequirementsPrerequisites/Dependencies
+###Getting Started/Requirements/Prerequisites/Dependencies
 Include any essential instructions for:
 - Getting it
 - Installing It
