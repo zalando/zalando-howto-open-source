@@ -256,6 +256,8 @@ If you are away/on vacation and can’t respond to PRs/issues promptly, find som
 
 If you're not going to accept a PR, reject it ASAP and include a brief explanation why.
 
+If you're feeling maintainer burnout or facing some trolling behavior, give Jon Schinklert's [Maintainers Guide to Staying Positive](https://github.com/jonschlinkert/maintainers-guide-to-staying-positive) a read; it might help you to feel better.
+
 ####Use Issues Creatively
 Issues can be good for planning or for onboarding contributors. Issues should include a description of the point, question, discovery, or other detail prompting the issue.
 
