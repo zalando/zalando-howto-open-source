@@ -11,7 +11,7 @@ Table of Contents
   - [Why Open Source?](#why-open-source)
   - [Our Open Source First Principles](#our-open-source-first-principles)
   - [Project Design](#project-design)
-    - [How to Build a Useful Project (Checklist)](#how-to-build-a-useful-project-checklist) 
+    - [What to Ask (and Answer) Before You Open Source](#what-to-ask-and-answer-before-you-open-source) 
     - [Never Open-Source These](#never-open-source-these)
   - [Where to Publish: Main Org, Incubator, or GHE?](#where-to-publish-main-org-incubator-or-ghe)
     - [What Makes a Project “Open Source”](#what-makes-a-project-open-source)
@@ -96,7 +96,7 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 ###Project Design
 
 ####What to Ask (and Answer) Before You Open Source
-[Danese Cooper](https://twitter.com/danese), Distinguished Member of Technical Staff-Open Source at PayPal, and PayPal Open Source Evangelist Duane O'Brien, have [shared a succinct four question approach](https://opensource.com/business/16/1/4-questions-ask-open-sourcing-project) their succinct four-question approach, that has influenced our own:
+[Danese Cooper](https://twitter.com/danese), Distinguished Member of Technical Staff-Open Source at PayPal, and PayPal Open Source Evangelist Duane O'Brien, have [shared a succinct four-question approach](https://opensource.com/business/16/1/4-questions-ask-open-sourcing-project) their succinct four-question approach, that has influenced our own:
 
 - Who cares?
 - Are we still using it?
