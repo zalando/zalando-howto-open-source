@@ -460,12 +460,14 @@ We encourage you to contribute to other open-source projects in ways that benefi
 
 ####How to Become a Contributor
 
-These articles from others in the community provide great advice for getting started:
+Before writing a line of code to change a project, we highly recommend reaching out to the project maintainers via the Issues Tracker and letting them know about your plans (many projects already require this as a first step). There might already be an issue filed that matches your needs, and/or someone working on the changes you're recommending. You don't ever want to invest a lot of time and work into making a change, only to have the project maintainers reject it as out of scope. This will frustrate you, and it will frustrate them.
 
-- [How to become an amazing contributor](https://opensource.com/life/11/3/how-become-amazing-contributor-open-source-project) by Daniel Doubrovkine for opensource.com/RedHat
+These articles from others in the community provide more detailed advice for getting started:
+
+- [How to Become an Amazing Contributor](https://opensource.com/life/11/3/how-become-amazing-contributor-open-source-project) by Daniel Doubrovkine for opensource.com/RedHat
 - [How to Contribute to Open Source Projects](http://www.drdobbs.com/open-source/how-to-contribute-to-open-source-project/231000080) by Brian Behlendorf for Dr. Dobb's
-- [The 8 Essential Traits of a Great Open Source Contributor](https://blog.newrelic.com/2014/10/21/open-source-contributors/) by Ander Lister/New Relic
-- [14 Ways to Contribute to Open Source without Being a Programming Genius or a Rock Star](http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/) also by Andy Lester, this time for SmartBear
+- [The Eight Essential Traits of a Great Open Source Contributor](https://blog.newrelic.com/2014/10/21/open-source-contributors/) by Ander Lister/New Relic
+- [14 Ways to Contribute to Open Source Without Being a Programming Genius or a Rock Star](http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/) also by Andy Lester, this time for SmartBear
 
 ####How to Become a Core Contributor
 
