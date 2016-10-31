@@ -454,7 +454,7 @@ We encourage you to contribute to other open-source projects in ways that benefi
 
 — making bug fixes in Apache
 - making bug fixes to projects you're using on the job
-- submitting a patch or change to a language (for example, [Clojure](http://clojure.org/community/contributing)
+- submitting a patch or change to a language (for example, [Clojure](http://clojure.org/community/contributing))
 - pitching a feature request that your team/dept needs to a project we're using, getting confirmation from the maintainers to go forward, and doing the work
   - a good idea is to review the project's GitHub Issues Tracker to see if anyone else has made the same feature request; restart that conversation and see if you can get them + others to work collaboratively to make the needed change 
 
