@@ -68,6 +68,7 @@ Table of Contents
       - [Proactively Communicate](#proactively-communicate)
 - [Contributing to Non-Zalando Open-Source Projects](#contributing-to-non-zalando-open-source-projects)
       - [General](#general)
+      - [How to Become a Contributor](#how-to-become-a-contributor)
       - [Google Projects](#google-projects)
 
 ###Why Open Source?
@@ -449,9 +450,23 @@ Share your project with:
 ###Contributing to Non-Zalando Open-Source Projects
 
 ####General
-We encourage you to contribute to other open-source projects in ways that benefit Zalando — for example, by making bug fixes in Apache, or submitting a patch to a language. Let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
+We encourage you to contribute to other open-source projects in ways that benefit Zalando. How you can achieve this:
 
-CLAs that are safe: Oracle, Apache.
+— making bug fixes in Apache
+- making bug fixes to projects you're using on the job
+- submitting a patch to a language
+- pitching a feature request that your team/dept needs to a project we're using, getting confirmation from the maintainers to go forward, and doing the work
+  - a good idea is to review the project's GitHub Issues Tracker to see if anyone else has made the same feature request; restart that conversation and see if you can get them + others to work collaboratively to make the needed change 
+  
+#####How to Become a Core Contributor
 
-####Google Projects
-For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt.
+Becoming a core contributor to a major project is a fantastic way to learn from others, grow your network and keep the open source infrastructure we depend on strong and reliable. Others have written great how-to's on this topic. Here are a few:
+
+- [Tips for Becoming a Core Contributor](https://www.wordfugue.com/tips-becoming-core-contributor/) by Philip James 
+- [On Becoming a Core Contributor](http://glasnt.com/blog/2016/06/08/on-becoming-a-core-contributor.html) by Katie McLaughlin
+
+Please let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
+
+#####CLAs 
+
+For typical CLAs, we are safe — but ask our legal team (guild can provide their contact info) to double-check whenever you’re in doubt. CLAs that are safe: Oracle, Apache, Google Projects.
