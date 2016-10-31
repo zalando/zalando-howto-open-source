@@ -454,7 +454,7 @@ We encourage you to contribute to other open-source projects in ways that benefi
 
 — making bug fixes in Apache
 - making bug fixes to projects you're using on the job
-- submitting a patch to a language
+- submitting a patch or change to a language (for example, [Clojure](http://clojure.org/community/contributing)
 - pitching a feature request that your team/dept needs to a project we're using, getting confirmation from the maintainers to go forward, and doing the work
   - a good idea is to review the project's GitHub Issues Tracker to see if anyone else has made the same feature request; restart that conversation and see if you can get them + others to work collaboratively to make the needed change 
   
@@ -462,6 +462,8 @@ Check out these articles for more on how to become a contributor to an outside, 
 
 - [How to become an amazing contributor](https://opensource.com/life/11/3/how-become-amazing-contributor-open-source-project) by Daniel Doubrovkine for opensource.com/RedHat
 - [How to Contribute to Open Source Projects](http://www.drdobbs.com/open-source/how-to-contribute-to-open-source-project/231000080) by Brian Behlendorf for Dr. Dobb's
+- [The 8 Essential Traits of a Great Open Source Contributor](https://blog.newrelic.com/2014/10/21/open-source-contributors/) by Ander Lister/New Relic
+- [14 Ways to Contribute to Open Source without Being a Programming Genius or a Rock Star](http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/) also by Andy Lester, this time for SmartBear
 
 #####How to Become a Core Contributor
 
