@@ -124,7 +124,8 @@ In the inverse, you could think of these three categories as “steps” for you
 The next sections offer more details on differences between open source, “coding in the open” and InnerSource.
 
 ####What Makes a Project “Open Source”
-An open source project:
+
+A Zalando project doesn't become "open source" simply by appearing on public GitHub. For a project to become open source as we define the term, it:
 - **is useful beyond Zalando**. It is free of Zalando dependencies and simple for a non-Zalando to install and start using.
 - **has high-quality documentation** that is up-to-date and clear about what the project does. ([This template can help you](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md).)
 - **is tested**. It has automated tests and takes advantage of test coverage.
