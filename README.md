@@ -458,12 +458,18 @@ We encourage you to contribute to other open-source projects in ways that benefi
 - pitching a feature request that your team/dept needs to a project we're using, getting confirmation from the maintainers to go forward, and doing the work
   - a good idea is to review the project's GitHub Issues Tracker to see if anyone else has made the same feature request; restart that conversation and see if you can get them + others to work collaboratively to make the needed change 
   
+Check out these articles for more on how to become a contributor to an outside, major open source project:
+
+- [How to become an amazing contributor](https://opensource.com/life/11/3/how-become-amazing-contributor-open-source-project) by Daniel Doubrovkine for opensource.com/RedHat
+- [How to Contribute to Open Source Projects](http://www.drdobbs.com/open-source/how-to-contribute-to-open-source-project/231000080) by Brian Behlendorf for Dr. Dobb's
+
 #####How to Become a Core Contributor
 
-Becoming a core contributor to a major project is a fantastic way to learn from others, grow your network and keep the open source infrastructure we depend on strong and reliable. Others have written great how-to's on this topic. Here are a few:
+Becoming a core contributor to a major project is a fantastic way to learn from others, grow your network and keep the open source infrastructure we depend on strong and reliable. Others in the general open source community have written great how-to's on this topic. Here are a few:
 
 - [Tips for Becoming a Core Contributor](https://www.wordfugue.com/tips-becoming-core-contributor/) by Philip James 
 - [On Becoming a Core Contributor](http://glasnt.com/blog/2016/06/08/on-becoming-a-core-contributor.html) by Katie McLaughlin
+- [Apache Software Foundation's how-to](https://community.apache.org/contributors/), including "Moving From Contributor to Committer," [FAQ](https://www.apache.org/dev/committers.html) and [guide](https://www.apache.org/dev/new-committers-guide.html)
 
 Please let the Guild know about your external contributions so we can help you get the recognition and support you deserve.
 
