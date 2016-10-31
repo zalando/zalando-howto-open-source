@@ -95,8 +95,15 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 
 ###Project Design
 
-####How to Build a Useful Project (Checklist) 
-Use [this checklist](https://github.com/zalando/zalando-howto-open-source/blob/master/producttemplate.md) to develop your "product mindset" for your project and make is as useful as possible.
+####What to Ask (and Answer) Before You Open Source
+[Danese Cooper](https://twitter.com/danese), Distinguished Member of Technical Staff-Open Source at PayPal, and PayPal Open Source Evangelist Duane O'Brien, have [shared a succinct four question approach](https://opensource.com/business/16/1/4-questions-ask-open-sourcing-project) their succinct four-question approach, that has influenced our own:
+
+- Who cares?
+- Are we still using it?
+- Are we committed to it?
+- Can it be developed in one public tree?
+
+To encourage our engineers to dive deeper on the first point, we've created [this product template/checklist](https://github.com/zalando/zalando-howto-open-source/blob/master/producttemplate.md). It's meant to raise the key questions necessary for a project to reflect a strong "product mindset" and maximum project utility for the community at large.
 
 ####Never open-source these:
 - PCI DSS-related projects: e.g. payment services
