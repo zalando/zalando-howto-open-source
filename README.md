@@ -67,7 +67,6 @@ Table of Contents
       - [Catwatch](#catwatch)
       - [Proactively Communicate](#proactively-communicate)
 - [Contributing to Non-Zalando Open-Source Projects](#contributing-to-non-zalando-open-source-projects)
-      - [General](#general)
       - [How to Become a Contributor](#how-to-become-a-contributor)
       - [How to Become a Core Contributor](#how-to-become-a-core-contributor)
       - [Google Projects](#google-projects)
