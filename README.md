@@ -96,7 +96,7 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 ###Project Design
 
 ####What to Ask (and Answer) Before You Open Source
-[Danese Cooper](https://twitter.com/danese) and [Duane O'Brien](https://twitter.com/DuaneOBrien) at PayPal have [shared a succinct four-question approach](https://opensource.com/business/16/1/4-questions-ask-open-sourcing-project) that has influenced our own:
+[Danese Cooper](https://twitter.com/DivaDanese) and [Duane O'Brien](https://twitter.com/DuaneOBrien) at PayPal have [shared a succinct four-question approach](https://opensource.com/business/16/1/4-questions-ask-open-sourcing-project) that has influenced our own:
 
 - Who cares?
 - Are we still using it?
