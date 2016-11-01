@@ -473,7 +473,7 @@ These articles from others in the community provide more detailed advice for get
 
 - [How to Become an Amazing Contributor](https://opensource.com/life/11/3/how-become-amazing-contributor-open-source-project) by Daniel Doubrovkine for opensource.com/RedHat
 - [How to Contribute to Open Source Projects](http://www.drdobbs.com/open-source/how-to-contribute-to-open-source-project/231000080) by Brian Behlendorf for Dr. Dobb's
-- [The Eight Essential Traits of a Great Open Source Contributor](https://blog.newrelic.com/2014/10/21/open-source-contributors/) by Ander Lister/New Relic
+- [The Eight Essential Traits of a Great Open Source Contributor](https://blog.newrelic.com/2014/10/21/open-source-contributors/) by Ander Lester/New Relic
 - [14 Ways to Contribute to Open Source Without Being a Programming Genius or a Rock Star](http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/) also by Andy Lester, this time for SmartBear
 
 ####How to Become a Core Contributor
