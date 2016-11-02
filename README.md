@@ -18,6 +18,7 @@ Table of Contents
     - [What Makes a Project "Coding in the Open"](#what-makes-a-project-coding-in-the-open)
         - [Quick Incubator FAQ](#quick-incubator-faq)
     - [What Makes a Project InnerSource](#what-makes-a-project-innersource)
+      - [How to InnerSource](#how-to-innersource)
   - [Project Basics](#project-basics)
     - [Code Review](#code-review)
     - [Creating a README](#creating-a-readme)
@@ -204,6 +205,9 @@ With InnerSource, we encourage you to make your GitHub Enterprise organization o
 We request that you use private GHE repositories only if they include sensitive information that can't store elsewhere.
 
 **Where InnerSource projects belong**: GitHub Enterprise
+
+#####How to InnerSource
+[Here's our homegrown how-to](https://github.com/zalando/zalando-howto-open-source/blob/master/innersource.md) with materials to get you started.
 
 ##Project Basics
 
