@@ -14,20 +14,24 @@ Many teams at Zalando have applied the InnerSource collaboration model to delive
 
 ###FAQ on InnerSourcing Your Team's Repos
 
-####What if our team doesn't have time to review all the incoming PRs?
+#####What if our team doesn't have time to review all the incoming PRs?
 That's up to your team to resolve. But keep this in mind: What's faster, coding everything yourselves, or reviewing someone else's code? Approaching these efforts collaboratively — communicating your goals, wishes, risks, etc. to the team that's looking to contribute — can also save you lots of time. Talking things out over 30-60 minutes only takes 30-60 minutes.
 
-####What if we allow a team to go forward with a PR, and the end result is not to our liking?
+#####What if we allow a team to go forward with a PR, and the end result is not to our liking?
 Try to work with the contributing team to achieve something you can all accept. Remember, part of this is on you communicating with the contributing team what you're hoping they'll produce. Check in with them to get progress updates. Give them guidance, if needed. This will save you time, and save everyone involved disappointment.
 
-###Changing Another Team's Repos
+####Changing Another Team's Repos
 If your team needs something from another team's repo, InnerSource could help. A FAQ based on questions many a Zalando engineer has raised about how this works.
 
-####How do I know if a team will accept my proposed PR? 
+#####How do I know if a team will accept my proposed PR? 
 Simple: Ask that team. We recommend reaching out to their producer or pinging them over HipChat as a first step. Don't do anything until you hear back from them. If they don't answer the first time, try them again.  
 
-####If my team/I change another team's repo, who ends up owning the repo?
+#####If my team/I change another team's repo, who ends up owning the repo?
 The original team.
-  
 
-More info
+###More info
+There's a growing number of useful resources on InnerSource. Here are a few:
+- O'Reilly/PayPal's [Getting Started With InnerSource](https://www.oreilly.com/ideas/getting-started-with-innersource) booklet
+- [Adopting Open Source Development Practices in Organizations: A Tutorial](http://ieeexplore.ieee.org/document/6809709/) by the IEEE (requires sign-in)
+- [Inner Source in Platform-Based Product
+Engineering](http://www.develop-group.de/fileadmin/dg_Internet/downloads/Fachveroeffentlichungen/Fachveroeffentlichungen_Projekt/devgroup_InnerSource_in_Platform-BasedProductEngineering.pdf) by Drs. Dirk Riehle, Maximilian Capraro, Detlef Kips, Lars Horn
