@@ -17,6 +17,12 @@ Many teams at Zalando have applied the InnerSource collaboration model to delive
 #####What if our team doesn't have time to review all the incoming PRs?
 That's up to your team to resolve. But keep this in mind: What's faster, coding everything yourselves, or reviewing someone else's code? Approaching these efforts collaboratively — communicating your goals, wishes, risks, etc. to the team that's looking to contribute — can also save you lots of time. Talking things out over 30-60 minutes only takes 30-60 minutes.
 
+#####But writing code is more fun than reviewing someone else's code. 
+Maybe so. So write some code! Contribute a PR back to the team that contributed to your repo, or to a different team. Take a look at [our open-source offerings](https://zalando.github.io/) and code something for one of those projects.
+
+#####Hey, it takes time to get people up to speed with the codebase and go through a couple of PR iterations to get something done. What if we don't have time right now to handle that?
+Check again and make sure that it will truly take longer to teach someone about your codebase than to do the work yourself. Also, don't project or make assumptions about your potential, still-imaginary contributor: For all you know, they might be able to dive right in and get the job done quickly. They might even be able to teach you some things. This dynamic plays out in the open source world all the time.
+
 #####What if we allow a team to go forward with a PR, and the end result is not to our liking?
 Try to work with the contributing team to achieve something you can all accept. Remember, part of this is on you communicating with the contributing team what you're hoping they'll produce. Check in with them to get progress updates. Give them guidance, if needed. This will save you time, and save everyone involved disappointment.
 
