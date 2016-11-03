@@ -26,6 +26,9 @@ Check again and make sure that it will truly take longer to teach someone about 
 #####What if we allow a team to go forward with a PR, and the end result is not to our liking?
 Try to work with the contributing team to achieve something you can all accept. Remember, part of this is on you communicating with the contributing team what you're hoping they'll produce. Check in with them to get progress updates. Give them guidance, if needed. This will save you time, and save everyone involved disappointment.
 
+#####What if someone surprises us with a PR we didn't ask for and don't want?
+Then don't accept it. We want people to reach out to an owning team before making any bug fix or (especially) more significant change to a repo. If, for example, a team doesn't do that, and tries to fix one of your bugs/build one of your requested features without talking to you, then you have the right to reject their work. That team will most likely learn from the experience and be sure to talk about their proposed changes before setting to work. 
+
 ####Changing Another Team's Repos
 If your team needs something from another team's repo, InnerSource could help. A FAQ based on questions many a Zalando engineer has raised about how this works.
 
