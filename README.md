@@ -357,14 +357,16 @@ Management can work with Legal to determine Intellectual Property concerns.
 
 Many package managers include a feature to make the applied license machine readable. Use these! An example for [Maven](https://maven.apache.org/pom.html#Licenses):
 
- ```<licenses>
- <license>
-   <name>MIT</name>
-   <url>https://opensource.org/licenses/MIT</url>
-   <distribution>repo</distribution>
-  </license>
- </licenses>
- ```
+```xml
+<licenses>
+    <license>
+        <name>MIT</name>
+        <url>https://opensource.org/licenses/MIT</url>
+        <distribution>repo</distribution>
+    </license>
+</licenses>
+```
+
 An example for [Node](https://docs.npmjs.com/files/package.json#license), according to [this](https://gist.github.com/robertkowalski/7620849):
 
 ```
