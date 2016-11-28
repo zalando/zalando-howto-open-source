@@ -33,6 +33,7 @@ Include any essential instructions for:
 - Versioning: Services, APIs, Systems
 - Common Error Messages/related details
 - Tests
+- Is it a Swift project? Please take a look at Mattt Thompson & Nate Cook's [Swift documentation](http://nshipster.com/swift-documentation/) guide
 
 ###Contributing
 - Contributor Guidelines
