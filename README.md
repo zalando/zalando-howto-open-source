@@ -109,11 +109,12 @@ To encourage our engineers to dive deeper on the first point, we've created [thi
 ####Never open-source these:
 - PCI DSS-related projects: e.g. payment services
 - Domain knowledge
-- Anything that would risk our competitive advantage:
-  - confidential source code
-  - recommendation algorithms
 - Customer data
 - Unique Selling Points (USPs)
+- Anything that would risk our competitive advantage. This typically means technologies we build that are intrinsic to generating or reinforcing the uniqueness of our customer experience, and that—if made public—would enable our competitors to implement it and erase our uniqueness. This could be:
+  - confidential source code
+  - recommendation algorithms
+  - search functionalities that give us an edge over competitors 
 
 If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the Git commit history. Create an entirely new Git repo for it before pushing it to GitHub.
 
