@@ -1,6 +1,8 @@
 ##Building a Useful, User-Friendly Project/"Product"
 
-So, you want to build a brand-new open-source project. Great! Use this stakeholder interview questions list (derived from [this](http://www.uxapprentice.com/resources/stakeholder-interview-template/)) to ensure that the project you build is as great as possible from a product, innovation, and usability perspective.
+So, you want to build a brand-new open-source project. Great! Use this stakeholder interview questions list (derived from [this](http://www.uxapprentice.com/resources/stakeholder-interview-template/)) to ensure that the project you build is as great as possible from a product, innovation, and usability perspective. 
+
+Also recommended: check out [Mozilla's Open Canvas](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), which presents a very similar approach in a nifty canvas format! 
 
 ####1. PROJECT VISION
 - What is your vision for this project?
