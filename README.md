@@ -292,9 +292,9 @@ Don't have a smartphone, and/or want to give your phone number to GitHub? Accord
 ####Quick FAQ
 
 #####Which license do we use?
-[The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe. 
+[The MIT license](https://opensource.org/licenses/MIT). MIT is succinct, straightforward, and easy use in closed-source projects. It allows the most broad usage of our source code, and keeps open-sourcing easy and safe. You must include a separate license file in your repository with the entire text of the MIT license included. 
 
-You must include a separate license file in your repository with the entire text of the MIT license included. You must also include this sentence: “This software is licensed under the MIT license (see below), unless otherwise stated in the license files in higher directories (if any).”
+If your project uses the MIT license and incorporates third-party OSS components, then you must attach this sentence in your license file: “This software is licensed under the MIT license (see below), unless otherwise stated in the license files in higher directories (if any)." Please also provide the license files for every third-party source you add.
 
 [This helpful blog post](https://writing.kemitchell.com/2016/09/21/MIT-License-Line-by-Line.html) breaks down the license line by line for you. (If you're really interested in open source licensing, check out [Rosenlaw & Einschlag's free online book](http://www.rosenlaw.com/oslbook.htm) and/or [O'Reilly's/Andrew M. St. Laurent's](http://www.oreilly.com/openbook/osfreesoft/book/). These are a little dated, but still useful.)
 
