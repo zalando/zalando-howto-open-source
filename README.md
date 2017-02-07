@@ -179,7 +179,7 @@ Absolutely. Even if Incubator projects aren't currently useful outside of Zaland
 ######What happens when you transfer a repo from one org to another?
 The URL is re-routed to the new organization (zalando-incubator). All git clone, git fetch, or git push operations targeting the previous location will continue to function as if made on the new location. Links will be transferred to the new repository. 
 
-That said, GitHub strongly recommends that anyone who had a reference to the old link locally change to the new URL. Read GitHub’s documentation to learn more.  
+That said, GitHub strongly recommends that anyone who had a reference to the old link locally change to the new URL. [Read GitHub’s documentation](https://help.github.com/articles/transferring-a-repository/#redirects-and-git-remotes) to learn more.
 
 ######What happens if I “code in the open” on the main org?
 The Guild will ask you to transfer the project yourself to the Incubator, first by filing an Issue on the project and then via HipChat/one-on-one. If we don’t get any response within 14 days, or if you agree to the transfer but don’t take action within a week (seven days), your project will be relocated to the Incubator for you.
