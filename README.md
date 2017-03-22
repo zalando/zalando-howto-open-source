@@ -171,7 +171,7 @@ No, GitHub doesn’t allow it. (There are migration tools that can copy issues a
 Yes.
 
 #### What Makes a Project InnerSource
-InnerSource projects meet all the same criteria as “coding in the open” projects, but with one major difference: they appear on GitHub Enterprise, and are not accessible to the public. No one outside of Zalando Tech can see or contribute to them. 
+InnerSource projects are the repositories we use internally at Zalando. They appear on GitHub Enterprise, and are not accessible to the public. No one outside of Zalando Tech can see or contribute to them. 
 
 **Wait, I thought we were “Open Source First.” Doesn’t keeping repos on GHE contradict that?**
 
