@@ -13,7 +13,7 @@ Table of Contents
   - [Project Design](#project-design)
     - [What to Ask (and Answer) Before You Open Source](#what-to-ask-and-answer-before-you-open-source) 
     - [Never Open-Source These](#never-open-source-these)
-  - [/zalando, /zalando-incubator, and GitHub Enterprise](#where-to-publish-main-org-incubator-or-ghe)
+  - [Our Main GitHub Org, /zalando-incubator, and GitHub Enterprise](#where-to-publish-main-org-incubator-or-ghe)
     - [The /zalando Org and What Makes a Project “Open Source”](#what-makes-a-project-open-source)
     - [New Projects: zalando-incubator](#the-incubator)
     - [GitHub Enterprise: For Zalando-Only Repos (InnerSource)](#innersource)
