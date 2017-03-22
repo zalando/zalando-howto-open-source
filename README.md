@@ -125,7 +125,7 @@ No issues? Great! On to the next section ...
 Based on quality, usefulness and maintenance considerations, we use this matrix to decide how to classify and place our projects:
 
 - InnerSource = GitHub Enterprise
-- Coding in the Open = Incubator
+- Newly launched projects that are open source = Incubator
 - Open source = main Zalando org
 
 In the inverse, you could think of these three categories as “steps” for your project as it develops from an idea to a minimum viable product (MVP) that someone on the outside could understand, use and possibly work on as a contributor. 
@@ -149,40 +149,21 @@ A Zalando project doesn't become "open source" simply by appearing on public Git
 
 We have also published some document-only repositories like our RESTful API guidelines, our “How to Open Source” guidelines, the Tech Radar, and our Rules of Play. These reflect our organizational perspective on technical topics, and are therefore of potential interest to other companies who are looking for ideas and case studies. We should keep them limited in number and broad in scope.
 
-#### What Makes a Project “Coding in the Open”
+#### The Incubator
 
-“Coding in the open” is how we describe a Zalando project that is already public—or that you want to make public for personal reasons—but not currently useful beyond Zalando Tech because it is affected by at least one of the following issues:
-- it is dependent on other Zalando projects
-- it is difficult or impossible for a non-Zalando to install 
-- it has documentation that lacks essential user information, or lacks docs altogether
-- it isn’t currently maintained
-- it is in pre-MVP (minimum viable product) status
-- duplicates the functionality of an existing project and is of questionable quality (due to lack of code review or testing)
+The Incubator is a proving ground for brand-new projects that meet all the above criteria. It is where we can experiment and publish projects that show clear promise of being useful to others because they are A) out-of-the-box usable to non-Zalandos and B) highlight a compelling technical challenge that we are solving with software.
 
-- **Example projects**: [oakkeeper](https://github.com/zalando-incubator/oakkeeper), [STUPS](https://stups.io/), [stups2go](https://github.com/zalando-incubator/stups2go), [solution-center-login](https://github.com/zalando-incubator/solution-center-login), [Tarbela](https://github.com/zalando-incubator/tarbela), [Tranzlate](https://github.com/zalando-incubator/tranzlate) 
-- **Where it belongs**: [Zalando Incubator](https://github.com/zalando-incubator/)
+Set up in 2016, the Zalando Incubator originally doubled as a parking spot for deprecated projects and "coding in the open"—repositories that did not measure up to the level of "useful to others" because were incomplete, deprecated, interesting but tightly coupled to Zalando systems, etc. For sustainability, quality, relevance, and other reasons, this purpose for the Incubator ended in spring 2017. All projects now must remain in GitHub Enterprise until they meet the basic open source criteria listed in the previous section.
 
-##### Quick Incubator FAQ
-
-###### Why did we make the Incubator?
-To support our Open Source First principle, "Share Your Code,” while reserving our main GitHub org for projects useful beyond Zalando.
-
-###### Can you launch a project directly to the Incubator? 
-Yes. And you should, if it meets “coding in the open” criteria.
-
-###### Do Incubator projects have to follow our security and compliance guidelines?
-Yes, even if we are developing them for Zalandos only, “experimental,” etc.
-
-###### Can an Incubator project ever appear in the main Zalando GitHub org?
-Absolutely. Even if Incubator projects aren't currently useful outside of Zalando, we'd like to think that one day they might be.
+Projects that demonstrate in the Incubator can be transferred to our main organization, /zalando. 
 
 ###### What happens when you transfer a repo from one org to another?
 The URL is re-routed to the new organization (zalando-incubator). All git clone, git fetch, or git push operations targeting the previous location will continue to function as if made on the new location. Links will be transferred to the new repository. 
 
 That said, GitHub strongly recommends that anyone who had a reference to the old link locally change to the new URL. [Read GitHub’s documentation](https://help.github.com/articles/transferring-a-repository/#redirects-and-git-remotes) to learn more.
 
-###### What happens if I “code in the open” on the main org?
-The Guild will ask you to transfer the project yourself to the Incubator, first by filing an Issue on the project and then via HipChat/one-on-one. If we don’t get any response within 14 days, or if you agree to the transfer but don’t take action within a week (seven days), your project will be relocated to the Incubator for you.
+###### What happens if I release a project directly to /zalando?
+You will be asked to transfer the project yourself to the Incubator. If we don’t get any response within seven days, or if you agree to the transfer but don’t take action within seven days, your project will be relocated to the Incubator for you.
 
 ###### Is it possible to transfer GitHub issues from one project to the other? 
 No, GitHub doesn’t allow it. (There are migration tools that can copy issues and their comments to another project, but these don't transfer the relevant author info; they assign ownership to the account used by the migration tool.)
