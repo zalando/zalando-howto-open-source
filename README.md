@@ -15,8 +15,7 @@ Table of Contents
     - [Never Open-Source These](#never-open-source-these)
   - [Where to Publish: Main Org, Incubator, or GHE?](#where-to-publish-main-org-incubator-or-ghe)
     - [What Makes a Project “Open Source”](#what-makes-a-project-open-source)
-    - [What Makes a Project "Coding in the Open"](#what-makes-a-project-coding-in-the-open)
-        - [Quick Incubator FAQ](#quick-incubator-faq)
+    - [The Incubator](#the-incubator)
     - [What Makes a Project InnerSource](#what-makes-a-project-innersource)
       - [How to InnerSource](#how-to-innersource)
   - [Project Basics](#project-basics)
@@ -83,7 +82,7 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 
 - **Do “Open Source First”**: If your Zalando project can also be useful to non-Zalandos, release it as open source from the start.
 - **Take Ownership**: Your team is responsible for ensuring that it’s possible to open-source your project. Your delivery lead is available for guidance.
-- **Share Your Code**: All code shared between teams must be open source.
+- **Share Your Code**: All code shared between teams must be open source. (Note: This condition is under revision.)
 - **Be Safe**: To ensure the broadest possible use of your project, use the MIT License only.
 - **Deliver Quality**: Provide a great out-of-the-box experience.
 - **Provide Documentation**: Include a clear README and default working configuration.
@@ -114,7 +113,7 @@ To encourage our engineers to dive deeper on the first point, we've created [thi
 - Anything that would risk our competitive advantage. This typically means technologies we build that are intrinsic to generating or reinforcing the uniqueness of our customer experience, and that—if made public—would enable our competitors to implement it and erase our uniqueness. This could be:
   - confidential source code
   - recommendation algorithms
-  - search functionalities that give us an edge over competitors 
+  - search functionalities that give us an edge over competitors
 
 If you're open-sourcing a project that has contained sensitive information in the past, the sensitive information can still be retrieved from the Git commit history. Create an entirely new Git repo for it before pushing it to GitHub.
 
@@ -125,7 +124,7 @@ No issues? Great! On to the next section ...
 Based on quality, usefulness and maintenance considerations, we use this matrix to decide how to classify and place our projects:
 
 - InnerSource = GitHub Enterprise
-- Newly launched projects that are open source = Incubator
+- Newly launched projects that meet our criteria for open source = Incubator
 - Open source = main Zalando org
 
 In the inverse, you could think of these three categories as “steps” for your project as it develops from an idea to a minimum viable product (MVP) that someone on the outside could understand, use and possibly work on as a contributor. 
@@ -136,7 +135,7 @@ The next sections offer more details on differences between open source, “codi
 
 A Zalando project doesn't become "open source" simply by appearing on public GitHub. For a project to become open source as we define the term, it:
 - **is useful beyond Zalando**. It is free of Zalando dependencies and simple for a non-Zalando to install and start using.
-- **has high-quality documentation** that is up-to-date and clear about what the project does. ([This template can help you](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md).)
+- **has user-friendly documentation** that is up-to-date and clear about what the project does, and how to install/start/configure/run it. ([This template can help you](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md).)
 - **is tested**. It has automated tests and takes advantage of test coverage.
 - **is under active development**, or is stable enough to be considered a “finished” product. If the project is incomplete, at least one maintainer has worked on it in the last three months. If it’s stable and doesn’t require constant maintenance, you’ve stated as much in your README.
 - **is innovative**. If it duplicates an existing project, it does at least one thing better, faster, differently, etc., or is higher-quality.
@@ -151,7 +150,7 @@ We have also published some document-only repositories like our RESTful API guid
 
 #### The Incubator
 
-The Incubator is a proving ground for brand-new projects that meet all the above criteria. It is where we can experiment and publish projects that show clear promise of being useful to others because they are A) out-of-the-box usable to non-Zalandos and B) highlight a compelling technical challenge that we are solving with software.
+The Incubator is most likely where your Zalando project will first appear in public. It is a proving ground for brand-new projects that meet all the above criteria. It is where we can experiment and publish projects that show clear promise of being useful to others because they are A) out-of-the-box usable to non-Zalandos and B) highlight a compelling technical challenge that we are solving with software.
 
 Set up in 2016, the Zalando Incubator originally doubled as a parking spot for deprecated projects and "coding in the open"—repositories that did not measure up to the level of "useful to others" because were incomplete, deprecated, interesting but tightly coupled to Zalando systems, etc. For sustainability, quality, relevance, and other reasons, this purpose for the Incubator ended in spring 2017. All projects now must remain in GitHub Enterprise until they meet the basic open source criteria listed in the previous section.
 
