@@ -13,9 +13,9 @@ Table of Contents
   - [Project Design](#project-design)
     - [What to Ask (and Answer) Before You Open Source](#what-to-ask-and-answer-before-you-open-source) 
     - [Never Open-Source These](#never-open-source-these)
-  - [Our Main GitHub Org, /zalando-incubator, and GitHub Enterprise](#where-to-publish-main-org-incubator-or-ghe)
-    - [The /zalando Org and What Makes a Project “Open Source”](#what-makes-a-project-open-source)
-    - [New Projects: zalando-incubator](#the-incubator)
+  - [Our Main GitHub Org, The Incubator, and GitHub Enterprise](#where-to-publish-main-org-incubator-or-ghe)
+    - [The Main Zalando Org and What Makes a Project “Open Source”](#what-makes-a-project-open-source)
+    - [New Projects: The Incubator](#the-incubator)
     - [GitHub Enterprise: For Zalando-Only Repos (InnerSource)](#innersource)
       - [How to InnerSource](#how-to-innersource)
   - [Project Basics](#project-basics)
@@ -119,7 +119,7 @@ If you're open-sourcing a project that has contained sensitive information in th
 
 No issues? Great! On to the next section ...
 
-### Where to Publish: Main Org, Incubator, or GHE?
+### Our Main GitHub Org, The Incubator, and GitHub Enterprise
 
 Based on quality, usefulness and maintenance considerations, we use this matrix to decide how to classify and place our projects:
 
@@ -131,9 +131,9 @@ In the inverse, you could think of these three categories as “steps” for you
 
 The next sections offer more details on differences between open source, “coding in the open” and InnerSource.
 
-#### What Makes a Project “Open Source”
+#### The Main Org and What Makes a Project “Open Source”
 
-A Zalando project doesn't become "open source" simply by appearing on public GitHub. For a project to become open source as we define the term, it:
+Zalando's main GitHub organization is [/zalando](https://github.com/zalando). This organization is reserved for projects meeting these criteria:
 - **is useful beyond Zalando**. It is free of Zalando dependencies and simple for a non-Zalando to install and start using.
 - **has user-friendly documentation** that is up-to-date and clear about what the project does, and how to install/start/configure/run it. ([This template can help you](https://github.com/zalando/zalando-howto-open-source/blob/master/READMEtemplate.md).)
 - **is tested**. It has automated tests and takes advantage of test coverage.
@@ -144,13 +144,12 @@ A Zalando project doesn't become "open source" simply by appearing on public Git
 - **has a plan**. Its maintainers care about making it a success. They commit to responding to PRs and issues in a timely manner (48-72 hours), thank contributors, and convert quality contributors to trusted maintainers as appropriate. If you need some guidance, check out [Mozilla's helpful resources](https://mozilla.github.io/open-leadership-training-series/articles/open-project-maintenance/open-project-maintenance/) on this topic.
 
 - **Example projects**: [Patroni](https://github.com/zalando/Patroni), [Connexion](https://github.com/zalando/connexion), [Zappr](https://github.com/zalando/zappr), [Python NSEnter](https://github.com/zalando/python-nsenter), [Tailor](https://github.com/zalando/tailor), [Grafter](https://github.com/zalando/grafter), [SwiftMonkey](https://github.com/zalando/swiftmonkey).
-- **Where it belongs**: Zalando [main org](https://github.com/zalando)
 
 We have also published some document-only repositories like our RESTful API guidelines, our “How to Open Source” guidelines, the Tech Radar, and our Rules of Play. These reflect our organizational perspective on technical topics, and are therefore of potential interest to other companies who are looking for ideas and case studies. We should keep them limited in number and broad in scope.
 
-#### The Incubator
+#### New Projects: The Incubator
 
-The Incubator is most likely where your Zalando project will first appear in public. It is a proving ground for brand-new projects that meet all the above criteria. It is where we can experiment and publish projects that show clear promise of being useful to others because they are A) out-of-the-box usable to non-Zalandos and B) highlight a compelling technical challenge that we are solving with software.
+[The Incubator](https://github.com/zalando-incubator) is most likely where your Zalando project will first appear in public. It is a proving ground for brand-new projects that meet all the above criteria. It is where we can experiment and publish projects that show clear promise of being useful to others because they are A) out-of-the-box usable to non-Zalandos and B) highlight a compelling technical challenge that we are solving with software.
 
 Set up in 2016, the Zalando Incubator originally doubled as a parking spot for deprecated projects and "coding in the open"—repositories that did not measure up to the level of "useful to others" because were incomplete, deprecated, interesting but tightly coupled to Zalando systems, etc. For sustainability, quality, relevance, and other reasons, this purpose for the Incubator ended in spring 2017. All projects now must remain in GitHub Enterprise until they meet the basic open source criteria listed in the previous section.
 
@@ -170,7 +169,7 @@ No, GitHub doesn’t allow it. (There are migration tools that can copy issues a
 ###### Is it possible to transfer the ownership of a Github repo to someone else? 
 Yes.
 
-#### What Makes a Project InnerSource
+#### GitHub Enterprise: For Zalando-Only Repos (InnerSource)
 InnerSource projects are the repositories we use internally at Zalando. They appear on GitHub Enterprise, and are not accessible to the public. No one outside of Zalando Tech can see or contribute to them. 
 
 **Wait, I thought we were “Open Source First.” Doesn’t keeping repos on GHE contradict that?**
