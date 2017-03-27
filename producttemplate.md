@@ -1,6 +1,6 @@
 ## Building a Useful, User-Friendly Project/"Product"
 
-So, you want to build a brand-new open-source project. Great! Use this stakeholder interview questions list (derived from [this](http://www.uxapprentice.com/resources/stakeholder-interview-template/)) to ensure that the project you build is as great as possible from a product, innovation, and usability perspective. 
+So, you want to build a brand-new open-source project. Great! Use this stakeholder interview questions list (derived from [this](http://www.uxapprentice.com/resources/stakeholder-interview-template/)) to ensure that the project you build is as great as possible from a product, innovation, maintenance, and usability perspective. 
 
 Also recommended: check out [Mozilla's Open Canvas](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), which presents a very similar approach in a nifty canvas format! 
 
@@ -40,14 +40,15 @@ User research helps you to avoid duplication/building something in a silo; techn
 - What is the current relationship between you/your project team and your potential users of your project?
 - How will you engage with your project’s potential users to tell them about the project and keep them informed of updates/new features/etc? 
   - Examples: LinkedIn groups, direct contact with likely users (in personal networks), social media, meetups, conferences 
-- What are the steps you plan to take to increase engagement?
-- Do you have a plan for:
-  - Answering issues?
-  - Reviewing PRs from outside your own team?
-  - Asking for PRs from outside your own team (contributor guidelines, priority bugs/issues/features)
-  - Rejecting PRs you don’t want?
-  - For the short term (next three months), how can you manage this work so that you respond to PRs/issues/questions within 48-72 hours?
-  - For the long term (six months from now), will this plan still be feasible? 
+- What steps will you/your team take to increase engagement and build community?
+- Do you have a six-month maintenance plan for the project? Such a plan would address:
+  - Your/your team's definition of what "maintainer" means, and what a maintainer is accountable for (role definition).
+  - Total number of project maintainers, and assurance that they can/will fulfill the role.
+  - The expected response time for PRs and issues. Within 48-72 hours is advisable; any longer, and we request that you note in your README that longer response times should be expected.
+  - Reviewing PRs from outside your own team, and related processes.
+  - Asking for PRs from outside your own team.
+  - Labelling issues "Help Wanted" to drive contributions, and how you will achieve this.
+  - How you will handle rejecting PRs you don’t want to use.
 
 #### 4. COMPETITOR ANALYSIS
 - What similar tools are in use today internally?
