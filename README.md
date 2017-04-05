@@ -1,7 +1,7 @@
 How to Open Source at Zalando
 ==================
 
-A guide to releasing an open-source project at [Zalando](https://www.zalando.com>), Europe's largest online fashion platform. Please feel free to use this as a template for your own organization's open source planning, policymaking, and development efforts. If there's a topic we've missed, or if you have a suggestion for making this better, let us know via our Issues tracker. 
+A guide to releasing an open-source project at [Zalando](https://www.zalando.com>), Europe's largest online fashion platform. Please feel free to use this as a template for your own organization's open source planning, policymaking, and development efforts. If there's a topic we've missed, or if you have any suggestions for making this better, let us know via our Issues tracker. 
 
 We're really grateful to [Software Lead Weekly](http://softwareleadweekly.com/issues/205), [cron.weekly](https://www.cronweekly.com/issue-51/), [Chris Aniszczyk](https://twitter.com/cra/status/785873124227022848) ([TODO Group](http://todogroup.org/#)), the folks at [Datio Engineering](https://twitter.com/datiobd/status/791942930466344960), [Thomas Lockney](https://twitter.com/tlockney) of Nike, [Richard Seroter](https://twitter.com/rseroter/status/794197949391785984) at Pivotal, [Peter Zaitsev](https://twitter.com/PeterZaitsev/status/790366161745551360) at Percona, [Jonathan Lipps](https://twitter.com/jlipps/status/793485753896562688) at Sauce Labs, and others for spreading the word about this doc.
 
