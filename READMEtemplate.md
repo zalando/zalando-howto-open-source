@@ -53,4 +53,4 @@ Include any essential instructions for:
 - Google Group/mailing list (if applicable)
 - IRC or Slack (if applicable)
 
-###License
+### License
