@@ -19,6 +19,7 @@ Table of Contents
     - [GitHub Enterprise: For Zalando-Only Repos (InnerSource)](#github-enterprise-for-zalando-only-repos-innersource)
       - [How to InnerSource](#how-to-innersource)
   - [Project Basics](#project-basics)
+    - [Must Haves](#must-haves)
     - [Code Review](#code-review)
     - [Creating a README](#creating-a-readme)
       - [Do](#do)
@@ -190,6 +191,12 @@ We request that you use private GHE repositories only if they include sensitive 
 [Here's our homegrown how-to](https://github.com/zalando/zalando-howto-open-source/blob/master/innersource.md) with materials to get you started.
 
 ##Project Basics
+
+###Must-Haves
+
+- you have to enable MFA for your github.com account
+- you have to be a public member of the zalando organization on github.com
+- you have to sign up for the open-source guild emails
 
 ###Code Review
 
