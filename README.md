@@ -189,9 +189,9 @@ We request that you use private GHE repositories only if they include sensitive 
 ##### How to InnerSource
 [Here's our homegrown how-to](https://github.com/zalando/zalando-howto-open-source/blob/master/innersource.md) with materials to get you started.
 
-##Project Basics
+## Project Basics
 
-###Code Review
+### Code Review
 
 Ask your team and other peers to:
 - review your code
