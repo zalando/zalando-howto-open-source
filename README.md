@@ -82,7 +82,6 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 
 - **Do “Open Source First”**: If your Zalando project can also be useful to non-Zalandos, release it as open source from the start.
 - **Take Ownership**: Your team is responsible for ensuring that it’s possible to open-source your project. Your delivery lead is available for guidance.
-- **Share Your Code**: All code shared between teams must be open source. (Note: This condition is under revision.)
 - **Be Safe**: To ensure the broadest possible use of your project, use the MIT License only.
 - **Deliver Quality**: Provide a great out-of-the-box experience.
 - **Provide Documentation**: Include a clear README and default working configuration.
