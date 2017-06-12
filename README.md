@@ -259,6 +259,13 @@ Issues that consist solely of a title appear unprofessional and do not do much t
 
 Label your issues with clear tags. This is a great way to organize and categorize issues.
 
+#### Provide a Pull-Request Template
+
+As Issues are the basis for onboarding contributors, creating a roadmap for your project or tracking bugs, with pull requests you are managing the solutions for every issue. They are also often used to document how a solution is developed. Additionally, referencing issues in pull-requests shows everyone that someone is working on it and they can see the progress.
+
+A pull request template increases the quality of your pull-requests and provides a common guideline what contributors have to take care of if they contribute to your project. Basically, you add a `PULL_REQUEST_TEMPLATE.md` into the root of your project folder. Once it is merged, every new pull request will use your template.
+We are providing a basic [pull request template](pull_request_template.md) and you can find a step-by-step guide [in the github help section](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/).
+
 ### Stay Secure
 ##### Two-Factor Authentication Is Required
 GitHub organization members must enable [Two-Factor Authentication (2FA/MFA)](https://help.github.com/articles/about-two-factor-authentication/) in keeping with our Open Source First principle to "Stay Secure." Read [GitHub's post on 2FA](https://help.github.com/articles/about-two-factor-authentication/) for more information.
