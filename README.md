@@ -80,7 +80,7 @@ Because it can: improve quality, mitigate risk, increase trust, save us money, e
 **Vision**: 
 *We strongly believe that open source software benefits the tech community, and that providing broadly useful code to the world is a virtue. We strive to work in an open source way to the betterment of Zalando and the world.*
 
-- **Do “Open Source First”**: If your Zalando project can also be useful to non-Zalandos, release it as open source from the start.
+- **Do “Open Source First”**: If your Zalando project can also be useful to non-Zalandos, consider releasing it as open source and ask for guidance.
 - **Take Ownership**: Your team is responsible for ensuring that it’s possible to open-source your project. Your delivery lead is available for guidance.
 - **Be Safe**: To ensure the broadest possible use of your project, use the MIT License only.
 - **Deliver Quality**: Provide a great out-of-the-box experience.
