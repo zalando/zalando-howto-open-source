@@ -261,7 +261,7 @@ Label your issues with clear tags. This is a great way to organize and categoriz
 
 #### Provide a Pull-Request Template
 
-The Issues Tracker is the entry point for onboarding contributors, so use our [pull request template](pull_request_template.md) to create a roadmap for your project or track bugs. A pull request template improves development quality and provides a common guideline for contributors to follow. It also enables to you to reference issues and shows others your development progress.
+The Issues Tracker is the entry point for onboarding contributors, so use our [pull request template](pull_request_template.md) to create a roadmap for your project or to track bugs. A pull request template improves development quality and provides a common guideline for contributors to follow. It also enables to you to reference issues and shows others your development progress.
 
 Add a `PULL_REQUEST_TEMPLATE.md` into the root of your project folder. Once you merge it, every new pull request will use this template. [GitHub's help section](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/) offers a step-by-step guide with more information about PR templates.
 
