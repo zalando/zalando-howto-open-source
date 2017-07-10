@@ -3,7 +3,7 @@ How to Open Source at Zalando
 
 A guide to releasing an open-source project at [Zalando](https://www.zalando.com>), Europe's largest online fashion platform. Please feel free to use this as a template for your own organization's open source planning, policymaking, and development efforts. If there's a topic we've missed, or if you have any suggestions for making this better, let us know via our Issues tracker. 
 
-We're really grateful to [Software Lead Weekly](http://softwareleadweekly.com/issues/205), [cron.weekly](https://www.cronweekly.com/issue-51/), [Chris Aniszczyk](https://twitter.com/cra/status/785873124227022848) ([TODO Group](http://todogroup.org/#)), the folks at [Datio Engineering](https://twitter.com/datiobd/status/791942930466344960), [Thomas Lockney](https://twitter.com/tlockney) of Nike, [Richard Seroter](https://twitter.com/rseroter/status/794197949391785984) at Pivotal, [Peter Zaitsev](https://twitter.com/PeterZaitsev/status/790366161745551360) at Percona, [Jonathan Lipps](https://twitter.com/jlipps/status/793485753896562688) at Sauce Labs, and others for spreading the word about this doc.
+We're really grateful to [Software Lead Weekly](http://softwareleadweekly.com/issues/205), [cron.weekly](https://www.cronweekly.com/issue-51/), [Chris Aniszczyk](https://twitter.com/cra/status/785873124227022848) ([TODO Group](http://todogroup.org/#)), the folks at [Datio Engineering](https://twitter.com/datiobd/status/791942930466344960), [Thomas Lockney](https://twitter.com/tlockney) of Nike, [Jamie Allen](https://twitter.com/jamie_allen) at Starbucks, [Richard Seroter](https://twitter.com/rseroter/status/794197949391785984) at Pivotal, [Peter Zaitsev](https://twitter.com/PeterZaitsev/status/790366161745551360) at Percona, [Jonathan Lipps](https://twitter.com/jlipps/status/793485753896562688) at Sauce Labs, and others for spreading the word about this doc.
 
 Table of Contents
 ------------------------------------------------------------
@@ -106,6 +106,8 @@ To encourage our engineers to dive deeper on the first point, we've created [thi
 
 #### Never open-source these:
 - PCI DSS-related projects: e.g. payment services
+- Zalando-specific projects/things tightly coupled to/dependent upon our systems
+- Projects you won't maintain
 - Domain knowledge
 - Customer data
 - Unique Selling Points (USPs)
@@ -144,13 +146,11 @@ Zalando's main GitHub organization is [/zalando](https://github.com/zalando). Th
 
 - **Example projects**: [Patroni](https://github.com/zalando/Patroni), [Connexion](https://github.com/zalando/connexion), [Zappr](https://github.com/zalando/zappr), [Python NSEnter](https://github.com/zalando/python-nsenter), [Tailor](https://github.com/zalando/tailor), [Grafter](https://github.com/zalando/grafter), [SwiftMonkey](https://github.com/zalando/swiftmonkey).
 
-We have also published some document-only repositories like our RESTful API guidelines, our “How to Open Source” guidelines, the Tech Radar, and our Rules of Play. These reflect our organizational perspective on technical topics, and are therefore of potential interest to other companies who are looking for ideas and case studies. We should keep them limited in number and broad in scope.
+We have also published some document-only repositories like this one, our RESTful API guidelines, and the Tech Radar. These reflect our organizational perspective on technical topics, and are therefore of potential interest to other companies who are looking for ideas and case studies. We should keep them limited in number and broad in scope.
 
 #### New Projects: The Incubator
 
-[The Incubator](https://github.com/zalando-incubator) is most likely where your Zalando project will first appear in public. It is a proving ground for brand-new projects that meet all the above criteria. It is where we can experiment and publish projects that show clear promise of being useful to others because they are A) out-of-the-box usable to non-Zalandos and B) highlight a compelling technical challenge that we are solving with software.
-
-Set up in 2016, the Zalando Incubator originally doubled as a parking spot for deprecated projects and "coding in the open"—repositories that did not measure up to the level of "useful to others" because were incomplete, deprecated, interesting but tightly coupled to Zalando systems, etc. For sustainability, quality, relevance, and other reasons, this purpose for the Incubator ended in spring 2017. All projects now must remain in GitHub Enterprise until they meet the basic open source criteria listed in the previous section.
+[The Incubator](https://github.com/zalando-incubator) is where your Zalando project will first appear in public. It is a proving ground for brand-new projects that meet all the above criteria. It is where we can experiment and publish projects that show clear promise of being useful to others because they are A) out-of-the-box usable to non-Zalandos and B) highlight a compelling technical challenge that we are solving with software.
 
 Projects that demonstrate in the Incubator can be transferred to our main organization, /zalando. 
 
@@ -160,7 +160,7 @@ The URL is re-routed to the new organization (zalando-incubator). All git clone,
 That said, GitHub strongly recommends that anyone who had a reference to the old link locally change to the new URL. [Read GitHub’s documentation](https://help.github.com/articles/transferring-a-repository/#redirects-and-git-remotes) to learn more.
 
 ###### What happens if I release a project directly to /zalando?
-You will be asked to transfer the project yourself to the Incubator. If we don’t get any response within seven days, or if you agree to the transfer but don’t take action within seven days, your project will be relocated to the Incubator for you.
+You will be asked to transfer the project yourself to the Incubator. If we don’t get any response within three days, or if you agree to the transfer but don’t take action within three days, your project will be relocated to the Incubator for you.
 
 ###### Is it possible to transfer GitHub issues from one project to the other? 
 No, GitHub doesn’t allow it. (There are migration tools that can copy issues and their comments to another project, but these don't transfer the relevant author info; they assign ownership to the account used by the migration tool.)
@@ -173,13 +173,9 @@ InnerSource projects are the repositories we use internally at Zalando. They app
 
 **Wait, I thought we were “Open Source First.” Doesn’t keeping repos on GHE contradict that?**
 
-Nope. Not every project we create will be appropriate for sharing publicly. Some projects will be [too sensitive for publication](https://github.com/zalando/zalando-howto-open-source#never-open-source-these). Other projects would act as “noise,” because they are too tightly coupled to what we do internally. An organization's open source footprint says a lot about that organization, especially if the org cannot maintain a good signal-to-noise ratio.
+Nope. Not every project we create is appropriate for sharing publicly. Some projects will be [too sensitive for publication](https://github.com/zalando/zalando-howto-open-source#never-open-source-these). Other projects would act as “noise,” because they are too tightly coupled to what we do internally. An organization's open source footprint says a lot about that organization, especially if the org cannot maintain a good signal-to-noise ratio.
 
-However, we still want you to share these projects inside Zalando. This is why we advocate the InnerSource collaboration model. 
-
-Put simply, InnerSource operates just like open-source in that project teams invite, accept and reject PRs; provide quality documentation; and build them gradually. The main difference is that InnerSource is limited to a single organization—in our case, Zalando Tech.
-
-With InnerSource, we encourage you to make your GitHub Enterprise organization open to other internal teams so they can find out about your work, fix bugs, make PRs, and even add features that your own team currently has no time to develop. 
+However, we still want you to share these projects inside Zalando, on GHE. This is why we advocate the InnerSource collaboration model. InnerSource operates just like open-source in that project teams invite, accept and reject PRs; provide quality documentation; and build them gradually. The main difference is that InnerSource is limited to Zalando Tech. Make your GHE organization open to other internal teams so they can find out about your work, fix bugs, make PRs, and even add features that your own team currently has no time to develop. 
 
 We request that you use private GHE repositories only if they include sensitive information that can't store elsewhere.
 
