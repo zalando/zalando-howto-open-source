@@ -107,7 +107,7 @@ To encourage our engineers to dive deeper on the first point, we've created [thi
 #### Never open-source these:
 - PCI DSS-related projects: e.g. payment services
 - Zalando-specific projects/things tightly coupled to/dependent upon our systems
-- Projects you won't maintain
+- Projects you don't plan to maintain
 - Domain knowledge
 - Customer data
 - Unique Selling Points (USPs)
@@ -140,8 +140,9 @@ Zalando's main GitHub organization is [/zalando](https://github.com/zalando). Th
 - **is tested**. It has automated tests and takes advantage of test coverage.
 - **is under active development**, or is stable enough to be considered a “finished” product. If the project is incomplete, at least one maintainer has worked on it in the last three months. If it’s stable and doesn’t require constant maintenance, you’ve stated as much in your README.
 - **is innovative**. If it duplicates an existing project, it does at least one thing better, faster, differently, etc., or is higher-quality.
-- **meets our non-negotiable guidelines** regarding security and compliance. 
+- **meets our non-negotiable guidelines** regarding security and compliance. You need to include a LICENSE.md, for example.
 - **is an MVP**. It either meets or surpasses “minimum viable product” status. An outside developer could use it and even contribute to it. If it’s buggy or very early-stage, it includes a brief development status in the intro stating as much. (This template can help you.)
+- ** has a CONTRIBUTING.md.** For a template, [go here](https://github.com/nayafia/contributing-template).
 - **has a plan**. Its maintainers care about making it a success. They commit to responding to PRs and issues in a timely manner (48-72 hours), thank contributors, and convert quality contributors to trusted maintainers as appropriate. If you need some guidance, check out [Mozilla's helpful resources](https://mozilla.github.io/open-leadership-training-series/articles/open-project-maintenance/open-project-maintenance/) on this topic.
 
 - **Example projects**: [Patroni](https://github.com/zalando/Patroni), [Connexion](https://github.com/zalando/connexion), [Zappr](https://github.com/zalando/zappr), [Python NSEnter](https://github.com/zalando/python-nsenter), [Tailor](https://github.com/zalando/tailor), [Grafter](https://github.com/zalando/grafter), [SwiftMonkey](https://github.com/zalando/swiftmonkey).
