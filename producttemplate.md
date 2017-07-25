@@ -1,23 +1,23 @@
-## Building a Useful, User-Friendly Project/"Product"
+## Building a Useful, User-Friendly Project
 
-So, you want to build a brand-new open-source project. Great! Use this stakeholder interview questions list (derived from [this](http://www.uxapprentice.com/resources/stakeholder-interview-template/)) to ensure that the project you build is as great as possible from a product, innovation, maintenance, and usability perspective. 
+So, you want to build a new open-source project. Great! Use this template (derived from [this](http://www.uxapprentice.com/resources/stakeholder-interview-template/)) to ensure that the project you build is as great as possible from a purpose, innovation, maintenance, and usability perspective. 
 
-Also recommended: check out [Mozilla's Open Canvas](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), which presents a very similar approach in a nifty canvas format! 
+Also recommended: check out [Mozilla's Open Canvas](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), which presents a very similar approach in a nifty canvas format.
 
 #### 1. PROJECT VISION
 - What is your vision for this project?
 - What defines “success” for this project?
 - What are the potential pitfalls (i.e. what keeps you up at night about this project)?
 - Do you actually need the open-source community to help you with this project?
-- What do you need: more 
-  - devs building features/functionality? 
-  - Code review? 
-  - Doc help? 
-  - Product users? 
+- Do you need more: 
+  - devs helping you to build features/functionality? 
+  - code review? 
+  - doc help? 
+  - product users? 
 - What does your project MVP (minimum viable product) look like?
 
 #### 2. VALUE PROPOSITION
-- What problems are you solving for users? 
+- What problems are you solving for potential users? 
 - What are the main “why you should use this” message points?
 - What are the most innovative features?
 
