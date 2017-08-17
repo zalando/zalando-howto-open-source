@@ -106,8 +106,8 @@ To encourage our engineers to dive deeper on the first point, we've created [thi
 
 #### Never open-source these:
 - PCI DSS-related projects: e.g. payment services
-- Zalando-specific projects/things tightly coupled to/dependent upon our systems
-- Projects you don't plan to maintain
+- Zalando-specific projects: things tightly coupled to/dependent upon our systems
+- Projects you don't plan to maintain and grow a community around
 - Domain knowledge
 - Customer data
 - Unique Selling Points (USPs)
