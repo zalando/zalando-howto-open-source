@@ -18,12 +18,9 @@ Also recommended: check out [Mozilla's Open Canvas](https://mozilla.github.io/op
 
 #### 2. VALUE PROPOSITION
 
-Provide some evidence, such as online research results you conducted prior to developing the project, or survey feedback generated about your idea. Show that your work is unique and does not imitate an existing, actively maintained project. (Remaking someone else’s deprecated project is acceptable, as you are demonstrating that your project fulfills a once-served need.) Answer:
 - What problems are you solving for potential users? 
 - What are the main “why you should use this” message points?
 - What are the most innovative features?
-
- Usually a one-paragraph summary/list of 3-4 bullet points defining your project’s innovative features and distinct advantages is sufficient.
  
 #### 3. USERS: OVERVIEW
 Use your own experience on this one to get started, then find more internally. Then go externally as you build the product vision.
@@ -59,6 +56,8 @@ User research helps you to avoid duplication/building something in a silo; techn
 - What similar tools are already developed and open-source?
 - What are their relative strengths/weaknesses?
 - How is this offering different?
+
+Provide some evidence, such as online research results you conducted prior to developing the project, or survey feedback generated about your idea. Show that your work is unique and does not imitate an existing, actively maintained project. (Remaking someone else’s deprecated project is acceptable, as you are demonstrating that your project fulfills a once-served need.) Usually a one-paragraph summary/list of 3-4 bullet points defining your project’s innovative features and distinct advantages is sufficient.
 
 #### 5. KPI ANALYSIS AND SUCCESS INDICATORS
 How will you be define and measure success in terms of gaining and keeping users?  
