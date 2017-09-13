@@ -2,7 +2,7 @@
 
 So, you want to build a new open-source project. Great! Use this template (derived from [this](http://www.uxapprentice.com/resources/stakeholder-interview-template/)) to ensure that the project you build is as great as possible from a purpose, innovation, maintenance, and usability perspective. 
 
-Also recommended: check out [Mozilla's Open Canvas](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), which presents a very similar approach in a nifty canvas format.
+Also recommended: check out [Mozilla's Open Canvas](https://mozilla.github.io/open-leadership-training-series/articles/opening-your-project/develop-an-open-project-strategy-with-open-canvas/), which presents a very similar approach in a nifty canvas format; and [this Design Doc Template](https://docs.google.com/document/d/1uMHzRsEDZb_p9xfFGerCVhr-0mAi-d-OFY4jJi0dYk4/edit) from Google.
 
 #### 1. PROJECT VISION
 - What is your vision for this project?
