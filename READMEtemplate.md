@@ -39,7 +39,7 @@ Include any essential instructions for:
 
 ### Contributing
 - Contributor Guidelines
-- Code Style/Reqts
+- Code Style/Requirements
 - Format for commit messages
 - Thank you (name contributors)
 
