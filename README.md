@@ -258,7 +258,7 @@ Label your issues with clear tags. This is a great way to organize and categoriz
 
 #### Provide a Pull-Request Template
 
-The Issues Tracker is the entry point for onboarding contributors, so use our [pull request template](pull_request_template.md) to create a roadmap for your project or to track bugs. A pull request template improves development quality and provides a common guideline for contributors to follow. It also enables to you to reference issues and shows others your development progress.
+The Issues Tracker is the entry point for onboarding contributors, so use our [pull request template](pull_request_template.md) to create a roadmap for your project or to track bugs. A pull request template improves development quality and provides a common guideline for contributors to follow. It also enables you to reference issues and shows others your development progress.
 
 Add a `PULL_REQUEST_TEMPLATE.md` into the root of your project folder. Once you merge it, every new pull request will use this template. [GitHub's help section](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/) offers a step-by-step guide with more information about PR templates.
 
@@ -297,7 +297,7 @@ Consider using a weak copyleft license that won’t restrict the software that u
 
 ##### What if my team uses an external project whose license is not Zalando-recommended?
 
-You can can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
+You can use GPL code — but only internally. Be sure it's a version of the GPL that continues to allow for the ASP loophole. AGPL and versions of the GPL with additional restrictions won't work.
 
 ##### Who is the license owner?
 
