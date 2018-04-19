@@ -1,6 +1,6 @@
 # OPEN SOURCE RULES AND STRATEGY
 
-If you are an Zalando employee please use the [internal version](https://docs.google.com/document/d/1k7yRUHfw_jL3aV-rxyMAOamomflgssu_n0sfrPJv16M/edit) because in this public version internal links and contact persons are excluded.
+If you are an Zalando employee please use the [internal version](https://confluence.zalando.net/display/TG/OPEN+SOURCE) because in this public version internal links and contact persons are excluded.
 
 1. [Purpose](#purpose)
 2. [Contact](#contact)
@@ -41,7 +41,7 @@ To publish your project on GitHub.com, please follow these steps:
 
 <a name="rules"></a>
 ### Rules 
-All open source projects published since 2015 MUST comply to rules 1-9. Non-compliant projects must be deleted from github.com; see [Appendix 5](#A5) for how to deprecate a project. To publish a new project, you MUST also follow rules 10. (If you are an Zalando employee please use the [internal version](https://docs.google.com/document/d/1k7yRUHfw_jL3aV-rxyMAOamomflgssu_n0sfrPJv16M/edit) because in this public version internal links and contact persons are excluded. )
+All open source projects published since 2015 MUST comply to rules 1-9. Non-compliant projects must be deleted from github.com; see [Appendix 5](#A5) for how to deprecate a project. To publish a new project, you MUST also follow rules 10. (If you are an Zalando employee please use the [internal version](https://confluence.zalando.net/display/TG/OPEN+SOURCE) because in this public version internal links and contact persons are excluded. )
 1. All projects MUST include an Maintainers.md/rst file listing at least two active maintainers by name and contact email.
 2. You MUST create a meaningful README that includes the items requested in Question #11 our application form.
 3. You MUST include a [CONTRIBUTING.md/rst guidelines file](https://github.com/nayafia/contributing-template).
