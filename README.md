@@ -1,5 +1,9 @@
 # OPEN SOURCE RULES AND STRATEGY
 
+**Deprecated document:** this document has been replaced by the documentation on [opensource.zalando.com](https://opensource.zalando.com/docs/releasing/index/) and will not receive further updates - source files for the docs are available in the public [openssource.zalando.com github repository](https://github.com/zalando/zalando.github.io/tree/master/_docs)
+
+----
+
 If you are an Zalando employee please use the [internal version](https://confluence.zalando.net/display/TG/OPEN+SOURCE) because in this public version internal links and contact persons are excluded.
 
 1. [Purpose](#purpose)
